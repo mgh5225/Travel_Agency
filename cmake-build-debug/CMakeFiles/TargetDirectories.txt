@@ -1,0 +1,3 @@
+/home/mgh/Desktop/Travel_Agancy/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/mgh/Desktop/Travel_Agancy/cmake-build-debug/CMakeFiles/Travel_Agancy.dir
+/home/mgh/Desktop/Travel_Agancy/cmake-build-debug/CMakeFiles/edit_cache.dir
