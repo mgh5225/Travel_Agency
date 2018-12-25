@@ -1,4 +1,4 @@
-# Install script for directory: /home/mgh/Desktop/Travel_Agancy
+# Install script for directory: /home/mgh/Desktop/Travel_Agency
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/mgh/Desktop/Travel_Agancy/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/mgh/Desktop/Travel_Agency/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
