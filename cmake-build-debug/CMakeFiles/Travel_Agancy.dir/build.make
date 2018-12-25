@@ -43,10 +43,10 @@ RM = /snap/clion/57/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mgh/Desktop/Travel_Agancy
+CMAKE_SOURCE_DIR = /home/mgh/Desktop/Travel_Agency
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mgh/Desktop/Travel_Agancy/cmake-build-debug
+CMAKE_BINARY_DIR = /home/mgh/Desktop/Travel_Agency/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Travel_Agancy.dir/depend.make
@@ -59,55 +59,55 @@ include CMakeFiles/Travel_Agancy.dir/flags.make
 
 CMakeFiles/Travel_Agancy.dir/main.cpp.o: CMakeFiles/Travel_Agancy.dir/flags.make
 CMakeFiles/Travel_Agancy.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mgh/Desktop/Travel_Agancy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Travel_Agancy.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Travel_Agancy.dir/main.cpp.o -c /home/mgh/Desktop/Travel_Agancy/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mgh/Desktop/Travel_Agency/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Travel_Agancy.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Travel_Agancy.dir/main.cpp.o -c /home/mgh/Desktop/Travel_Agency/main.cpp
 
 CMakeFiles/Travel_Agancy.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Travel_Agancy.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mgh/Desktop/Travel_Agancy/main.cpp > CMakeFiles/Travel_Agancy.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mgh/Desktop/Travel_Agency/main.cpp > CMakeFiles/Travel_Agancy.dir/main.cpp.i
 
 CMakeFiles/Travel_Agancy.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Travel_Agancy.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mgh/Desktop/Travel_Agancy/main.cpp -o CMakeFiles/Travel_Agancy.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mgh/Desktop/Travel_Agency/main.cpp -o CMakeFiles/Travel_Agancy.dir/main.cpp.s
 
 CMakeFiles/Travel_Agancy.dir/Admin/admin.cpp.o: CMakeFiles/Travel_Agancy.dir/flags.make
 CMakeFiles/Travel_Agancy.dir/Admin/admin.cpp.o: ../Admin/admin.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mgh/Desktop/Travel_Agancy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Travel_Agancy.dir/Admin/admin.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Travel_Agancy.dir/Admin/admin.cpp.o -c /home/mgh/Desktop/Travel_Agancy/Admin/admin.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mgh/Desktop/Travel_Agency/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Travel_Agancy.dir/Admin/admin.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Travel_Agancy.dir/Admin/admin.cpp.o -c /home/mgh/Desktop/Travel_Agency/Admin/admin.cpp
 
 CMakeFiles/Travel_Agancy.dir/Admin/admin.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Travel_Agancy.dir/Admin/admin.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mgh/Desktop/Travel_Agancy/Admin/admin.cpp > CMakeFiles/Travel_Agancy.dir/Admin/admin.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mgh/Desktop/Travel_Agency/Admin/admin.cpp > CMakeFiles/Travel_Agancy.dir/Admin/admin.cpp.i
 
 CMakeFiles/Travel_Agancy.dir/Admin/admin.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Travel_Agancy.dir/Admin/admin.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mgh/Desktop/Travel_Agancy/Admin/admin.cpp -o CMakeFiles/Travel_Agancy.dir/Admin/admin.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mgh/Desktop/Travel_Agency/Admin/admin.cpp -o CMakeFiles/Travel_Agancy.dir/Admin/admin.cpp.s
 
 CMakeFiles/Travel_Agancy.dir/Drivers/drivers.cpp.o: CMakeFiles/Travel_Agancy.dir/flags.make
 CMakeFiles/Travel_Agancy.dir/Drivers/drivers.cpp.o: ../Drivers/drivers.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mgh/Desktop/Travel_Agancy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Travel_Agancy.dir/Drivers/drivers.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Travel_Agancy.dir/Drivers/drivers.cpp.o -c /home/mgh/Desktop/Travel_Agancy/Drivers/drivers.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mgh/Desktop/Travel_Agency/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Travel_Agancy.dir/Drivers/drivers.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Travel_Agancy.dir/Drivers/drivers.cpp.o -c /home/mgh/Desktop/Travel_Agency/Drivers/drivers.cpp
 
 CMakeFiles/Travel_Agancy.dir/Drivers/drivers.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Travel_Agancy.dir/Drivers/drivers.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mgh/Desktop/Travel_Agancy/Drivers/drivers.cpp > CMakeFiles/Travel_Agancy.dir/Drivers/drivers.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mgh/Desktop/Travel_Agency/Drivers/drivers.cpp > CMakeFiles/Travel_Agancy.dir/Drivers/drivers.cpp.i
 
 CMakeFiles/Travel_Agancy.dir/Drivers/drivers.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Travel_Agancy.dir/Drivers/drivers.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mgh/Desktop/Travel_Agancy/Drivers/drivers.cpp -o CMakeFiles/Travel_Agancy.dir/Drivers/drivers.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mgh/Desktop/Travel_Agency/Drivers/drivers.cpp -o CMakeFiles/Travel_Agancy.dir/Drivers/drivers.cpp.s
 
 CMakeFiles/Travel_Agancy.dir/Users/users.cpp.o: CMakeFiles/Travel_Agancy.dir/flags.make
 CMakeFiles/Travel_Agancy.dir/Users/users.cpp.o: ../Users/users.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mgh/Desktop/Travel_Agancy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Travel_Agancy.dir/Users/users.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Travel_Agancy.dir/Users/users.cpp.o -c /home/mgh/Desktop/Travel_Agancy/Users/users.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mgh/Desktop/Travel_Agency/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Travel_Agancy.dir/Users/users.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Travel_Agancy.dir/Users/users.cpp.o -c /home/mgh/Desktop/Travel_Agency/Users/users.cpp
 
 CMakeFiles/Travel_Agancy.dir/Users/users.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Travel_Agancy.dir/Users/users.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mgh/Desktop/Travel_Agancy/Users/users.cpp > CMakeFiles/Travel_Agancy.dir/Users/users.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mgh/Desktop/Travel_Agency/Users/users.cpp > CMakeFiles/Travel_Agancy.dir/Users/users.cpp.i
 
 CMakeFiles/Travel_Agancy.dir/Users/users.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Travel_Agancy.dir/Users/users.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mgh/Desktop/Travel_Agancy/Users/users.cpp -o CMakeFiles/Travel_Agancy.dir/Users/users.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mgh/Desktop/Travel_Agency/Users/users.cpp -o CMakeFiles/Travel_Agancy.dir/Users/users.cpp.s
 
 # Object files for target Travel_Agancy
 Travel_Agancy_OBJECTS = \
@@ -125,7 +125,7 @@ Travel_Agancy: CMakeFiles/Travel_Agancy.dir/Drivers/drivers.cpp.o
 Travel_Agancy: CMakeFiles/Travel_Agancy.dir/Users/users.cpp.o
 Travel_Agancy: CMakeFiles/Travel_Agancy.dir/build.make
 Travel_Agancy: CMakeFiles/Travel_Agancy.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mgh/Desktop/Travel_Agancy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Travel_Agancy"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mgh/Desktop/Travel_Agency/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Travel_Agancy"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Travel_Agancy.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -138,6 +138,6 @@ CMakeFiles/Travel_Agancy.dir/clean:
 .PHONY : CMakeFiles/Travel_Agancy.dir/clean
 
 CMakeFiles/Travel_Agancy.dir/depend:
-	cd /home/mgh/Desktop/Travel_Agancy/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mgh/Desktop/Travel_Agancy /home/mgh/Desktop/Travel_Agancy /home/mgh/Desktop/Travel_Agancy/cmake-build-debug /home/mgh/Desktop/Travel_Agancy/cmake-build-debug /home/mgh/Desktop/Travel_Agancy/cmake-build-debug/CMakeFiles/Travel_Agancy.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mgh/Desktop/Travel_Agency/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mgh/Desktop/Travel_Agency /home/mgh/Desktop/Travel_Agency /home/mgh/Desktop/Travel_Agency/cmake-build-debug /home/mgh/Desktop/Travel_Agency/cmake-build-debug /home/mgh/Desktop/Travel_Agency/cmake-build-debug/CMakeFiles/Travel_Agancy.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Travel_Agancy.dir/depend
 

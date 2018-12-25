@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/mgh/Desktop/Travel_Agancy/Admin/admin.cpp" "/home/mgh/Desktop/Travel_Agancy/cmake-build-debug/CMakeFiles/Travel_Agancy.dir/Admin/admin.cpp.o"
-  "/home/mgh/Desktop/Travel_Agancy/Drivers/drivers.cpp" "/home/mgh/Desktop/Travel_Agancy/cmake-build-debug/CMakeFiles/Travel_Agancy.dir/Drivers/drivers.cpp.o"
-  "/home/mgh/Desktop/Travel_Agancy/Users/users.cpp" "/home/mgh/Desktop/Travel_Agancy/cmake-build-debug/CMakeFiles/Travel_Agancy.dir/Users/users.cpp.o"
-  "/home/mgh/Desktop/Travel_Agancy/main.cpp" "/home/mgh/Desktop/Travel_Agancy/cmake-build-debug/CMakeFiles/Travel_Agancy.dir/main.cpp.o"
+  "/home/mgh/Desktop/Travel_Agency/Admin/admin.cpp" "/home/mgh/Desktop/Travel_Agency/cmake-build-debug/CMakeFiles/Travel_Agancy.dir/Admin/admin.cpp.o"
+  "/home/mgh/Desktop/Travel_Agency/Drivers/drivers.cpp" "/home/mgh/Desktop/Travel_Agency/cmake-build-debug/CMakeFiles/Travel_Agancy.dir/Drivers/drivers.cpp.o"
+  "/home/mgh/Desktop/Travel_Agency/Users/users.cpp" "/home/mgh/Desktop/Travel_Agency/cmake-build-debug/CMakeFiles/Travel_Agancy.dir/Users/users.cpp.o"
+  "/home/mgh/Desktop/Travel_Agency/main.cpp" "/home/mgh/Desktop/Travel_Agency/cmake-build-debug/CMakeFiles/Travel_Agancy.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
