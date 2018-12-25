@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Travel_Agancy
+# Target rules for targets named Travel_Agency
 
 # Build rule for target.
-Travel_Agancy: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Travel_Agancy
-.PHONY : Travel_Agancy
+Travel_Agency: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Travel_Agency
+.PHONY : Travel_Agency
 
 # fast build rule for target.
-Travel_Agancy/fast:
-	$(MAKE) -f CMakeFiles/Travel_Agancy.dir/build.make CMakeFiles/Travel_Agancy.dir/build
-.PHONY : Travel_Agancy/fast
+Travel_Agency/fast:
+	$(MAKE) -f CMakeFiles/Travel_Agency.dir/build.make CMakeFiles/Travel_Agency.dir/build
+.PHONY : Travel_Agency/fast
 
 Admin/admin.o: Admin/admin.cpp.o
 
@@ -129,7 +129,7 @@ Admin/admin.o: Admin/admin.cpp.o
 
 # target to build an object file
 Admin/admin.cpp.o:
-	$(MAKE) -f CMakeFiles/Travel_Agancy.dir/build.make CMakeFiles/Travel_Agancy.dir/Admin/admin.cpp.o
+	$(MAKE) -f CMakeFiles/Travel_Agency.dir/build.make CMakeFiles/Travel_Agency.dir/Admin/admin.cpp.o
 .PHONY : Admin/admin.cpp.o
 
 Admin/admin.i: Admin/admin.cpp.i
@@ -138,7 +138,7 @@ Admin/admin.i: Admin/admin.cpp.i
 
 # target to preprocess a source file
 Admin/admin.cpp.i:
-	$(MAKE) -f CMakeFiles/Travel_Agancy.dir/build.make CMakeFiles/Travel_Agancy.dir/Admin/admin.cpp.i
+	$(MAKE) -f CMakeFiles/Travel_Agency.dir/build.make CMakeFiles/Travel_Agency.dir/Admin/admin.cpp.i
 .PHONY : Admin/admin.cpp.i
 
 Admin/admin.s: Admin/admin.cpp.s
@@ -147,7 +147,7 @@ Admin/admin.s: Admin/admin.cpp.s
 
 # target to generate assembly for a file
 Admin/admin.cpp.s:
-	$(MAKE) -f CMakeFiles/Travel_Agancy.dir/build.make CMakeFiles/Travel_Agancy.dir/Admin/admin.cpp.s
+	$(MAKE) -f CMakeFiles/Travel_Agency.dir/build.make CMakeFiles/Travel_Agency.dir/Admin/admin.cpp.s
 .PHONY : Admin/admin.cpp.s
 
 Drivers/drivers.o: Drivers/drivers.cpp.o
@@ -156,7 +156,7 @@ Drivers/drivers.o: Drivers/drivers.cpp.o
 
 # target to build an object file
 Drivers/drivers.cpp.o:
-	$(MAKE) -f CMakeFiles/Travel_Agancy.dir/build.make CMakeFiles/Travel_Agancy.dir/Drivers/drivers.cpp.o
+	$(MAKE) -f CMakeFiles/Travel_Agency.dir/build.make CMakeFiles/Travel_Agency.dir/Drivers/drivers.cpp.o
 .PHONY : Drivers/drivers.cpp.o
 
 Drivers/drivers.i: Drivers/drivers.cpp.i
@@ -165,7 +165,7 @@ Drivers/drivers.i: Drivers/drivers.cpp.i
 
 # target to preprocess a source file
 Drivers/drivers.cpp.i:
-	$(MAKE) -f CMakeFiles/Travel_Agancy.dir/build.make CMakeFiles/Travel_Agancy.dir/Drivers/drivers.cpp.i
+	$(MAKE) -f CMakeFiles/Travel_Agency.dir/build.make CMakeFiles/Travel_Agency.dir/Drivers/drivers.cpp.i
 .PHONY : Drivers/drivers.cpp.i
 
 Drivers/drivers.s: Drivers/drivers.cpp.s
@@ -174,7 +174,7 @@ Drivers/drivers.s: Drivers/drivers.cpp.s
 
 # target to generate assembly for a file
 Drivers/drivers.cpp.s:
-	$(MAKE) -f CMakeFiles/Travel_Agancy.dir/build.make CMakeFiles/Travel_Agancy.dir/Drivers/drivers.cpp.s
+	$(MAKE) -f CMakeFiles/Travel_Agency.dir/build.make CMakeFiles/Travel_Agency.dir/Drivers/drivers.cpp.s
 .PHONY : Drivers/drivers.cpp.s
 
 Users/users.o: Users/users.cpp.o
@@ -183,7 +183,7 @@ Users/users.o: Users/users.cpp.o
 
 # target to build an object file
 Users/users.cpp.o:
-	$(MAKE) -f CMakeFiles/Travel_Agancy.dir/build.make CMakeFiles/Travel_Agancy.dir/Users/users.cpp.o
+	$(MAKE) -f CMakeFiles/Travel_Agency.dir/build.make CMakeFiles/Travel_Agency.dir/Users/users.cpp.o
 .PHONY : Users/users.cpp.o
 
 Users/users.i: Users/users.cpp.i
@@ -192,7 +192,7 @@ Users/users.i: Users/users.cpp.i
 
 # target to preprocess a source file
 Users/users.cpp.i:
-	$(MAKE) -f CMakeFiles/Travel_Agancy.dir/build.make CMakeFiles/Travel_Agancy.dir/Users/users.cpp.i
+	$(MAKE) -f CMakeFiles/Travel_Agency.dir/build.make CMakeFiles/Travel_Agency.dir/Users/users.cpp.i
 .PHONY : Users/users.cpp.i
 
 Users/users.s: Users/users.cpp.s
@@ -201,7 +201,7 @@ Users/users.s: Users/users.cpp.s
 
 # target to generate assembly for a file
 Users/users.cpp.s:
-	$(MAKE) -f CMakeFiles/Travel_Agancy.dir/build.make CMakeFiles/Travel_Agancy.dir/Users/users.cpp.s
+	$(MAKE) -f CMakeFiles/Travel_Agency.dir/build.make CMakeFiles/Travel_Agency.dir/Users/users.cpp.s
 .PHONY : Users/users.cpp.s
 
 main.o: main.cpp.o
@@ -210,7 +210,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/Travel_Agancy.dir/build.make CMakeFiles/Travel_Agancy.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/Travel_Agency.dir/build.make CMakeFiles/Travel_Agency.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -219,7 +219,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/Travel_Agancy.dir/build.make CMakeFiles/Travel_Agancy.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/Travel_Agency.dir/build.make CMakeFiles/Travel_Agency.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -228,7 +228,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/Travel_Agancy.dir/build.make CMakeFiles/Travel_Agancy.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/Travel_Agency.dir/build.make CMakeFiles/Travel_Agency.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -238,7 +238,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... Travel_Agancy"
+	@echo "... Travel_Agency"
 	@echo "... edit_cache"
 	@echo "... Admin/admin.o"
 	@echo "... Admin/admin.i"
