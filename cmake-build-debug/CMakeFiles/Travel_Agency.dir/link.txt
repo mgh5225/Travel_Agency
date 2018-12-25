@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/Travel_Agency.dir/main.cpp.o CMakeFiles/Travel_Agency.dir/Admin/admin.cpp.o CMakeFiles/Travel_Agency.dir/Drivers/drivers.cpp.o CMakeFiles/Travel_Agency.dir/Users/users.cpp.o  -o Travel_Agency 

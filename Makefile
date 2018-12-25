@@ -51,7 +51,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/mgh/Desktop/Travel_Agency
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mgh/Desktop/Travel_Agency/cmake-build-debug
+CMAKE_BINARY_DIR = /home/mgh/Desktop/Travel_Agency
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mgh/Desktop/Travel_Agency/cmake-build-debug/CMakeFiles /home/mgh/Desktop/Travel_Agency/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mgh/Desktop/Travel_Agency/CMakeFiles /home/mgh/Desktop/Travel_Agency/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mgh/Desktop/Travel_Agency/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mgh/Desktop/Travel_Agency/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -149,6 +149,33 @@ Admin/admin.s: Admin/admin.cpp.s
 Admin/admin.cpp.s:
 	$(MAKE) -f CMakeFiles/Travel_Agency.dir/build.make CMakeFiles/Travel_Agency.dir/Admin/admin.cpp.s
 .PHONY : Admin/admin.cpp.s
+
+BankAccounts/bankaccount.o: BankAccounts/bankaccount.cpp.o
+
+.PHONY : BankAccounts/bankaccount.o
+
+# target to build an object file
+BankAccounts/bankaccount.cpp.o:
+	$(MAKE) -f CMakeFiles/Travel_Agency.dir/build.make CMakeFiles/Travel_Agency.dir/BankAccounts/bankaccount.cpp.o
+.PHONY : BankAccounts/bankaccount.cpp.o
+
+BankAccounts/bankaccount.i: BankAccounts/bankaccount.cpp.i
+
+.PHONY : BankAccounts/bankaccount.i
+
+# target to preprocess a source file
+BankAccounts/bankaccount.cpp.i:
+	$(MAKE) -f CMakeFiles/Travel_Agency.dir/build.make CMakeFiles/Travel_Agency.dir/BankAccounts/bankaccount.cpp.i
+.PHONY : BankAccounts/bankaccount.cpp.i
+
+BankAccounts/bankaccount.s: BankAccounts/bankaccount.cpp.s
+
+.PHONY : BankAccounts/bankaccount.s
+
+# target to generate assembly for a file
+BankAccounts/bankaccount.cpp.s:
+	$(MAKE) -f CMakeFiles/Travel_Agency.dir/build.make CMakeFiles/Travel_Agency.dir/BankAccounts/bankaccount.cpp.s
+.PHONY : BankAccounts/bankaccount.cpp.s
 
 Drivers/drivers.o: Drivers/drivers.cpp.o
 
@@ -243,6 +270,9 @@ help:
 	@echo "... Admin/admin.o"
 	@echo "... Admin/admin.i"
 	@echo "... Admin/admin.s"
+	@echo "... BankAccounts/bankaccount.o"
+	@echo "... BankAccounts/bankaccount.i"
+	@echo "... BankAccounts/bankaccount.s"
 	@echo "... Drivers/drivers.o"
 	@echo "... Drivers/drivers.i"
 	@echo "... Drivers/drivers.s"
