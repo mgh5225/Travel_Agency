@@ -5,7 +5,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/mgh/Desktop/Travel_Agency/Admin/admin.cpp" "/home/mgh/Desktop/Travel_Agency/CMakeFiles/Travel_Agency.dir/Admin/admin.cpp.o"
-  "/home/mgh/Desktop/Travel_Agency/BankAccounts/bankaccount.cpp" "/home/mgh/Desktop/Travel_Agency/CMakeFiles/Travel_Agency.dir/BankAccounts/bankaccount.cpp.o"
+  "/home/mgh/Desktop/Travel_Agency/BankAccounts/bankaccounts.cpp" "/home/mgh/Desktop/Travel_Agency/CMakeFiles/Travel_Agency.dir/BankAccounts/bankaccounts.cpp.o"
+  "/home/mgh/Desktop/Travel_Agency/Cities/cities.cpp" "/home/mgh/Desktop/Travel_Agency/CMakeFiles/Travel_Agency.dir/Cities/cities.cpp.o"
   "/home/mgh/Desktop/Travel_Agency/Drivers/drivers.cpp" "/home/mgh/Desktop/Travel_Agency/CMakeFiles/Travel_Agency.dir/Drivers/drivers.cpp.o"
   "/home/mgh/Desktop/Travel_Agency/Users/users.cpp" "/home/mgh/Desktop/Travel_Agency/CMakeFiles/Travel_Agency.dir/Users/users.cpp.o"
   "/home/mgh/Desktop/Travel_Agency/main.cpp" "/home/mgh/Desktop/Travel_Agency/CMakeFiles/Travel_Agency.dir/main.cpp.o"

@@ -1,6 +1,7 @@
 #include <iostream>
-#include "BankAccounts/bankaccount.h"
+#include "Cities/cities.h"
+#include "BankAccounts/bankaccounts.h"
 int main() {
-    fill();
     return 0;
+
 }

@@ -150,32 +150,59 @@ Admin/admin.cpp.s:
 	$(MAKE) -f CMakeFiles/Travel_Agency.dir/build.make CMakeFiles/Travel_Agency.dir/Admin/admin.cpp.s
 .PHONY : Admin/admin.cpp.s
 
-BankAccounts/bankaccount.o: BankAccounts/bankaccount.cpp.o
+BankAccounts/bankaccounts.o: BankAccounts/bankaccounts.cpp.o
 
-.PHONY : BankAccounts/bankaccount.o
+.PHONY : BankAccounts/bankaccounts.o
 
 # target to build an object file
-BankAccounts/bankaccount.cpp.o:
-	$(MAKE) -f CMakeFiles/Travel_Agency.dir/build.make CMakeFiles/Travel_Agency.dir/BankAccounts/bankaccount.cpp.o
-.PHONY : BankAccounts/bankaccount.cpp.o
+BankAccounts/bankaccounts.cpp.o:
+	$(MAKE) -f CMakeFiles/Travel_Agency.dir/build.make CMakeFiles/Travel_Agency.dir/BankAccounts/bankaccounts.cpp.o
+.PHONY : BankAccounts/bankaccounts.cpp.o
 
-BankAccounts/bankaccount.i: BankAccounts/bankaccount.cpp.i
+BankAccounts/bankaccounts.i: BankAccounts/bankaccounts.cpp.i
 
-.PHONY : BankAccounts/bankaccount.i
+.PHONY : BankAccounts/bankaccounts.i
 
 # target to preprocess a source file
-BankAccounts/bankaccount.cpp.i:
-	$(MAKE) -f CMakeFiles/Travel_Agency.dir/build.make CMakeFiles/Travel_Agency.dir/BankAccounts/bankaccount.cpp.i
-.PHONY : BankAccounts/bankaccount.cpp.i
+BankAccounts/bankaccounts.cpp.i:
+	$(MAKE) -f CMakeFiles/Travel_Agency.dir/build.make CMakeFiles/Travel_Agency.dir/BankAccounts/bankaccounts.cpp.i
+.PHONY : BankAccounts/bankaccounts.cpp.i
 
-BankAccounts/bankaccount.s: BankAccounts/bankaccount.cpp.s
+BankAccounts/bankaccounts.s: BankAccounts/bankaccounts.cpp.s
 
-.PHONY : BankAccounts/bankaccount.s
+.PHONY : BankAccounts/bankaccounts.s
 
 # target to generate assembly for a file
-BankAccounts/bankaccount.cpp.s:
-	$(MAKE) -f CMakeFiles/Travel_Agency.dir/build.make CMakeFiles/Travel_Agency.dir/BankAccounts/bankaccount.cpp.s
-.PHONY : BankAccounts/bankaccount.cpp.s
+BankAccounts/bankaccounts.cpp.s:
+	$(MAKE) -f CMakeFiles/Travel_Agency.dir/build.make CMakeFiles/Travel_Agency.dir/BankAccounts/bankaccounts.cpp.s
+.PHONY : BankAccounts/bankaccounts.cpp.s
+
+Cities/cities.o: Cities/cities.cpp.o
+
+.PHONY : Cities/cities.o
+
+# target to build an object file
+Cities/cities.cpp.o:
+	$(MAKE) -f CMakeFiles/Travel_Agency.dir/build.make CMakeFiles/Travel_Agency.dir/Cities/cities.cpp.o
+.PHONY : Cities/cities.cpp.o
+
+Cities/cities.i: Cities/cities.cpp.i
+
+.PHONY : Cities/cities.i
+
+# target to preprocess a source file
+Cities/cities.cpp.i:
+	$(MAKE) -f CMakeFiles/Travel_Agency.dir/build.make CMakeFiles/Travel_Agency.dir/Cities/cities.cpp.i
+.PHONY : Cities/cities.cpp.i
+
+Cities/cities.s: Cities/cities.cpp.s
+
+.PHONY : Cities/cities.s
+
+# target to generate assembly for a file
+Cities/cities.cpp.s:
+	$(MAKE) -f CMakeFiles/Travel_Agency.dir/build.make CMakeFiles/Travel_Agency.dir/Cities/cities.cpp.s
+.PHONY : Cities/cities.cpp.s
 
 Drivers/drivers.o: Drivers/drivers.cpp.o
 
@@ -270,9 +297,12 @@ help:
 	@echo "... Admin/admin.o"
 	@echo "... Admin/admin.i"
 	@echo "... Admin/admin.s"
-	@echo "... BankAccounts/bankaccount.o"
-	@echo "... BankAccounts/bankaccount.i"
-	@echo "... BankAccounts/bankaccount.s"
+	@echo "... BankAccounts/bankaccounts.o"
+	@echo "... BankAccounts/bankaccounts.i"
+	@echo "... BankAccounts/bankaccounts.s"
+	@echo "... Cities/cities.o"
+	@echo "... Cities/cities.i"
+	@echo "... Cities/cities.s"
 	@echo "... Drivers/drivers.o"
 	@echo "... Drivers/drivers.i"
 	@echo "... Drivers/drivers.s"

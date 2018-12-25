@@ -90,10 +90,16 @@
 		<Unit filename="/home/mgh/Desktop/Travel_Agency/Admin/admin.h">
 			<Option target="Travel_Agency"/>
 		</Unit>
-		<Unit filename="/home/mgh/Desktop/Travel_Agency/BankAccounts/bankaccount.cpp">
+		<Unit filename="/home/mgh/Desktop/Travel_Agency/BankAccounts/bankaccounts.cpp">
 			<Option target="Travel_Agency"/>
 		</Unit>
-		<Unit filename="/home/mgh/Desktop/Travel_Agency/BankAccounts/bankaccount.h">
+		<Unit filename="/home/mgh/Desktop/Travel_Agency/BankAccounts/bankaccounts.h">
+			<Option target="Travel_Agency"/>
+		</Unit>
+		<Unit filename="/home/mgh/Desktop/Travel_Agency/Cities/cities.cpp">
+			<Option target="Travel_Agency"/>
+		</Unit>
+		<Unit filename="/home/mgh/Desktop/Travel_Agency/Cities/cities.h">
 			<Option target="Travel_Agency"/>
 		</Unit>
 		<Unit filename="/home/mgh/Desktop/Travel_Agency/Drivers/drivers.cpp">

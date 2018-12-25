@@ -4,8 +4,11 @@
 CMakeFiles/Travel_Agency.dir/Admin/admin.cpp.o: Admin/admin.cpp
 CMakeFiles/Travel_Agency.dir/Admin/admin.cpp.o: Admin/admin.h
 
-CMakeFiles/Travel_Agency.dir/BankAccounts/bankaccount.cpp.o: BankAccounts/bankaccount.cpp
-CMakeFiles/Travel_Agency.dir/BankAccounts/bankaccount.cpp.o: BankAccounts/bankaccount.h
+CMakeFiles/Travel_Agency.dir/BankAccounts/bankaccounts.cpp.o: BankAccounts/bankaccounts.cpp
+CMakeFiles/Travel_Agency.dir/BankAccounts/bankaccounts.cpp.o: BankAccounts/bankaccounts.h
+
+CMakeFiles/Travel_Agency.dir/Cities/cities.cpp.o: Cities/cities.cpp
+CMakeFiles/Travel_Agency.dir/Cities/cities.cpp.o: Cities/cities.h
 
 CMakeFiles/Travel_Agency.dir/Drivers/drivers.cpp.o: Drivers/drivers.cpp
 CMakeFiles/Travel_Agency.dir/Drivers/drivers.cpp.o: Drivers/drivers.h
@@ -13,6 +16,7 @@ CMakeFiles/Travel_Agency.dir/Drivers/drivers.cpp.o: Drivers/drivers.h
 CMakeFiles/Travel_Agency.dir/Users/users.cpp.o: Users/users.cpp
 CMakeFiles/Travel_Agency.dir/Users/users.cpp.o: Users/users.h
 
-CMakeFiles/Travel_Agency.dir/main.cpp.o: BankAccounts/bankaccount.h
+CMakeFiles/Travel_Agency.dir/main.cpp.o: BankAccounts/bankaccounts.h
+CMakeFiles/Travel_Agency.dir/main.cpp.o: Cities/cities.h
 CMakeFiles/Travel_Agency.dir/main.cpp.o: main.cpp
 
