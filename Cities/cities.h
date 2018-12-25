@@ -7,6 +7,7 @@ typedef struct city{
     int X=0;
     int Y=0;
 }City;
-void fill_cities();
+void save_cities_file(vector<City>);
+void xchange_cities();
 vector<City> get_cities();
 #endif

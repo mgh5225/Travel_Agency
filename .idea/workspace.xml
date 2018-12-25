@@ -12,36 +12,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bda5da8d-000d-4350-919f-1fb3b41da2f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BankAccounts/bankaccounts.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BankAccounts/bankaccounts.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cities/cities.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cities/cities.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankAccounts/accounts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/BankAccounts/accounts.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BankAccounts/b_accounts.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankAccounts/bankaccount.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankAccounts/bankaccount.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/Travel_Agency.dir/BankAccounts/bankaccount.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankAccounts/bankaccounts.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/BankAccounts/bankaccounts.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BankAccounts/bankaccounts.h" beforeDir="false" afterPath="$PROJECT_DIR$/BankAccounts/bankaccounts.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/Travel_Agency.dir/BankAccounts/bankaccounts.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/Travel_Agency.dir/BankAccounts/bankaccounts.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeFiles/Travel_Agency.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/Travel_Agency.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/Travel_Agency.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/Travel_Agency.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/Travel_Agency.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/Travel_Agency.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/Travel_Agency.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/Travel_Agency.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/Travel_Agency.dir/Cities/cities.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/Travel_Agency.dir/Cities/cities.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/Travel_Agency.dir/Users/users.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/Travel_Agency.dir/Users/users.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeFiles/Travel_Agency.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/Travel_Agency.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeFiles/Travel_Agency.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/Travel_Agency.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/Travel_Agency.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/Travel_Agency.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeFiles/Travel_Agency.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/Travel_Agency.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/Travel_Agency.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/Travel_Agency.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cities/b_cities.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cities/cities.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Cities/cities.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cities/cities.h" beforeDir="false" afterPath="$PROJECT_DIR$/Cities/cities.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cities/cities.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Cities/cities.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Travel_Agency" beforeDir="false" afterPath="$PROJECT_DIR$/Travel_Agency" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Travel_Agency.cbp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Users/users.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Users/users.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Users/users.h" beforeDir="false" afterPath="$PROJECT_DIR$/Users/users.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -55,7 +43,56 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BankAccounts/bankaccounts.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Cities/cities.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Users/users.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -66,14 +103,15 @@
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/Admin/admin.h" />
         <option value="$PROJECT_DIR$/Drivers/drivers.h" />
-        <option value="$PROJECT_DIR$/Users/users.h" />
         <option value="$PROJECT_DIR$/BankAccounts/bankaccount.cpp" />
         <option value="$PROJECT_DIR$/BankAccounts/bankaccount.h" />
-        <option value="$PROJECT_DIR$/Cities/cities.h" />
+        <option value="$PROJECT_DIR$/Users/users.h" />
         <option value="$PROJECT_DIR$/BankAccounts/bankaccounts.h" />
+        <option value="$PROJECT_DIR$/Users/users.cpp" />
+        <option value="$PROJECT_DIR$/Cities/cities.h" />
+        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/Cities/cities.cpp" />
         <option value="$PROJECT_DIR$/BankAccounts/bankaccounts.cpp" />
-        <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
   </component>
@@ -105,6 +143,11 @@
               <item name="Travel_Agency" type="b2602c69:ProjectViewProjectNode" />
               <item name="Travel_Agency" type="462c0819:PsiDirectoryNode" />
               <item name="Cities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Travel_Agency" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Travel_Agency" type="462c0819:PsiDirectoryNode" />
+              <item name="Users" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -151,23 +194,24 @@
       <updated>1545667653246</updated>
       <workItem from="1545667654934" duration="1185000" />
       <workItem from="1545759049750" duration="2915000" />
-      <workItem from="1545762043050" duration="5322000" />
+      <workItem from="1545762043050" duration="9577000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9422000" />
+    <option name="totallyTimeSpent" value="13677000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="25" width="1311" height="743" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49837133" visible="true" weight="0.258498" />
-      <window_info id="Structure" order="1" sideWeight="0.50162864" side_tool="true" visible="true" weight="0.258498" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49462366" visible="true" weight="0.258498" />
+      <window_info id="Structure" order="1" sideWeight="0.50537634" side_tool="true" visible="true" weight="0.258498" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32899022" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39413682" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39413682" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -185,6 +229,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Cities/cities.cpp</url>
+          <line>2</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../Project/accounts.txt">
@@ -207,20 +262,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Users/users.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Users/users.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
@@ -251,13 +292,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cities/cities.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="10" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Cities/b_cities.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -265,18 +299,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BankAccounts/accounts.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BankAccounts/b_accounts.txt">
+    <entry file="file:///usr/include/x86_64-linux-gnu/sys/user.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-13995" />
+        <state relative-caret-position="195">
+          <caret line="72" column="7" selection-start-line="72" selection-start-column="7" selection-end-line="72" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Users/users.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BankAccounts/bankaccounts.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        <state relative-caret-position="165">
+          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cities/cities.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -287,10 +334,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cities/cities.cpp">
+    <entry file="file://$PROJECT_DIR$/BankAccounts/accounts.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BankAccounts/b_accounts.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="90">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
@@ -299,20 +352,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BankAccounts/bankaccounts.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+        <state relative-caret-position="255">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
+    <entry file="file://$PROJECT_DIR$/Cities/cities.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        <state relative-caret-position="330">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Users/b_users.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Users/users.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
