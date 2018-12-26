@@ -63,7 +63,6 @@ void edit_user_profile(User new_user){
     }
     save_users_file(users);
 }
-
 vector<User> get_users(){
     vector<User> users;
     FILE* fp=fopen("Users/b_users.txt","rb");

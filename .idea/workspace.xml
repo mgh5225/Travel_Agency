@@ -11,7 +11,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bda5da8d-000d-4350-919f-1fb3b41da2f2" name="Default Changelist" comment="" />
+    <list default="true" id="bda5da8d-000d-4350-919f-1fb3b41da2f2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/Travel_Agency.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/Travel_Agency.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Users/users.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Users/users.cpp" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/CMakeFiles/" />
     <ignored path="$PROJECT_DIR$/root/" />
@@ -39,16 +42,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Users/users.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="79" column="1" lean-forward="true" selection-start-line="79" selection-start-column="1" selection-end-line="79" selection-end-column="1" />
+            <state relative-caret-position="375">
+              <caret line="65" column="22" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
                 <element signature="e#38#231#0" />
                 <element signature="e#232#575#0" />
-                <element signature="e#576#639#0" />
-                <element signature="e#1009#1288#0" />
-                <element signature="e#1265#1717#0" />
-                <element signature="e#576#923#0" />
+                <element signature="e#576#1008#0" />
+                <element signature="e#1009#1264#0" />
+                <element signature="e#1887#2234#0" />
               </folding>
             </state>
           </provider>
@@ -89,6 +91,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -110,7 +113,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -157,19 +159,19 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16663000" />
+    <option name="totallyTimeSpent" value="16923000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="25" width="1311" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49462366" visible="true" weight="0.2624506" />
-      <window_info id="Structure" order="1" sideWeight="0.50537634" side_tool="true" visible="true" weight="0.2624506" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49271846" visible="true" weight="0.26719368" />
+      <window_info id="Structure" order="1" sideWeight="0.50728154" side_tool="true" visible="true" weight="0.26719368" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32899022" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39413682" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32899022" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39413682" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -288,7 +290,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BankAccounts/bankaccounts.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-85">
+        <state relative-caret-position="182">
           <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
@@ -308,16 +310,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Users/users.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="79" column="1" lean-forward="true" selection-start-line="79" selection-start-column="1" selection-end-line="79" selection-end-column="1" />
+        <state relative-caret-position="375">
+          <caret line="65" column="22" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
             <element signature="e#38#231#0" />
             <element signature="e#232#575#0" />
-            <element signature="e#576#639#0" />
-            <element signature="e#1009#1288#0" />
-            <element signature="e#1265#1717#0" />
-            <element signature="e#576#923#0" />
+            <element signature="e#576#1008#0" />
+            <element signature="e#1009#1264#0" />
+            <element signature="e#1887#2234#0" />
           </folding>
         </state>
       </provider>
