@@ -13,21 +13,11 @@
   <component name="ChangeListManager">
     <list default="true" id="bda5da8d-000d-4350-919f-1fb3b41da2f2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankAccounts/b_accounts.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankAccounts/bankaccounts.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/BankAccounts/bankaccounts.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankAccounts/bankaccounts.h" beforeDir="false" afterPath="$PROJECT_DIR$/BankAccounts/bankaccounts.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/Travel_Agency.dir/BankAccounts/bankaccounts.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/Travel_Agency.dir/BankAccounts/bankaccounts.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeFiles/Travel_Agency.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/Travel_Agency.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/Travel_Agency.dir/Cities/cities.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/Travel_Agency.dir/Cities/cities.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeFiles/Travel_Agency.dir/Users/users.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/Travel_Agency.dir/Users/users.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/Travel_Agency.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/Travel_Agency.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeFiles/Travel_Agency.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/Travel_Agency.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeFiles/Travel_Agency.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/Travel_Agency.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cities/b_cities.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cities/cities.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Cities/cities.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cities/cities.h" beforeDir="false" afterPath="$PROJECT_DIR$/Cities/cities.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cities/cities.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Cities/cities.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Travel_Agency" beforeDir="false" afterPath="$PROJECT_DIR$/Travel_Agency" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Users/b_users.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Users/b_users.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Users/users.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Users/users.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Users/users.h" beforeDir="false" afterPath="$PROJECT_DIR$/Users/users.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
@@ -47,32 +37,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BankAccounts/bankaccounts.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Cities/cities.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="105">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -83,10 +49,16 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Users/users.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+            <state relative-caret-position="105">
+              <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#38#231#0" />
+                <element signature="e#232#575#0" />
+                <element signature="e#576#639#0" />
+                <element signature="e#1009#1288#0" />
+                <element signature="e#1265#1717#0" />
+                <element signature="e#576#923#0" />
               </folding>
             </state>
           </provider>
@@ -105,13 +77,13 @@
         <option value="$PROJECT_DIR$/Drivers/drivers.h" />
         <option value="$PROJECT_DIR$/BankAccounts/bankaccount.cpp" />
         <option value="$PROJECT_DIR$/BankAccounts/bankaccount.h" />
-        <option value="$PROJECT_DIR$/Users/users.h" />
         <option value="$PROJECT_DIR$/BankAccounts/bankaccounts.h" />
-        <option value="$PROJECT_DIR$/Users/users.cpp" />
         <option value="$PROJECT_DIR$/Cities/cities.h" />
-        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/Cities/cities.cpp" />
         <option value="$PROJECT_DIR$/BankAccounts/bankaccounts.cpp" />
+        <option value="$PROJECT_DIR$/Users/users.h" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/Users/users.cpp" />
       </list>
     </option>
   </component>
@@ -143,11 +115,6 @@
               <item name="Travel_Agency" type="b2602c69:ProjectViewProjectNode" />
               <item name="Travel_Agency" type="462c0819:PsiDirectoryNode" />
               <item name="Cities" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Travel_Agency" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Travel_Agency" type="462c0819:PsiDirectoryNode" />
-              <item name="Users" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -194,19 +161,20 @@
       <updated>1545667653246</updated>
       <workItem from="1545667654934" duration="1185000" />
       <workItem from="1545759049750" duration="2915000" />
-      <workItem from="1545762043050" duration="9577000" />
+      <workItem from="1545762043050" duration="9910000" />
+      <workItem from="1545821297311" duration="2365000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13677000" />
+    <option name="totallyTimeSpent" value="16375000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="25" width="1311" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49462366" visible="true" weight="0.258498" />
-      <window_info id="Structure" order="1" sideWeight="0.50537634" side_tool="true" visible="true" weight="0.258498" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49462366" visible="true" weight="0.2624506" />
+      <window_info id="Structure" order="1" sideWeight="0.50537634" side_tool="true" visible="true" weight="0.2624506" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
@@ -229,17 +197,6 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Cities/cities.cpp</url>
-          <line>2</line>
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../Project/accounts.txt">
@@ -268,9 +225,7 @@
     <entry file="file://$PROJECT_DIR$/cmake_install.cmake">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/cmake-build-debug/accounts.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/accounts.txt" />
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -278,20 +233,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BankAccounts/bankaccount.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="24" selection-start-column="24" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BankAccounts/bankaccount.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/BankAccounts/bankaccount.cpp" />
+    <entry file="file://$PROJECT_DIR$/BankAccounts/bankaccount.h" />
     <entry file="file://$PROJECT_DIR$/Cities/b_cities.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -306,24 +249,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Users/users.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BankAccounts/bankaccounts.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cities/cities.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -337,32 +266,22 @@
     <entry file="file://$PROJECT_DIR$/BankAccounts/accounts.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/Users/b_users.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/BankAccounts/b_accounts.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
+    <entry file="file://$PROJECT_DIR$/Cities/cities.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BankAccounts/bankaccounts.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="135">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Cities/cities.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
+        <state relative-caret-position="315">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
@@ -370,15 +289,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Users/b_users.txt">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/Users/users.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BankAccounts/bankaccounts.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-85">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Users/users.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+        <state relative-caret-position="105">
+          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#38#231#0" />
+            <element signature="e#232#575#0" />
+            <element signature="e#576#639#0" />
+            <element signature="e#1009#1288#0" />
+            <element signature="e#1265#1717#0" />
+            <element signature="e#576#923#0" />
           </folding>
         </state>
       </provider>
