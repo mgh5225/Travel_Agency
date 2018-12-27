@@ -15,11 +15,8 @@ typedef struct user{
 }User;
 typedef struct ticket{
     int code=0;
-    //Driver journey_driver={};
     User customer={};
-    City origin={};
-    City purpose={};
-    Date journey_date={};
+    //Journey ticket_journey={};
 }Ticket;
 //------------------------------------
 void save_users_file(vector<User>);
@@ -27,12 +24,12 @@ vector<User> get_users();
 long int find_user(vector<User>,User);
 void add_user(User);
 User user_login(char[101],char[33]);
-void edit_user_profile(User new_user);
+void edit_user_profile(User _user);
 //------------------------------------
 void save_tickets_file(vector<Ticket>);
 vector<Ticket> get_tickets(User);
 long int find_ticket(vector<Ticket>,Ticket);
-void buy_ticket(User,Ticket);
-void cancel_ticket(User,Ticket);
+void add_ticket(User _user, Ticket _ticket);
+void remove_ticket(User _user, Ticket _ticket);
 //------------------------------------
 #endif

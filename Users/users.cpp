@@ -30,10 +30,10 @@ long int find_user(vector<User> users,User _user){
     }
     return -1;
 }
-void add_user(User new_user){
+void add_user(User _user){
     vector<User> users=get_users();
-    if(find_user(users,new_user)==-1) {
-        users.push_back(new_user);
+    if(find_user(users,_user)==-1) {
+        users.push_back(_user);
         save_users_file(users);
     }
 
@@ -53,24 +53,26 @@ User user_login(char user_name[101],char user_pass[33]){
     }
     return User{};
 }
-void edit_user_profile(User new_user){
+void edit_user_profile(User _user){
     vector<User> users=get_users();
-    long int point=find_user(users,new_user);
-    for(int i=0;i<33;i++){
-        users[point].user_pass[i]=new_user.user_pass[i];
+    long int point=find_user(users,_user);
+    if(point!=-1) {
+        for (int i = 0; i < 33; i++) {
+            users[point].user_pass[i] = _user.user_pass[i];
+        }
+        for (int i = 0; i < 21; i++) {
+            users[point].fname[i] = _user.fname[i];
+            users[point].lname[i] = _user.lname[i];
+            users[point].reference[i] = _user.reference[i];
+        }
+        for (int i = 0; i < 11; i++) {
+            users[point].bank_account[i] = _user.bank_account[i];
+        }
+        for (int i = 0; i < 12; i++) {
+            users[point].phone_number[i] = _user.phone_number[i];
+        }
+        save_users_file(users);
     }
-    for(int i=0;i<21;i++){
-        users[point].fname[i]=new_user.fname[i];
-        users[point].lname[i]=new_user.lname[i];
-        users[point].reference[i]=new_user.reference[i];
-    }
-    for(int i=0;i<11;i++){
-        users[point].bank_account[i]=new_user.bank_account[i];
-    }
-    for(int i=0;i<12;i++){
-        users[point].phone_number[i]=new_user.phone_number[i];
-    }
-    save_users_file(users);
 }
 //--------------------------------------------------------------------------
 void save_tickets_file(vector<Ticket> tickets){
@@ -100,9 +102,19 @@ long int find_ticket(vector<Ticket> tickets,Ticket _ticket){
     }
     return -1;
 }
-void cancel_ticket(User _user,Ticket _ticket){
+void add_ticket(User _user, Ticket _ticket){
+    vector<Ticket> tickets=get_tickets(_user);
+    if(find_ticket(tickets,_ticket)==-1){
+        tickets.push_back(_ticket);
+        save_tickets_file(tickets);
+    }
+}
+void remove_ticket(User _user, Ticket _ticket){
     vector<Ticket> tickets=get_tickets(_user);
     long int point=find_ticket(tickets,_ticket);
-    tickets.erase(tickets.begin()+point);
-    save_tickets_file(tickets);
+    if(point!=-1) {
+        tickets.erase(tickets.begin() + point);
+        save_tickets_file(tickets);
+    }
 }
+//--------------------------------------------------------------------------
