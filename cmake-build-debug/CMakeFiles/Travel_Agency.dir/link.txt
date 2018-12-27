@@ -1,1 +1,3 @@
-/usr/bin/c++  -g   CMakeFiles/Travel_Agency.dir/main.cpp.o CMakeFiles/Travel_Agency.dir/Admin/admin.cpp.o CMakeFiles/Travel_Agency.dir/Drivers/drivers.cpp.o CMakeFiles/Travel_Agency.dir/Users/users.cpp.o  -o Travel_Agency 
+"C:\Program Files\JetBrains\CLion 2018.3\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\Travel_Agency.dir/objects.a
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\ar.exe cr CMakeFiles\Travel_Agency.dir/objects.a @CMakeFiles\Travel_Agency.dir\objects1.rsp
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE -g   -Wl,--whole-archive CMakeFiles\Travel_Agency.dir/objects.a -Wl,--no-whole-archive  -o Travel_Agency.exe -Wl,--out-implib,libTravel_Agency.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Travel_Agency.dir\linklibs.rsp
