@@ -13,11 +13,14 @@ CMakeFiles/Travel_Agency.dir/Cities/cities.cpp.o: Cities/cities.h
 CMakeFiles/Travel_Agency.dir/Drivers/drivers.cpp.o: Drivers/drivers.cpp
 CMakeFiles/Travel_Agency.dir/Drivers/drivers.cpp.o: Drivers/drivers.h
 
+CMakeFiles/Travel_Agency.dir/Users/users.cpp.o: Cities/cities.h
+CMakeFiles/Travel_Agency.dir/Users/users.cpp.o: Date/date.h
 CMakeFiles/Travel_Agency.dir/Users/users.cpp.o: Users/users.cpp
 CMakeFiles/Travel_Agency.dir/Users/users.cpp.o: Users/users.h
 
 CMakeFiles/Travel_Agency.dir/main.cpp.o: BankAccounts/bankaccounts.h
 CMakeFiles/Travel_Agency.dir/main.cpp.o: Cities/cities.h
+CMakeFiles/Travel_Agency.dir/main.cpp.o: Date/date.h
 CMakeFiles/Travel_Agency.dir/main.cpp.o: Users/users.h
 CMakeFiles/Travel_Agency.dir/main.cpp.o: main.cpp
 

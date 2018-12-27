@@ -32,15 +32,10 @@ long int find_user(vector<User> users,User _user){
 }
 void add_user(User new_user){
     vector<User> users=get_users();
-    if(!users.empty()){
-        for(long int i=0;i<users.size();i++){
-            int j;
-            for(j=0;j<101 && users[i].user_name[j]==new_user.user_name[j];j++);
-            if(j==101) return;
-        }
+    if(find_user(users,new_user)==-1) {
+        users.push_back(new_user);
+        save_users_file(users);
     }
-    users.push_back(new_user);
-    save_users_file(users);
 
 }
 User user_login(char user_name[101],char user_pass[33]){
@@ -77,4 +72,37 @@ void edit_user_profile(User new_user){
     }
     save_users_file(users);
 }
-void buy_ticket(){}
+//--------------------------------------------------------------------------
+void save_tickets_file(vector<Ticket> tickets){
+    FILE* fp=fopen("Users/b_tickets.txt","wb");
+    for(long int i=0;i<tickets.size();i++)
+        fwrite(&(tickets[i]),sizeof(User),1,fp);
+    fclose(fp);
+}
+vector<Ticket> get_tickets(User _user){
+    vector<Ticket> tickets;
+    FILE* fp=fopen("Users/b_tickets.txt","rb");
+    if(fp!=NULL){
+        while (!feof(fp)){
+            Ticket temp={};
+            fread(&temp,sizeof(User),1,fp);
+            int j;
+            for(j=0;j<101 && _user.user_name[j]==temp.customer.user_name[j];j++);
+            if(j==101)tickets.push_back(temp);
+        }
+        fclose(fp);
+    }
+    return tickets;
+}
+long int find_ticket(vector<Ticket> tickets,Ticket _ticket){
+    for(long int i=0;i<tickets.size();i++){
+        if(tickets[i].code==_ticket.code)return i;
+    }
+    return -1;
+}
+void cancel_ticket(User _user,Ticket _ticket){
+    vector<Ticket> tickets=get_tickets(_user);
+    long int point=find_ticket(tickets,_ticket);
+    tickets.erase(tickets.begin()+point);
+    save_tickets_file(tickets);
+}
