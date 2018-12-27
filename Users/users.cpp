@@ -6,6 +6,30 @@ void save_users_file(vector<User> users){
         fwrite(&(users[i]),sizeof(User),1,fp);
     fclose(fp);
 }
+vector<User> get_users(){
+    vector<User> users;
+    FILE* fp=fopen("Users/b_users.txt","rb");
+    if(fp!=NULL){
+        while (!feof(fp)){
+            User temp={};
+            fread(&temp,sizeof(User),1,fp);
+            if(temp.user_name[0]=='\0')break;
+            users.push_back(temp);
+        }
+        fclose(fp);
+    }
+    return users;
+}
+long int find_user(vector<User> users,User _user){
+    for(long int i=0;i<users.size();i++){
+        int j;
+        for(j=0;j<101 && users[i].user_name[j]==_user.user_name[j];j++);
+        if(j==101){
+            return i;
+        }
+    }
+    return -1;
+}
 void add_user(User new_user){
     vector<User> users=get_users();
     if(!users.empty()){
@@ -34,16 +58,6 @@ User user_login(char user_name[101],char user_pass[33]){
     }
     return User{};
 }
-long int find_user(vector<User> users,User _user){
-    for(long int i=0;i<users.size();i++){
-        int j;
-        for(j=0;j<101 && users[i].user_name[j]==_user.user_name[j];j++);
-        if(j==101){
-            return i;
-        }
-    }
-    return -1;
-}
 void edit_user_profile(User new_user){
     vector<User> users=get_users();
     long int point=find_user(users,new_user);
@@ -63,17 +77,4 @@ void edit_user_profile(User new_user){
     }
     save_users_file(users);
 }
-vector<User> get_users(){
-    vector<User> users;
-    FILE* fp=fopen("Users/b_users.txt","rb");
-    if(fp!=NULL){
-        while (!feof(fp)){
-            User temp={};
-            fread(&temp,sizeof(User),1,fp);
-            if(temp.user_name[0]=='\0')break;
-            users.push_back(temp);
-        }
-        fclose(fp);
-    }
-    return users;
-}
+void buy_ticket(){}
