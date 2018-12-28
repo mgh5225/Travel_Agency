@@ -10,4 +10,5 @@ typedef struct account{
 void save_accounts_file(vector<Account>);
 void xchange_accounts();
 vector<Account> get_accounts();
+//void subtract_cost(char[11],int);
 #endif

@@ -1,5 +1,6 @@
 #include "users.h"
 #include <stdio.h>
+#include <cstdlib>
 void save_users_file(vector<User> users){
     FILE* fp=fopen("Users/b_users.txt","wb");
     for(long int i=0;i<users.size();i++)
@@ -131,9 +132,19 @@ void remove_ticket(User _user, Ticket _ticket){
     }
 }
 //--------------------------------------------------------------------------
-Ticket buy_ticket(User _user,/*Journey_journey,*/int code_discount){
+Ticket buy_ticket(User _user,/*Journey _journey,*/Discount _discount){
     Ticket _ticket={};
     add_ticket(_user,_ticket);
+    int r=rand()%100;
+    r=r*(rand()%100)+1;
+    _ticket.code_order=r;
+    _ticket.code_discount=_discount.id;
+    int cost=0/*get_journey_cost(_journey)*/;
+    if(_discount.dis){
+        cost*=_discount.dis;
+    }
+    //subtract_cost(_user.bank_account,cost);
+    //_ticket.ticket_journey=_journey;
     return _ticket;
 }
 //--------------------------------------------------------------------------

@@ -9,5 +9,5 @@ typedef struct discount{
 void save_discounts_file(vector<Discount>);
 vector<Discount> get_discounts();
 void add_discount(Discount);
-void remove_discount(Discount)
+void remove_discount(Discount);
 #endif

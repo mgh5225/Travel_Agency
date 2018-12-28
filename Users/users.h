@@ -2,7 +2,9 @@
 #define TRAVEL_AGENCY_USERS_H
 #include <vector>
 #include "../Cities/cities.h"
+#include "../BankAccounts/bankaccounts.h"
 #include "../Date/date.h"
+#include "../Discounts/discount.h"
 using namespace std;
 const int TICKET_BOUGHT=1;
 typedef struct user{
