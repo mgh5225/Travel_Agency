@@ -96,9 +96,22 @@ vector<Ticket> get_tickets(User _user){
     }
     return tickets;
 }
+vector<Ticket> get_tickets_by_mode(int MODE){
+    vector<Ticket> tickets;
+    FILE* fp=fopen("Users/b_tickets.txt","rb");
+    if(fp!=NULL){
+        while (!feof(fp)){
+            Ticket temp={};
+            fread(&temp,sizeof(User),1,fp);
+            if(temp.mode==MODE)tickets.push_back(temp);
+        }
+        fclose(fp);
+    }
+    return tickets;
+}
 long int find_ticket(vector<Ticket> tickets,Ticket _ticket){
     for(long int i=0;i<tickets.size();i++){
-        if(tickets[i].code==_ticket.code)return i;
+        if(tickets[i].code_order==_ticket.code_order)return i;
     }
     return -1;
 }
@@ -116,5 +129,11 @@ void remove_ticket(User _user, Ticket _ticket){
         tickets.erase(tickets.begin() + point);
         save_tickets_file(tickets);
     }
+}
+//--------------------------------------------------------------------------
+Ticket buy_ticket(User _user,/*Journey_journey,*/int code_discount){
+    Ticket _ticket={};
+    add_ticket(_user,_ticket);
+    return _ticket;
 }
 //--------------------------------------------------------------------------

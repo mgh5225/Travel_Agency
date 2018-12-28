@@ -204,6 +204,33 @@ Cities/cities.cpp.s:
 	$(MAKE) -f CMakeFiles/Travel_Agency.dir/build.make CMakeFiles/Travel_Agency.dir/Cities/cities.cpp.s
 .PHONY : Cities/cities.cpp.s
 
+Discounts/discount.o: Discounts/discount.cpp.o
+
+.PHONY : Discounts/discount.o
+
+# target to build an object file
+Discounts/discount.cpp.o:
+	$(MAKE) -f CMakeFiles/Travel_Agency.dir/build.make CMakeFiles/Travel_Agency.dir/Discounts/discount.cpp.o
+.PHONY : Discounts/discount.cpp.o
+
+Discounts/discount.i: Discounts/discount.cpp.i
+
+.PHONY : Discounts/discount.i
+
+# target to preprocess a source file
+Discounts/discount.cpp.i:
+	$(MAKE) -f CMakeFiles/Travel_Agency.dir/build.make CMakeFiles/Travel_Agency.dir/Discounts/discount.cpp.i
+.PHONY : Discounts/discount.cpp.i
+
+Discounts/discount.s: Discounts/discount.cpp.s
+
+.PHONY : Discounts/discount.s
+
+# target to generate assembly for a file
+Discounts/discount.cpp.s:
+	$(MAKE) -f CMakeFiles/Travel_Agency.dir/build.make CMakeFiles/Travel_Agency.dir/Discounts/discount.cpp.s
+.PHONY : Discounts/discount.cpp.s
+
 Drivers/drivers.o: Drivers/drivers.cpp.o
 
 .PHONY : Drivers/drivers.o
@@ -303,6 +330,9 @@ help:
 	@echo "... Cities/cities.o"
 	@echo "... Cities/cities.i"
 	@echo "... Cities/cities.s"
+	@echo "... Discounts/discount.o"
+	@echo "... Discounts/discount.i"
+	@echo "... Discounts/discount.s"
 	@echo "... Drivers/drivers.o"
 	@echo "... Drivers/drivers.i"
 	@echo "... Drivers/drivers.s"

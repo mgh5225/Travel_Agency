@@ -10,11 +10,29 @@
 vector
 -
 
+/home/mgh/Desktop/Travel_Agency/Cities/cities.cpp
+cities.h
+/home/mgh/Desktop/Travel_Agency/Cities/cities.h
+stdio.h
+-
+
 /home/mgh/Desktop/Travel_Agency/Cities/cities.h
 vector
 -
 
 /home/mgh/Desktop/Travel_Agency/Date/date.h
+
+/home/mgh/Desktop/Travel_Agency/Discounts/discount.cpp
+discount.h
+/home/mgh/Desktop/Travel_Agency/Discounts/discount.h
+
+/home/mgh/Desktop/Travel_Agency/Discounts/discount.h
+
+/home/mgh/Desktop/Travel_Agency/Drivers/drivers.cpp
+drivers.h
+/home/mgh/Desktop/Travel_Agency/Drivers/drivers.h
+
+/home/mgh/Desktop/Travel_Agency/Drivers/drivers.h
 
 /home/mgh/Desktop/Travel_Agency/Users/users.cpp
 users.h

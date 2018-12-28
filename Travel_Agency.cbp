@@ -105,6 +105,12 @@
 		<Unit filename="/home/mgh/Desktop/Travel_Agency/Date/date.h">
 			<Option target="Travel_Agency"/>
 		</Unit>
+		<Unit filename="/home/mgh/Desktop/Travel_Agency/Discounts/discount.cpp">
+			<Option target="Travel_Agency"/>
+		</Unit>
+		<Unit filename="/home/mgh/Desktop/Travel_Agency/Discounts/discount.h">
+			<Option target="Travel_Agency"/>
+		</Unit>
 		<Unit filename="/home/mgh/Desktop/Travel_Agency/Drivers/drivers.cpp">
 			<Option target="Travel_Agency"/>
 		</Unit>

@@ -11,7 +11,26 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bda5da8d-000d-4350-919f-1fb3b41da2f2" name="Default Changelist" comment="" />
+    <list default="true" id="bda5da8d-000d-4350-919f-1fb3b41da2f2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Discounts/discount.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Discounts/discount.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/Travel_Agency.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/Travel_Agency.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/Travel_Agency.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/Travel_Agency.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/Travel_Agency.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/Travel_Agency.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/Travel_Agency.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/Travel_Agency.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/Travel_Agency.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/Travel_Agency.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Travel_Agency" beforeDir="false" afterPath="$PROJECT_DIR$/Travel_Agency" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Travel_Agency.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/Travel_Agency.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Users/users.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Users/users.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Users/users.h" beforeDir="false" afterPath="$PROJECT_DIR$/Users/users.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/CMakeFiles/" />
     <ignored path="$PROJECT_DIR$/root/" />
@@ -27,8 +46,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="105">
+              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -39,20 +58,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Users/users.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="55" selection-start-line="55" selection-end-line="55" />
+            <state relative-caret-position="215">
+              <caret line="134" column="19" selection-start-line="134" selection-start-column="19" selection-end-line="134" selection-end-column="19" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
                 <element signature="e#38#231#0" />
                 <element signature="e#232#579#0" />
                 <element signature="e#580#835#0" />
-                <element signature="e#836#1017#0" />
+                <element signature="e#836#1008#0" />
+                <element signature="e#1009#1441#0" />
                 <element signature="e#1442#2168#0" />
-                <element signature="e#2234#2365#0" />
-                <element signature="e#2521#2567#0" />
-                <element signature="e#2802#2938#0" />
-                <element signature="e#3225#3271#0" />
-                <element signature="e#2940#3194#0" />
+                <element signature="e#2169#2451#0" />
+                <element signature="e#2452#2890#0" />
+                <element signature="e#2891#3243#0" />
+                <element signature="e#3244#3434#0" />
+                <element signature="e#3435#3648#0" />
+                <element signature="e#3649#3904#0" />
               </folding>
             </state>
           </provider>
@@ -61,8 +82,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Users/users.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="412">
-              <caret line="31" column="17" lean-forward="true" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+            <state relative-caret-position="230">
+              <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
               <folding>
                 <element signature="e#60#77#0" expanded="true" />
               </folding>
@@ -71,10 +92,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Date/date.h">
+        <entry file="file://$PROJECT_DIR$/Discounts/discount.cpp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Discounts/discount.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+            <state relative-caret-position="165">
+              <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -82,7 +108,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Cities/cities.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
+            <state relative-caret-position="330">
               <caret line="22" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
@@ -94,8 +120,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Cities/cities.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+            <state relative-caret-position="165">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -123,9 +149,11 @@
         <option value="$PROJECT_DIR$/Cities/cities.h" />
         <option value="$PROJECT_DIR$/Cities/cities.cpp" />
         <option value="$PROJECT_DIR$/BankAccounts/bankaccounts.cpp" />
+        <option value="$PROJECT_DIR$/Discounts/discount.cpp" />
         <option value="$PROJECT_DIR$/main.cpp" />
-        <option value="$PROJECT_DIR$/Users/users.h" />
         <option value="$PROJECT_DIR$/Users/users.cpp" />
+        <option value="$PROJECT_DIR$/Discounts/discount.h" />
+        <option value="$PROJECT_DIR$/Users/users.h" />
       </list>
     </option>
   </component>
@@ -141,6 +169,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -153,11 +182,15 @@
               <item name="Travel_Agency" type="462c0819:PsiDirectoryNode" />
               <item name="BankAccounts" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Travel_Agency" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Travel_Agency" type="462c0819:PsiDirectoryNode" />
+              <item name="Discounts" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -202,22 +235,24 @@
       <workItem from="1545821297311" duration="2653000" />
       <workItem from="1545902356916" duration="2404000" />
       <workItem from="1545918163361" duration="5316000" />
+      <workItem from="1545989794202" duration="3317000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24643000" />
+    <option name="totallyTimeSpent" value="27960000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="25" width="1311" height="743" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49022803" visible="true" weight="0.27667984" />
-      <window_info id="Structure" order="1" sideWeight="0.509772" side_tool="true" visible="true" weight="0.27667984" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48859936" visible="true" weight="0.2814229" />
+      <window_info id="Structure" order="1" sideWeight="0.51140064" side_tool="true" weight="0.2814229" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32899022" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39413682" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39413682" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -299,31 +334,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BankAccounts/accounts.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Users/b_users.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/BankAccounts/b_accounts.txt">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cities/cities.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Date/date.h">
       <provider selected="true" editor-type-id="text-editor">
@@ -334,7 +349,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Cities/cities.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
+        <state relative-caret-position="330">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
@@ -342,9 +357,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/BankAccounts/accounts.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="6" selection-start-line="1" selection-end-line="1" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/BankAccounts/bankaccounts.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
+        <state relative-caret-position="255">
           <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
@@ -352,30 +374,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Users/users.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        <state relative-caret-position="215">
+          <caret line="134" column="19" selection-start-line="134" selection-start-column="19" selection-end-line="134" selection-end-column="19" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
             <element signature="e#38#231#0" />
             <element signature="e#232#579#0" />
             <element signature="e#580#835#0" />
-            <element signature="e#836#1017#0" />
+            <element signature="e#836#1008#0" />
+            <element signature="e#1009#1441#0" />
             <element signature="e#1442#2168#0" />
-            <element signature="e#2234#2365#0" />
-            <element signature="e#2521#2567#0" />
-            <element signature="e#2802#2938#0" />
-            <element signature="e#3225#3271#0" />
-            <element signature="e#2940#3194#0" />
+            <element signature="e#2169#2451#0" />
+            <element signature="e#2452#2890#0" />
+            <element signature="e#2891#3243#0" />
+            <element signature="e#3244#3434#0" />
+            <element signature="e#3435#3648#0" />
+            <element signature="e#3649#3904#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cities/cities.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Discounts/discount.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Discounts/discount.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Users/users.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="31" column="17" lean-forward="true" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+        <state relative-caret-position="230">
+          <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
           <folding>
             <element signature="e#60#77#0" expanded="true" />
           </folding>

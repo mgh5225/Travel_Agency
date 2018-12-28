@@ -10,6 +10,9 @@ CMakeFiles/Travel_Agency.dir/BankAccounts/bankaccounts.cpp.o: BankAccounts/banka
 CMakeFiles/Travel_Agency.dir/Cities/cities.cpp.o: Cities/cities.cpp
 CMakeFiles/Travel_Agency.dir/Cities/cities.cpp.o: Cities/cities.h
 
+CMakeFiles/Travel_Agency.dir/Discounts/discount.cpp.o: Discounts/discount.cpp
+CMakeFiles/Travel_Agency.dir/Discounts/discount.cpp.o: Discounts/discount.h
+
 CMakeFiles/Travel_Agency.dir/Drivers/drivers.cpp.o: Drivers/drivers.cpp
 CMakeFiles/Travel_Agency.dir/Drivers/drivers.cpp.o: Drivers/drivers.h
 
