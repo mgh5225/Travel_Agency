@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Travel_Agency.dir/Admin/admin.cpp.obj"
   "CMakeFiles/Travel_Agency.dir/Drivers/drivers.cpp.obj"
   "CMakeFiles/Travel_Agency.dir/Users/users.cpp.obj"
+  "CMakeFiles/Travel_Agency.dir/Admin/adminlogged.cpp.obj"
   "Travel_Agency.pdb"
   "Travel_Agency.exe"
   "Travel_Agency.exe.manifest"

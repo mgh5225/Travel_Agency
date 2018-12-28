@@ -86,6 +86,12 @@
 		<Unit filename="E:/Project/Travel_Agency/Admin/admin.h">
 			<Option target="Travel_Agency"/>
 		</Unit>
+		<Unit filename="E:/Project/Travel_Agency/Admin/adminlogged.cpp">
+			<Option target="Travel_Agency"/>
+		</Unit>
+		<Unit filename="E:/Project/Travel_Agency/Admin/adminlogged.h">
+			<Option target="Travel_Agency"/>
+		</Unit>
 		<Unit filename="E:/Project/Travel_Agency/Drivers/drivers.cpp">
 			<Option target="Travel_Agency"/>
 		</Unit>
@@ -99,6 +105,9 @@
 			<Option target="Travel_Agency"/>
 		</Unit>
 		<Unit filename="E:/Project/Travel_Agency/main.cpp">
+			<Option target="Travel_Agency"/>
+		</Unit>
+		<Unit filename="E:/Project/Travel_Agency/main.h">
 			<Option target="Travel_Agency"/>
 		</Unit>
 		<Unit filename="E:/Project/Travel_Agency/CMakeLists.txt">
