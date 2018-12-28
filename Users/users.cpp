@@ -143,8 +143,8 @@ Ticket buy_ticket(User _user,/*Journey _journey,*/Discount _discount){
     if(_discount.dis){
         cost*=_discount.dis;
     }
-    //subtract_cost(_user.bank_account,cost);
-    //_ticket.ticket_journey=_journey;
+    _ticket.cost=cost;
+    subtract_cost(_user,&_ticket/*,Journey*/);
     return _ticket;
 }
 //--------------------------------------------------------------------------

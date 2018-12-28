@@ -1,14 +1,16 @@
 #ifndef TRAVEL_AGENCY_BANKACCOUNTS_H
 #define TRAVEL_AGENCY_BANKACCOUNTS_H
 #include <vector>
+#include "../Users/users.h"
 using namespace std;
 typedef struct account{
     char id[11]={};
     char pass[5]={};
-    char cash[11]={};
+    int cash=0;
 }Account;
 void save_accounts_file(vector<Account>);
-void xchange_accounts();
 vector<Account> get_accounts();
-//void subtract_cost(char[11],int);
+long int find_account(vector<Account>,Account);
+void xchange_accounts();
+void subtract_cost(User,Ticket*/*,Journey*/);
 #endif
