@@ -149,6 +149,33 @@ Admin/admin.cpp.s:
 	$(MAKE) -f CMakeFiles\Travel_Agency.dir\build.make CMakeFiles/Travel_Agency.dir/Admin/admin.cpp.s
 .PHONY : Admin/admin.cpp.s
 
+Admin/adminlogged.obj: Admin/adminlogged.cpp.obj
+
+.PHONY : Admin/adminlogged.obj
+
+# target to build an object file
+Admin/adminlogged.cpp.obj:
+	$(MAKE) -f CMakeFiles\Travel_Agency.dir\build.make CMakeFiles/Travel_Agency.dir/Admin/adminlogged.cpp.obj
+.PHONY : Admin/adminlogged.cpp.obj
+
+Admin/adminlogged.i: Admin/adminlogged.cpp.i
+
+.PHONY : Admin/adminlogged.i
+
+# target to preprocess a source file
+Admin/adminlogged.cpp.i:
+	$(MAKE) -f CMakeFiles\Travel_Agency.dir\build.make CMakeFiles/Travel_Agency.dir/Admin/adminlogged.cpp.i
+.PHONY : Admin/adminlogged.cpp.i
+
+Admin/adminlogged.s: Admin/adminlogged.cpp.s
+
+.PHONY : Admin/adminlogged.s
+
+# target to generate assembly for a file
+Admin/adminlogged.cpp.s:
+	$(MAKE) -f CMakeFiles\Travel_Agency.dir\build.make CMakeFiles/Travel_Agency.dir/Admin/adminlogged.cpp.s
+.PHONY : Admin/adminlogged.cpp.s
+
 Drivers/drivers.obj: Drivers/drivers.cpp.obj
 
 .PHONY : Drivers/drivers.obj
@@ -242,6 +269,9 @@ help:
 	@echo ... Admin/admin.obj
 	@echo ... Admin/admin.i
 	@echo ... Admin/admin.s
+	@echo ... Admin/adminlogged.obj
+	@echo ... Admin/adminlogged.i
+	@echo ... Admin/adminlogged.s
 	@echo ... Drivers/drivers.obj
 	@echo ... Drivers/drivers.i
 	@echo ... Drivers/drivers.s
