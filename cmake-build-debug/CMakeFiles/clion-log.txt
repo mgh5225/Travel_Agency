@@ -1,4 +1,4 @@
-/snap/clion/57/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/mgh/Desktop/Travel_Agency
+"C:\Program Files\JetBrains\CLion 2018.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" E:\Project\Travel_Agency
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/mgh/Desktop/Travel_Agency/cmake-build-debug
+-- Build files have been written to: E:/Project/Travel_Agency/cmake-build-debug
