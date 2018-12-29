@@ -1,3 +1,0 @@
-E:/Project/Travel_Agency/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-E:/Project/Travel_Agency/cmake-build-debug/CMakeFiles/Travel_Agency.dir
-E:/Project/Travel_Agency/cmake-build-debug/CMakeFiles/edit_cache.dir

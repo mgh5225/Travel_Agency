@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/Project/Travel_Agency/Admin/admin.cpp
+admin.h
+E:/Project/Travel_Agency/Admin/admin.h
+iostream
+-
+stdlib.h
+-
+stdio.h
+-
+string
+-
+windows.h
+-
+../main.h
+E:/Project/Travel_Agency/main.h
+adminlogged.h
+E:/Project/Travel_Agency/Admin/adminlogged.h
+../BankAccounts/account_func.h
+E:/Project/Travel_Agency/BankAccounts/account_func.h
+
+E:/Project/Travel_Agency/Admin/admin.h
+
+E:/Project/Travel_Agency/Admin/adminlogged.h
+
+E:/Project/Travel_Agency/BankAccounts/account_func.h
+
+E:/Project/Travel_Agency/main.h
+
