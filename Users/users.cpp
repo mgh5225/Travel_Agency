@@ -1,23 +1,15 @@
 #include "users.h"
 #include <stdio.h>
 #include <cstdlib>
-void save_user_file(User _user){
-    char str[]="Users/";
-    char format[]=".usr";
-    int i;
-    for(i=0;_user.user_name[i]!='\0';i++){
-        str[i+6]=_user.user_name[i];
-    }
-    for(int j=0;j<5;j++){
-        str[i+j+1]=format[j];
-    }
-    FILE* fp=fopen(str,"wb");
-    fwrite(&_user,sizeof(User),1,fp);
+void save_users_file(vector<User> users){
+    FILE* fp=fopen("Users/b_users.txt","wb");
+    for(long int i=0;i<users.size();i++)
+        fwrite(&(users[i]),sizeof(User),1,fp);
     fclose(fp);
 }
 vector<User> get_users(){
     vector<User> users;
-    FILE* fp=fopen("Users/b_users.usr","rb");
+    FILE* fp=fopen("Users/b_users.txt","rb");
     if(fp!=NULL){
         while (!feof(fp)){
             User temp={};
@@ -140,19 +132,5 @@ void remove_ticket(User _user, Ticket _ticket){
     }
 }
 //--------------------------------------------------------------------------
-Ticket buy_ticket(User _user,/*Journey _journey,*/Discount _discount){
-    Ticket _ticket={};
-    add_ticket(_user,_ticket);
-    int r=rand()%100;
-    r=r*(rand()%100)+1;
-    _ticket.code_order=r;
-    _ticket.code_discount=_discount.id;
-    int cost=0/*get_journey_cost(_journey)*/;
-    if(_discount.dis){
-        cost*=_discount.dis;
-    }
-    _ticket.cost=cost;
-    subtract_cost(_user,&_ticket/*,Journey*/);
-    return _ticket;
-}
+
 //--------------------------------------------------------------------------

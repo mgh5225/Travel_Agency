@@ -9,9 +9,9 @@ typedef struct account{
     int cash=0;
 }Account;
 void save_accounts_file(vector<Account>);
+void xchange_accounts();
 vector<Account> get_accounts();
 long int find_account(vector<Account>,Account);
-void xchange_accounts();
 Account connect_to_account(Account);
 #endif
 

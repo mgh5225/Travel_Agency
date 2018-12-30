@@ -37,7 +37,6 @@ vector<Ticket> get_tickets(User);
 vector<Ticket> get_tickets_by_mode(int);
 long int find_ticket(vector<Ticket>,Ticket);
 void add_ticket(User,Ticket);
-Ticket buy_ticket();
 void remove_ticket(User,Ticket);
 //------------------------------------
 #endif

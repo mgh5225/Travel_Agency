@@ -8,7 +8,7 @@ void save_accounts_file(vector<Account> accounts){
 }
 vector<Account> get_accounts(){
     vector<Account> accounts;
-    FILE* fp=fopen("BankAccounts/b_accounts.txt","rb");
+    FILE* fp=fopen("b_accounts.txt","rb");
     if(fp!=NULL){
         while (!feof(fp)){
             Account temp={};
@@ -19,16 +19,6 @@ vector<Account> get_accounts(){
         fclose(fp);
     }
     return accounts;
-}
-long int find_account(vector<Account> accounts,Account _account){
-    for(long int i=0;i<accounts.size();i++){
-        int j;
-        for(j=0;j<11 && accounts[i].id[j]==_account.id[j];j++);
-        if(j==11){
-            return i;
-        }
-    }
-    return -1;
 }
 void xchange_accounts(){
     vector<Account> accounts;
@@ -44,6 +34,16 @@ void xchange_accounts(){
     }
     fclose(fp);
     save_accounts_file(accounts);
+}
+long int find_account(vector<Account> accounts,Account _account){
+    for(long int i=0;i<accounts.size();i++){
+        int j;
+        for(j=0;j<11 && accounts[i].id[j]==_account.id[j];j++);
+        if(j==11){
+            return i;
+        }
+    }
+    return -1;
 }
 Account connecet_to_account(Account _account){
     vector<Account> accounts=get_accounts();

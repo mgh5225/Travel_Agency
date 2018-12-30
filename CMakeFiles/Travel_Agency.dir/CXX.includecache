@@ -6,29 +6,11 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Mgh/Desktop/Travel_Agency/Admin/admin.cpp
-admin.h
-C:/Users/Mgh/Desktop/Travel_Agency/Admin/admin.h
-
-C:/Users/Mgh/Desktop/Travel_Agency/Admin/admin.h
-
-C:/Users/Mgh/Desktop/Travel_Agency/BankAccounts/bankaccounts.cpp
-bankaccounts.h
-C:/Users/Mgh/Desktop/Travel_Agency/BankAccounts/bankaccounts.h
-stdio.h
--
-
 C:/Users/Mgh/Desktop/Travel_Agency/BankAccounts/bankaccounts.h
 vector
 -
 ../Users/users.h
 C:/Users/Mgh/Desktop/Travel_Agency/Users/users.h
-
-C:/Users/Mgh/Desktop/Travel_Agency/Cities/cities.cpp
-cities.h
-C:/Users/Mgh/Desktop/Travel_Agency/Cities/cities.h
-stdio.h
--
 
 C:/Users/Mgh/Desktop/Travel_Agency/Cities/cities.h
 vector
@@ -36,19 +18,9 @@ vector
 
 C:/Users/Mgh/Desktop/Travel_Agency/Date/date.h
 
-C:/Users/Mgh/Desktop/Travel_Agency/Discounts/discount.cpp
-discount.h
-C:/Users/Mgh/Desktop/Travel_Agency/Discounts/discount.h
-
 C:/Users/Mgh/Desktop/Travel_Agency/Discounts/discount.h
 vector
 -
-
-C:/Users/Mgh/Desktop/Travel_Agency/Drivers/drivers.cpp
-drivers.h
-C:/Users/Mgh/Desktop/Travel_Agency/Drivers/drivers.h
-
-C:/Users/Mgh/Desktop/Travel_Agency/Drivers/drivers.h
 
 C:/Users/Mgh/Desktop/Travel_Agency/Users/users.cpp
 users.h
@@ -69,14 +41,4 @@ C:/Users/Mgh/Desktop/Travel_Agency/BankAccounts/bankaccounts.h
 C:/Users/Mgh/Desktop/Travel_Agency/Date/date.h
 ../Discounts/discount.h
 C:/Users/Mgh/Desktop/Travel_Agency/Discounts/discount.h
-
-C:/Users/Mgh/Desktop/Travel_Agency/main.cpp
-iostream
--
-Cities/cities.h
-C:/Users/Mgh/Desktop/Travel_Agency/Cities/cities.h
-BankAccounts/bankaccounts.h
-C:/Users/Mgh/Desktop/Travel_Agency/BankAccounts/bankaccounts.h
-Users/users.h
-C:/Users/Mgh/Desktop/Travel_Agency/Users/users.h
 
