@@ -1,15 +1,23 @@
 #include "users.h"
 #include <stdio.h>
 #include <cstdlib>
-void save_users_file(vector<User> users){
-    FILE* fp=fopen("Users/b_users.txt","wb");
-    for(long int i=0;i<users.size();i++)
-        fwrite(&(users[i]),sizeof(User),1,fp);
+void save_user_file(User _user){
+    char str[]="Users/";
+    char format[]=".usr";
+    int i;
+    for(i=0;_user.user_name[i]!='\0';i++){
+        str[i+6]=_user.user_name[i];
+    }
+    for(int j=0;j<5;j++){
+        str[i+j+1]=format[j];
+    }
+    FILE* fp=fopen(str,"wb");
+    fwrite(&_user,sizeof(User),1,fp);
     fclose(fp);
 }
 vector<User> get_users(){
     vector<User> users;
-    FILE* fp=fopen("Users/b_users.txt","rb");
+    FILE* fp=fopen("Users/b_users.usr","rb");
     if(fp!=NULL){
         while (!feof(fp)){
             User temp={};

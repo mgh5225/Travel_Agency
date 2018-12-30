@@ -6,55 +6,77 @@
 
 #IncludeRegexTransform: 
 
-/home/mgh/Desktop/Travel_Agency/BankAccounts/bankaccounts.h
-vector
+C:/Users/Mgh/Desktop/Travel_Agency/Admin/admin.cpp
+admin.h
+C:/Users/Mgh/Desktop/Travel_Agency/Admin/admin.h
+
+C:/Users/Mgh/Desktop/Travel_Agency/Admin/admin.h
+
+C:/Users/Mgh/Desktop/Travel_Agency/BankAccounts/bankaccounts.cpp
+bankaccounts.h
+C:/Users/Mgh/Desktop/Travel_Agency/BankAccounts/bankaccounts.h
+stdio.h
 -
 
-/home/mgh/Desktop/Travel_Agency/Cities/cities.cpp
+C:/Users/Mgh/Desktop/Travel_Agency/BankAccounts/bankaccounts.h
+vector
+-
+../Users/users.h
+C:/Users/Mgh/Desktop/Travel_Agency/Users/users.h
+
+C:/Users/Mgh/Desktop/Travel_Agency/Cities/cities.cpp
 cities.h
-/home/mgh/Desktop/Travel_Agency/Cities/cities.h
+C:/Users/Mgh/Desktop/Travel_Agency/Cities/cities.h
 stdio.h
 -
 
-/home/mgh/Desktop/Travel_Agency/Cities/cities.h
+C:/Users/Mgh/Desktop/Travel_Agency/Cities/cities.h
 vector
 -
 
-/home/mgh/Desktop/Travel_Agency/Date/date.h
+C:/Users/Mgh/Desktop/Travel_Agency/Date/date.h
 
-/home/mgh/Desktop/Travel_Agency/Discounts/discount.cpp
+C:/Users/Mgh/Desktop/Travel_Agency/Discounts/discount.cpp
 discount.h
-/home/mgh/Desktop/Travel_Agency/Discounts/discount.h
+C:/Users/Mgh/Desktop/Travel_Agency/Discounts/discount.h
 
-/home/mgh/Desktop/Travel_Agency/Discounts/discount.h
-
-/home/mgh/Desktop/Travel_Agency/Drivers/drivers.cpp
-drivers.h
-/home/mgh/Desktop/Travel_Agency/Drivers/drivers.h
-
-/home/mgh/Desktop/Travel_Agency/Drivers/drivers.h
-
-/home/mgh/Desktop/Travel_Agency/Users/users.cpp
-users.h
-/home/mgh/Desktop/Travel_Agency/Users/users.h
-stdio.h
+C:/Users/Mgh/Desktop/Travel_Agency/Discounts/discount.h
+vector
 -
 
-/home/mgh/Desktop/Travel_Agency/Users/users.h
+C:/Users/Mgh/Desktop/Travel_Agency/Drivers/drivers.cpp
+drivers.h
+C:/Users/Mgh/Desktop/Travel_Agency/Drivers/drivers.h
+
+C:/Users/Mgh/Desktop/Travel_Agency/Drivers/drivers.h
+
+C:/Users/Mgh/Desktop/Travel_Agency/Users/users.cpp
+users.h
+C:/Users/Mgh/Desktop/Travel_Agency/Users/users.h
+stdio.h
+-
+cstdlib
+-
+
+C:/Users/Mgh/Desktop/Travel_Agency/Users/users.h
 vector
 -
 ../Cities/cities.h
-/home/mgh/Desktop/Travel_Agency/Cities/cities.h
+C:/Users/Mgh/Desktop/Travel_Agency/Cities/cities.h
+../BankAccounts/bankaccounts.h
+C:/Users/Mgh/Desktop/Travel_Agency/BankAccounts/bankaccounts.h
 ../Date/date.h
-/home/mgh/Desktop/Travel_Agency/Date/date.h
+C:/Users/Mgh/Desktop/Travel_Agency/Date/date.h
+../Discounts/discount.h
+C:/Users/Mgh/Desktop/Travel_Agency/Discounts/discount.h
 
-/home/mgh/Desktop/Travel_Agency/main.cpp
+C:/Users/Mgh/Desktop/Travel_Agency/main.cpp
 iostream
 -
 Cities/cities.h
-/home/mgh/Desktop/Travel_Agency/Cities/cities.h
+C:/Users/Mgh/Desktop/Travel_Agency/Cities/cities.h
 BankAccounts/bankaccounts.h
-/home/mgh/Desktop/Travel_Agency/BankAccounts/bankaccounts.h
+C:/Users/Mgh/Desktop/Travel_Agency/BankAccounts/bankaccounts.h
 Users/users.h
-/home/mgh/Desktop/Travel_Agency/Users/users.h
+C:/Users/Mgh/Desktop/Travel_Agency/Users/users.h
 

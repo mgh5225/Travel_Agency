@@ -1,13 +1,15 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Travel_Agency.dir/main.cpp.o"
-  "CMakeFiles/Travel_Agency.dir/Admin/admin.cpp.o"
-  "CMakeFiles/Travel_Agency.dir/Drivers/drivers.cpp.o"
-  "CMakeFiles/Travel_Agency.dir/Users/users.cpp.o"
-  "CMakeFiles/Travel_Agency.dir/Cities/cities.cpp.o"
-  "CMakeFiles/Travel_Agency.dir/BankAccounts/bankaccounts.cpp.o"
-  "CMakeFiles/Travel_Agency.dir/Discounts/discount.cpp.o"
+  "CMakeFiles/Travel_Agency.dir/main.cpp.obj"
+  "CMakeFiles/Travel_Agency.dir/Admin/admin.cpp.obj"
+  "CMakeFiles/Travel_Agency.dir/Drivers/drivers.cpp.obj"
+  "CMakeFiles/Travel_Agency.dir/Users/users.cpp.obj"
+  "CMakeFiles/Travel_Agency.dir/Cities/cities.cpp.obj"
+  "CMakeFiles/Travel_Agency.dir/BankAccounts/bankaccounts.cpp.obj"
+  "CMakeFiles/Travel_Agency.dir/Discounts/discount.cpp.obj"
   "Travel_Agency.pdb"
-  "Travel_Agency"
+  "Travel_Agency.exe"
+  "Travel_Agency.exe.manifest"
+  "Travel_Agency.lib"
 )
 
 # Per-language clean rules from dependency scanning.

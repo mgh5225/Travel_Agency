@@ -12,5 +12,6 @@ void save_accounts_file(vector<Account>);
 vector<Account> get_accounts();
 long int find_account(vector<Account>,Account);
 void xchange_accounts();
-void subtract_cost(User,Ticket*/*,Journey*/);
+Account connect_to_account(Account);
 #endif
+

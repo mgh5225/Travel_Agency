@@ -20,10 +20,10 @@ vector<Account> get_accounts(){
     }
     return accounts;
 }
-long int find_account(vector<Account> accounts,User _user){
+long int find_account(vector<Account> accounts,Account _account){
     for(long int i=0;i<accounts.size();i++){
         int j;
-        for(j=0;j<11 && accounts[i].id[j]==_user.bank_account[j];j++);
+        for(j=0;j<11 && accounts[i].id[j]==_account.id[j];j++);
         if(j==11){
             return i;
         }
@@ -32,27 +32,27 @@ long int find_account(vector<Account> accounts,User _user){
 }
 void xchange_accounts(){
     vector<Account> accounts;
-    FILE* ftxt=fopen("BankAccounts/accounts.txt","r");
-    if(ftxt==NULL){
+    FILE* fp=fopen("BankAccounts/accounts.txt","r");
+    if(fp==NULL){
         return;
     }
-    while (!feof(ftxt)){
+    while (!feof(fp)){
         Account temp={};
-        fscanf(ftxt,"%s\t%s\t%s",temp.id,temp.pass,temp.cash);
+        fscanf(fp,"%s\t%s\t%d",temp.id,temp.pass,&temp.cash);
         if(temp.id[0]=='\0')break;
         accounts.push_back(temp);
     }
-    fclose(ftxt);
+    fclose(fp);
     save_accounts_file(accounts);
 }
-void subtract_cost(User _user,Ticket* _ticket/*,Journey _journey*/){
+Account connecet_to_account(Account _account){
     vector<Account> accounts=get_accounts();
-    long int point=find_account(accounts,_user);
-    if(accounts[point].cash>=_ticket->cost){
-        accounts[point].cash-=_ticket->cost;
-        _ticket->mode=TICKET_BOUGHT;
-        //_ticket->ticket_journey=_journey;
-        save_accounts_file(accounts);
+    long int point=find_account(accounts,_account);
+    if(point!=-1){
+        int j;
+        for(j=0;j<5 && accounts[point].pass[j]==_account.pass[j];j++);
+        if(j==5) return accounts[point];
     }
+    return Account{};
 }
 
