@@ -80,6 +80,48 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="E:/Project/Travel_Agency/Admin/AdminPanels/drivers.cpp">
+			<Option target="Travel_Agency"/>
+		</Unit>
+		<Unit filename="E:/Project/Travel_Agency/Admin/AdminPanels/drivers.h">
+			<Option target="Travel_Agency"/>
+		</Unit>
+		<Unit filename="E:/Project/Travel_Agency/Admin/AdminPanels/offers.cpp">
+			<Option target="Travel_Agency"/>
+		</Unit>
+		<Unit filename="E:/Project/Travel_Agency/Admin/AdminPanels/offers.h">
+			<Option target="Travel_Agency"/>
+		</Unit>
+		<Unit filename="E:/Project/Travel_Agency/Admin/AdminPanels/setting.cpp">
+			<Option target="Travel_Agency"/>
+		</Unit>
+		<Unit filename="E:/Project/Travel_Agency/Admin/AdminPanels/setting.h">
+			<Option target="Travel_Agency"/>
+		</Unit>
+		<Unit filename="E:/Project/Travel_Agency/Admin/AdminPanels/tickets.cpp">
+			<Option target="Travel_Agency"/>
+		</Unit>
+		<Unit filename="E:/Project/Travel_Agency/Admin/AdminPanels/tickets.h">
+			<Option target="Travel_Agency"/>
+		</Unit>
+		<Unit filename="E:/Project/Travel_Agency/Admin/AdminPanels/transaction.cpp">
+			<Option target="Travel_Agency"/>
+		</Unit>
+		<Unit filename="E:/Project/Travel_Agency/Admin/AdminPanels/transaction.h">
+			<Option target="Travel_Agency"/>
+		</Unit>
+		<Unit filename="E:/Project/Travel_Agency/Admin/AdminPanels/trips.cpp">
+			<Option target="Travel_Agency"/>
+		</Unit>
+		<Unit filename="E:/Project/Travel_Agency/Admin/AdminPanels/trips.h">
+			<Option target="Travel_Agency"/>
+		</Unit>
+		<Unit filename="E:/Project/Travel_Agency/Admin/AdminPanels/users.cpp">
+			<Option target="Travel_Agency"/>
+		</Unit>
+		<Unit filename="E:/Project/Travel_Agency/Admin/AdminPanels/users.h">
+			<Option target="Travel_Agency"/>
+		</Unit>
 		<Unit filename="E:/Project/Travel_Agency/Admin/admin.cpp">
 			<Option target="Travel_Agency"/>
 		</Unit>
