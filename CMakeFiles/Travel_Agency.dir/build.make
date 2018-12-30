@@ -134,6 +134,97 @@ CMakeFiles/Travel_Agency.dir/BankAccounts/account_func.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Travel_Agency.dir/BankAccounts/account_func.cpp.s"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Project\Travel_Agency\BankAccounts\account_func.cpp -o CMakeFiles\Travel_Agency.dir\BankAccounts\account_func.cpp.s
 
+CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/setting.cpp.obj: CMakeFiles/Travel_Agency.dir/flags.make
+CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/setting.cpp.obj: Admin/AdminPanels/setting.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Project\Travel_Agency\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/setting.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Travel_Agency.dir\Admin\AdminPanels\setting.cpp.obj -c E:\Project\Travel_Agency\Admin\AdminPanels\setting.cpp
+
+CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/setting.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/setting.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Project\Travel_Agency\Admin\AdminPanels\setting.cpp > CMakeFiles\Travel_Agency.dir\Admin\AdminPanels\setting.cpp.i
+
+CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/setting.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/setting.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Project\Travel_Agency\Admin\AdminPanels\setting.cpp -o CMakeFiles\Travel_Agency.dir\Admin\AdminPanels\setting.cpp.s
+
+CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/users.cpp.obj: CMakeFiles/Travel_Agency.dir/flags.make
+CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/users.cpp.obj: Admin/AdminPanels/users.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Project\Travel_Agency\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/users.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Travel_Agency.dir\Admin\AdminPanels\users.cpp.obj -c E:\Project\Travel_Agency\Admin\AdminPanels\users.cpp
+
+CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/users.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/users.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Project\Travel_Agency\Admin\AdminPanels\users.cpp > CMakeFiles\Travel_Agency.dir\Admin\AdminPanels\users.cpp.i
+
+CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/users.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/users.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Project\Travel_Agency\Admin\AdminPanels\users.cpp -o CMakeFiles\Travel_Agency.dir\Admin\AdminPanels\users.cpp.s
+
+CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/drivers.cpp.obj: CMakeFiles/Travel_Agency.dir/flags.make
+CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/drivers.cpp.obj: Admin/AdminPanels/drivers.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Project\Travel_Agency\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/drivers.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Travel_Agency.dir\Admin\AdminPanels\drivers.cpp.obj -c E:\Project\Travel_Agency\Admin\AdminPanels\drivers.cpp
+
+CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/drivers.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/drivers.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Project\Travel_Agency\Admin\AdminPanels\drivers.cpp > CMakeFiles\Travel_Agency.dir\Admin\AdminPanels\drivers.cpp.i
+
+CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/drivers.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/drivers.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Project\Travel_Agency\Admin\AdminPanels\drivers.cpp -o CMakeFiles\Travel_Agency.dir\Admin\AdminPanels\drivers.cpp.s
+
+CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/tickets.cpp.obj: CMakeFiles/Travel_Agency.dir/flags.make
+CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/tickets.cpp.obj: Admin/AdminPanels/tickets.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Project\Travel_Agency\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/tickets.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Travel_Agency.dir\Admin\AdminPanels\tickets.cpp.obj -c E:\Project\Travel_Agency\Admin\AdminPanels\tickets.cpp
+
+CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/tickets.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/tickets.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Project\Travel_Agency\Admin\AdminPanels\tickets.cpp > CMakeFiles\Travel_Agency.dir\Admin\AdminPanels\tickets.cpp.i
+
+CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/tickets.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/tickets.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Project\Travel_Agency\Admin\AdminPanels\tickets.cpp -o CMakeFiles\Travel_Agency.dir\Admin\AdminPanels\tickets.cpp.s
+
+CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/offers.cpp.obj: CMakeFiles/Travel_Agency.dir/flags.make
+CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/offers.cpp.obj: Admin/AdminPanels/offers.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Project\Travel_Agency\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/offers.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Travel_Agency.dir\Admin\AdminPanels\offers.cpp.obj -c E:\Project\Travel_Agency\Admin\AdminPanels\offers.cpp
+
+CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/offers.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/offers.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Project\Travel_Agency\Admin\AdminPanels\offers.cpp > CMakeFiles\Travel_Agency.dir\Admin\AdminPanels\offers.cpp.i
+
+CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/offers.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/offers.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Project\Travel_Agency\Admin\AdminPanels\offers.cpp -o CMakeFiles\Travel_Agency.dir\Admin\AdminPanels\offers.cpp.s
+
+CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/transaction.cpp.obj: CMakeFiles/Travel_Agency.dir/flags.make
+CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/transaction.cpp.obj: Admin/AdminPanels/transaction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Project\Travel_Agency\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/transaction.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Travel_Agency.dir\Admin\AdminPanels\transaction.cpp.obj -c E:\Project\Travel_Agency\Admin\AdminPanels\transaction.cpp
+
+CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/transaction.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/transaction.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Project\Travel_Agency\Admin\AdminPanels\transaction.cpp > CMakeFiles\Travel_Agency.dir\Admin\AdminPanels\transaction.cpp.i
+
+CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/transaction.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/transaction.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Project\Travel_Agency\Admin\AdminPanels\transaction.cpp -o CMakeFiles\Travel_Agency.dir\Admin\AdminPanels\transaction.cpp.s
+
+CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/trips.cpp.obj: CMakeFiles/Travel_Agency.dir/flags.make
+CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/trips.cpp.obj: Admin/AdminPanels/trips.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Project\Travel_Agency\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/trips.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Travel_Agency.dir\Admin\AdminPanels\trips.cpp.obj -c E:\Project\Travel_Agency\Admin\AdminPanels\trips.cpp
+
+CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/trips.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/trips.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Project\Travel_Agency\Admin\AdminPanels\trips.cpp > CMakeFiles\Travel_Agency.dir\Admin\AdminPanels\trips.cpp.i
+
+CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/trips.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/trips.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Project\Travel_Agency\Admin\AdminPanels\trips.cpp -o CMakeFiles\Travel_Agency.dir\Admin\AdminPanels\trips.cpp.s
+
 # Object files for target Travel_Agency
 Travel_Agency_OBJECTS = \
 "CMakeFiles/Travel_Agency.dir/main.cpp.obj" \
@@ -141,7 +232,14 @@ Travel_Agency_OBJECTS = \
 "CMakeFiles/Travel_Agency.dir/Drivers/drivers.cpp.obj" \
 "CMakeFiles/Travel_Agency.dir/Users/users.cpp.obj" \
 "CMakeFiles/Travel_Agency.dir/Admin/adminlogged.cpp.obj" \
-"CMakeFiles/Travel_Agency.dir/BankAccounts/account_func.cpp.obj"
+"CMakeFiles/Travel_Agency.dir/BankAccounts/account_func.cpp.obj" \
+"CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/setting.cpp.obj" \
+"CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/users.cpp.obj" \
+"CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/drivers.cpp.obj" \
+"CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/tickets.cpp.obj" \
+"CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/offers.cpp.obj" \
+"CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/transaction.cpp.obj" \
+"CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/trips.cpp.obj"
 
 # External object files for target Travel_Agency
 Travel_Agency_EXTERNAL_OBJECTS =
@@ -152,11 +250,18 @@ Travel_Agency.exe: CMakeFiles/Travel_Agency.dir/Drivers/drivers.cpp.obj
 Travel_Agency.exe: CMakeFiles/Travel_Agency.dir/Users/users.cpp.obj
 Travel_Agency.exe: CMakeFiles/Travel_Agency.dir/Admin/adminlogged.cpp.obj
 Travel_Agency.exe: CMakeFiles/Travel_Agency.dir/BankAccounts/account_func.cpp.obj
+Travel_Agency.exe: CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/setting.cpp.obj
+Travel_Agency.exe: CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/users.cpp.obj
+Travel_Agency.exe: CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/drivers.cpp.obj
+Travel_Agency.exe: CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/tickets.cpp.obj
+Travel_Agency.exe: CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/offers.cpp.obj
+Travel_Agency.exe: CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/transaction.cpp.obj
+Travel_Agency.exe: CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/trips.cpp.obj
 Travel_Agency.exe: CMakeFiles/Travel_Agency.dir/build.make
 Travel_Agency.exe: CMakeFiles/Travel_Agency.dir/linklibs.rsp
 Travel_Agency.exe: CMakeFiles/Travel_Agency.dir/objects1.rsp
 Travel_Agency.exe: CMakeFiles/Travel_Agency.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\Project\Travel_Agency\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Travel_Agency.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\Project\Travel_Agency\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable Travel_Agency.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Travel_Agency.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

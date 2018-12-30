@@ -6,9 +6,23 @@
 
 #IncludeRegexTransform: 
 
-E:/Project/Travel_Agency/Admin/admin.cpp
-admin.h
-E:/Project/Travel_Agency/Admin/admin.h
+E:/Project/Travel_Agency/Admin/AdminPanels/drivers.h
+
+E:/Project/Travel_Agency/Admin/AdminPanels/offers.h
+
+E:/Project/Travel_Agency/Admin/AdminPanels/setting.h
+
+E:/Project/Travel_Agency/Admin/AdminPanels/tickets.h
+
+E:/Project/Travel_Agency/Admin/AdminPanels/transaction.h
+
+E:/Project/Travel_Agency/Admin/AdminPanels/trips.h
+
+E:/Project/Travel_Agency/Admin/AdminPanels/users.h
+
+E:/Project/Travel_Agency/Admin/adminlogged.cpp
+adminlogged.h
+E:/Project/Travel_Agency/Admin/adminlogged.h
 iostream
 -
 stdlib.h
@@ -21,12 +35,22 @@ windows.h
 -
 ../main.h
 E:/Project/Travel_Agency/main.h
-adminlogged.h
-E:/Project/Travel_Agency/Admin/adminlogged.h
 ../BankAccounts/account_func.h
 E:/Project/Travel_Agency/BankAccounts/account_func.h
-
-E:/Project/Travel_Agency/Admin/admin.h
+AdminPanels/setting.h
+E:/Project/Travel_Agency/Admin/AdminPanels/setting.h
+AdminPanels/users.h
+E:/Project/Travel_Agency/Admin/AdminPanels/users.h
+AdminPanels/drivers.h
+E:/Project/Travel_Agency/Admin/AdminPanels/drivers.h
+AdminPanels/tickets.h
+E:/Project/Travel_Agency/Admin/AdminPanels/tickets.h
+AdminPanels/offers.h
+E:/Project/Travel_Agency/Admin/AdminPanels/offers.h
+AdminPanels/transaction.h
+E:/Project/Travel_Agency/Admin/AdminPanels/transaction.h
+AdminPanels/trips.h
+E:/Project/Travel_Agency/Admin/AdminPanels/trips.h
 
 E:/Project/Travel_Agency/Admin/adminlogged.h
 

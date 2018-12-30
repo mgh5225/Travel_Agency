@@ -5,12 +5,12 @@ using namespace std;
 
 #include <stdlib.h>
 
-void clrscr()
-{
+void clrscr(){
     system("@cls||clear");
 }
 
 int main() {
+    clrscr();
     cout<<"##Welcome to Travel Agency##"<<endl;
     cout<<"Which one are you?! choose the number and press enter:"<<endl;
     cout<<"1    Admin"<<endl;

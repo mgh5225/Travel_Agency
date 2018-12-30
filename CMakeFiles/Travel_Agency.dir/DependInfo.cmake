@@ -4,6 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "E:/Project/Travel_Agency/Admin/AdminPanels/drivers.cpp" "E:/Project/Travel_Agency/CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/drivers.cpp.obj"
+  "E:/Project/Travel_Agency/Admin/AdminPanels/offers.cpp" "E:/Project/Travel_Agency/CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/offers.cpp.obj"
+  "E:/Project/Travel_Agency/Admin/AdminPanels/setting.cpp" "E:/Project/Travel_Agency/CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/setting.cpp.obj"
+  "E:/Project/Travel_Agency/Admin/AdminPanels/tickets.cpp" "E:/Project/Travel_Agency/CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/tickets.cpp.obj"
+  "E:/Project/Travel_Agency/Admin/AdminPanels/transaction.cpp" "E:/Project/Travel_Agency/CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/transaction.cpp.obj"
+  "E:/Project/Travel_Agency/Admin/AdminPanels/trips.cpp" "E:/Project/Travel_Agency/CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/trips.cpp.obj"
+  "E:/Project/Travel_Agency/Admin/AdminPanels/users.cpp" "E:/Project/Travel_Agency/CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/users.cpp.obj"
   "E:/Project/Travel_Agency/Admin/admin.cpp" "E:/Project/Travel_Agency/CMakeFiles/Travel_Agency.dir/Admin/admin.cpp.obj"
   "E:/Project/Travel_Agency/Admin/adminlogged.cpp" "E:/Project/Travel_Agency/CMakeFiles/Travel_Agency.dir/Admin/adminlogged.cpp.obj"
   "E:/Project/Travel_Agency/BankAccounts/account_func.cpp" "E:/Project/Travel_Agency/CMakeFiles/Travel_Agency.dir/BankAccounts/account_func.cpp.obj"
