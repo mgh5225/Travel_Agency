@@ -6,6 +6,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Travel_Agency.dir/Cities/cities.cpp.obj"
   "CMakeFiles/Travel_Agency.dir/BankAccounts/bankaccounts.cpp.obj"
   "CMakeFiles/Travel_Agency.dir/Discounts/discount.cpp.obj"
+  "CMakeFiles/Travel_Agency.dir/Users/tickets.cpp.obj"
   "Travel_Agency.pdb"
   "Travel_Agency.exe"
   "Travel_Agency.exe.manifest"

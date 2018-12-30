@@ -191,6 +191,25 @@ CMakeFiles\Travel_Agency.dir\Discounts\discount.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Travel_Agency.dir\Discounts\discount.cpp.s /c C:\Users\Mgh\Desktop\Travel_Agency\Discounts\discount.cpp
 <<
 
+CMakeFiles\Travel_Agency.dir\Users\tickets.cpp.obj: CMakeFiles\Travel_Agency.dir\flags.make
+CMakeFiles\Travel_Agency.dir\Users\tickets.cpp.obj: Users\tickets.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Mgh\Desktop\Travel_Agency\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Travel_Agency.dir/Users/tickets.cpp.obj"
+	C:\PROGRA~2\MICROS~1\2017\PROFES~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Travel_Agency.dir\Users\tickets.cpp.obj /FdCMakeFiles\Travel_Agency.dir\ /FS -c C:\Users\Mgh\Desktop\Travel_Agency\Users\tickets.cpp
+<<
+
+CMakeFiles\Travel_Agency.dir\Users\tickets.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Travel_Agency.dir/Users/tickets.cpp.i"
+	C:\PROGRA~2\MICROS~1\2017\PROFES~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe > CMakeFiles\Travel_Agency.dir\Users\tickets.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Mgh\Desktop\Travel_Agency\Users\tickets.cpp
+<<
+
+CMakeFiles\Travel_Agency.dir\Users\tickets.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Travel_Agency.dir/Users/tickets.cpp.s"
+	C:\PROGRA~2\MICROS~1\2017\PROFES~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Travel_Agency.dir\Users\tickets.cpp.s /c C:\Users\Mgh\Desktop\Travel_Agency\Users\tickets.cpp
+<<
+
 # Object files for target Travel_Agency
 Travel_Agency_OBJECTS = \
 "CMakeFiles\Travel_Agency.dir\main.cpp.obj" \
@@ -199,7 +218,8 @@ Travel_Agency_OBJECTS = \
 "CMakeFiles\Travel_Agency.dir\Users\users.cpp.obj" \
 "CMakeFiles\Travel_Agency.dir\Cities\cities.cpp.obj" \
 "CMakeFiles\Travel_Agency.dir\BankAccounts\bankaccounts.cpp.obj" \
-"CMakeFiles\Travel_Agency.dir\Discounts\discount.cpp.obj"
+"CMakeFiles\Travel_Agency.dir\Discounts\discount.cpp.obj" \
+"CMakeFiles\Travel_Agency.dir\Users\tickets.cpp.obj"
 
 # External object files for target Travel_Agency
 Travel_Agency_EXTERNAL_OBJECTS =
@@ -211,9 +231,10 @@ Travel_Agency.exe: CMakeFiles\Travel_Agency.dir\Users\users.cpp.obj
 Travel_Agency.exe: CMakeFiles\Travel_Agency.dir\Cities\cities.cpp.obj
 Travel_Agency.exe: CMakeFiles\Travel_Agency.dir\BankAccounts\bankaccounts.cpp.obj
 Travel_Agency.exe: CMakeFiles\Travel_Agency.dir\Discounts\discount.cpp.obj
+Travel_Agency.exe: CMakeFiles\Travel_Agency.dir\Users\tickets.cpp.obj
 Travel_Agency.exe: CMakeFiles\Travel_Agency.dir\build.make
 Travel_Agency.exe: CMakeFiles\Travel_Agency.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Mgh\Desktop\Travel_Agency\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Travel_Agency.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Mgh\Desktop\Travel_Agency\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable Travel_Agency.exe"
 	"C:\Program Files\JetBrains\CLion 2018.3.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\Travel_Agency.dir --manifests  -- C:\PROGRA~2\MICROS~1\2017\PROFES~1\VC\Tools\MSVC\1415~1.267\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\Travel_Agency.dir\objects1.rsp @<<
  /out:Travel_Agency.exe /implib:Travel_Agency.lib /pdb:C:\Users\Mgh\Desktop\Travel_Agency\Travel_Agency.pdb /version:0.0  /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

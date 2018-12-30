@@ -259,6 +259,33 @@ Drivers\drivers.cpp.s:
 	$(MAKE) -f CMakeFiles\Travel_Agency.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Travel_Agency.dir\Drivers\drivers.cpp.s
 .PHONY : Drivers\drivers.cpp.s
 
+Users\tickets.obj: Users\tickets.cpp.obj
+
+.PHONY : Users\tickets.obj
+
+# target to build an object file
+Users\tickets.cpp.obj:
+	$(MAKE) -f CMakeFiles\Travel_Agency.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Travel_Agency.dir\Users\tickets.cpp.obj
+.PHONY : Users\tickets.cpp.obj
+
+Users\tickets.i: Users\tickets.cpp.i
+
+.PHONY : Users\tickets.i
+
+# target to preprocess a source file
+Users\tickets.cpp.i:
+	$(MAKE) -f CMakeFiles\Travel_Agency.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Travel_Agency.dir\Users\tickets.cpp.i
+.PHONY : Users\tickets.cpp.i
+
+Users\tickets.s: Users\tickets.cpp.s
+
+.PHONY : Users\tickets.s
+
+# target to generate assembly for a file
+Users\tickets.cpp.s:
+	$(MAKE) -f CMakeFiles\Travel_Agency.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Travel_Agency.dir\Users\tickets.cpp.s
+.PHONY : Users\tickets.cpp.s
+
 Users\users.obj: Users\users.cpp.obj
 
 .PHONY : Users\users.obj
@@ -337,6 +364,9 @@ help:
 	@echo ... Drivers/drivers.obj
 	@echo ... Drivers/drivers.i
 	@echo ... Drivers/drivers.s
+	@echo ... Users/tickets.obj
+	@echo ... Users/tickets.i
+	@echo ... Users/tickets.s
 	@echo ... Users/users.obj
 	@echo ... Users/users.i
 	@echo ... Users/users.s

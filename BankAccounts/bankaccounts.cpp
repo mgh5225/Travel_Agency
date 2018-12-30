@@ -8,7 +8,7 @@ void save_accounts_file(vector<Account> accounts){
 }
 vector<Account> get_accounts(){
     vector<Account> accounts;
-    FILE* fp=fopen("b_accounts.txt","rb");
+    FILE* fp=fopen("BankAccounts/b_accounts.txt","rb");
     if(fp!=NULL){
         while (!feof(fp)){
             Account temp={};
@@ -45,7 +45,7 @@ long int find_account(vector<Account> accounts,Account _account){
     }
     return -1;
 }
-Account connecet_to_account(Account _account){
+Account connect_to_account(Account _account){
     vector<Account> accounts=get_accounts();
     long int point=find_account(accounts,_account);
     if(point!=-1){

@@ -8,17 +8,17 @@ void save_cities_file(vector<City> cities){
 }
 void xchange_cities(){
     vector<City> cities;
-    FILE* ftxt=fopen("Cities/cities.txt","r");
-    if(ftxt==NULL){
+    FILE* fp=fopen("Cities/cities.txt","r");
+    if(fp==NULL){
         return;
     }
-    while (!feof(ftxt)){
+    while (!feof(fp)){
         City temp={};
-        fscanf(ftxt,"%d\t%d\t%d",&temp.id,&temp.X,&temp.Y);
+        fscanf(fp,"%d\t%d\t%d",&temp.id,&temp.X,&temp.Y);
         if(temp.id==0)break;
         cities.push_back(temp);
     }
-    fclose(ftxt);
+    fclose(fp);
     save_cities_file(cities);
 }
 vector<City> get_cities(){

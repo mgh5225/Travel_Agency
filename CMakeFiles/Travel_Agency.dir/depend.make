@@ -6,9 +6,6 @@ CMakeFiles\Travel_Agency.dir\Admin\admin.cpp.obj: Admin\admin.h
 
 CMakeFiles\Travel_Agency.dir\BankAccounts\bankaccounts.cpp.obj: BankAccounts\bankaccounts.cpp
 CMakeFiles\Travel_Agency.dir\BankAccounts\bankaccounts.cpp.obj: BankAccounts\bankaccounts.h
-CMakeFiles\Travel_Agency.dir\BankAccounts\bankaccounts.cpp.obj: Cities\cities.h
-CMakeFiles\Travel_Agency.dir\BankAccounts\bankaccounts.cpp.obj: Date\date.h
-CMakeFiles\Travel_Agency.dir\BankAccounts\bankaccounts.cpp.obj: Discounts\discount.h
 CMakeFiles\Travel_Agency.dir\BankAccounts\bankaccounts.cpp.obj: Users\users.h
 
 CMakeFiles\Travel_Agency.dir\Cities\cities.cpp.obj: Cities\cities.cpp
@@ -20,17 +17,14 @@ CMakeFiles\Travel_Agency.dir\Discounts\discount.cpp.obj: Discounts\discount.h
 CMakeFiles\Travel_Agency.dir\Drivers\drivers.cpp.obj: Drivers\drivers.cpp
 CMakeFiles\Travel_Agency.dir\Drivers\drivers.cpp.obj: Drivers\drivers.h
 
-CMakeFiles\Travel_Agency.dir\Users\users.cpp.obj: BankAccounts\bankaccounts.h
-CMakeFiles\Travel_Agency.dir\Users\users.cpp.obj: Cities\cities.h
-CMakeFiles\Travel_Agency.dir\Users\users.cpp.obj: Date\date.h
-CMakeFiles\Travel_Agency.dir\Users\users.cpp.obj: Discounts\discount.h
+CMakeFiles\Travel_Agency.dir\Users\tickets.cpp.obj: Users\tickets.cpp
+CMakeFiles\Travel_Agency.dir\Users\tickets.cpp.obj: Users\tickets.h
+CMakeFiles\Travel_Agency.dir\Users\tickets.cpp.obj: Users\users.h
+
 CMakeFiles\Travel_Agency.dir\Users\users.cpp.obj: Users\users.cpp
 CMakeFiles\Travel_Agency.dir\Users\users.cpp.obj: Users\users.h
 
 CMakeFiles\Travel_Agency.dir\main.cpp.obj: BankAccounts\bankaccounts.h
-CMakeFiles\Travel_Agency.dir\main.cpp.obj: Cities\cities.h
-CMakeFiles\Travel_Agency.dir\main.cpp.obj: Date\date.h
-CMakeFiles\Travel_Agency.dir\main.cpp.obj: Discounts\discount.h
 CMakeFiles\Travel_Agency.dir\main.cpp.obj: Users\users.h
 CMakeFiles\Travel_Agency.dir\main.cpp.obj: main.cpp
 
