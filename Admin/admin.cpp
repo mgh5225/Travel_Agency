@@ -11,21 +11,46 @@
 
 #include "../main.h"
 #include "adminlogged.h"
+#include "../BankAccounts/account_func.h"
 
 
 using namespace std;
 
 void SignUp(){
     cout<<"Admin is not registered. You should register one time."<<endl;
-    FILE *f=fopen("../Admin/admin.txt","w");
+    FILE *f=fopen("Admin/admin.txt","w");
     string username;
     string password;
+    int accID;
+    int accpw;
+    //-----------------------------assigning username--------------------//
     cout<<"Username :   ";
     cin>>username;
-    cout<<endl;
+    //-----------------------------assigning password---------------------//
     cout<<"Password :   ";
     cin>>password;
-    fprintf(f,"%s\t%s",username.c_str(),password.c_str());
+    //----------------------------assigning Account ID--------------------//
+    while(true){
+        cout<<"Account ID :    ";
+        cin>>accID;
+        if(remainder(accID,0) == -1){
+            while(true){
+                cout<<"Account password :   ";
+                cin>>accpw;
+                if(remainder(accID,accpw)>=0){
+                    break;
+                }
+                else{
+                    cout<<"\aSorry, your account password is wrong. try again:\n";
+                }
+            }
+            break;
+        }
+        else{
+            cout<<"\aSorry, No such account ID exist. try again:\n";
+        }
+    }
+    fprintf(f,"%s\t%s\t%d",username.c_str(),password.c_str(),accID);
     cout<<"\nYou have registered successfully.";
     cout<<"\n Backing to the main page ...";
     fclose(f);
@@ -37,7 +62,7 @@ void SignUp(){
 
 int Admin(){
     clrscr();
-    FILE * f=fopen("../Admin/admin.txt","r");
+    FILE * f=fopen("Admin/admin.txt","r");
     if(f==NULL){
         fclose(f);
         SignUp();
