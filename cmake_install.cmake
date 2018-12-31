@@ -40,5 +40,9 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
+<<<<<<< HEAD:cmake_install.cmake
 file(WRITE "E:/Project/Travel_Agency/${CMAKE_INSTALL_MANIFEST}"
+=======
+file(WRITE "/home/mgh/Desktop/Travel_Agency/${CMAKE_INSTALL_MANIFEST}"
+>>>>>>> Mgh:cmake_install.cmake
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

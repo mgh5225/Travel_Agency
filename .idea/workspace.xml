@@ -12,18 +12,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bda5da8d-000d-4350-919f-1fb3b41da2f2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Admin/admin.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Admin/admin.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Admin/admin.h" beforeDir="false" afterPath="$PROJECT_DIR$/Admin/admin.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/Travel_Agency.dir/Admin/admin.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/Travel_Agency.dir/BankAccounts/bankaccounts.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/Travel_Agency.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/Travel_Agency.dir/Cities/cities.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/Travel_Agency.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/Travel_Agency.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/Travel_Agency.dir/Discounts/discount.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/Travel_Agency.dir/Drivers/drivers.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/Travel_Agency.dir/Users/tickets.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/Travel_Agency.dir/Users/users.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/Travel_Agency.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/Travel_Agency.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/Travel_Agency.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/Travel_Agency.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/Travel_Agency.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/Travel_Agency.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/Travel_Agency.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/Travel_Agency.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/Travel_Agency.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/Travel_Agency.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/Travel_Agency.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/Travel_Agency.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/drivers.h" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/drivers.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Users/users.h" beforeDir="false" afterPath="$PROJECT_DIR$/Users/users.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Travel_Agency" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Travel_Agency.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/Travel_Agency.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Travel_Agency.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Travel_Agency.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Travel_Agency.ilk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Travel_Agency.pdb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -36,6 +54,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BankAccounts/account_func.cpp">
@@ -47,11 +66,20 @@
                 <element signature="e#3274#3596#0" />
                 <element signature="e#3662#4360#0" />
               </folding>
+=======
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Users/users.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1335">
+              <caret line="89" column="76" selection-start-line="89" selection-start-column="76" selection-end-line="89" selection-end-column="76" />
+>>>>>>> Mgh
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/BankAccounts/account_func.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-255">
@@ -60,12 +88,21 @@
                 <element signature="e#118#152#0" expanded="true" />
                 <element signature="e#229#258#0" />
                 <element signature="e#267#331#0" />
+=======
+        <entry file="file://$PROJECT_DIR$/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+>>>>>>> Mgh
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/Admin/AdminPanels/transaction.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="256">
@@ -74,11 +111,18 @@
                 <element signature="e#98#117#0" expanded="true" />
                 <element signature="e#227#250#0" expanded="true" />
               </folding>
+=======
+        <entry file="file://$PROJECT_DIR$/Users/users.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+>>>>>>> Mgh
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/Admin/admin.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
@@ -99,11 +143,30 @@
                 <element signature="e#37#55#0" expanded="true" />
                 <element signature="e#303#1715#0" />
               </folding>
+=======
+        <entry file="file://$PROJECT_DIR$/someThingNecessary.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-26" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/someThingNecessary.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="229">
+              <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+>>>>>>> Mgh
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Users/</find>
+      <find>fp</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -112,6 +175,22 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Drivers/drivers.h" />
+<<<<<<< HEAD
+=======
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/Admin/admin.h" />
+        <option value="$PROJECT_DIR$/main.h" />
+        <option value="$PROJECT_DIR$/Admin/adminlogged.h" />
+        <option value="$PROJECT_DIR$/BankAccounts/account_func.h" />
+        <option value="$PROJECT_DIR$/BankAccounts/account_func.cpp" />
+        <option value="$PROJECT_DIR$/Admin/adminlogged.cpp" />
+        <option value="$PROJECT_DIR$/Admin/admin.cpp" />
+        <option value="$PROJECT_DIR$/Users/tickets.cpp" />
+        <option value="$PROJECT_DIR$/Cities/cities.cpp" />
+        <option value="$PROJECT_DIR$/Cities/cities.txt" />
+        <option value="$PROJECT_DIR$/BankAccounts/bankaccounts.cpp" />
+        <option value="$PROJECT_DIR$/Users/users.cpp" />
+>>>>>>> Mgh
         <option value="$PROJECT_DIR$/Users/users.h" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/Admin/adminlogged.h" />
@@ -134,52 +213,88 @@
         <option value="$PROJECT_DIR$/someThingNecessary.h" />
         <option value="$PROJECT_DIR$/BankAccounts/account_func.h" />
         <option value="$PROJECT_DIR$/main.cpp" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/Admin/admin.h" />
         <option value="$PROJECT_DIR$/Admin/admin.cpp" />
         <option value="$PROJECT_DIR$/Admin/AdminPanels/transaction.cpp" />
         <option value="$PROJECT_DIR$/BankAccounts/account_func.cpp" />
+=======
+        <option value="$PROJECT_DIR$/someThingNecessary.h" />
+>>>>>>> Mgh
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+<<<<<<< HEAD
     <option name="x" value="-10" />
     <option name="width" value="980" />
     <option name="height" value="1040" />
+=======
+    <option name="x" value="150" />
+    <option name="y" value="80" />
+    <option name="width" value="1165" />
+    <option name="height" value="645" />
+>>>>>>> Mgh
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+=======
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+>>>>>>> Mgh
+          <expand>
+            <path>
+              <item name="Travel_Agency" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="Travel_Agency" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="Cities" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+<<<<<<< HEAD
+              <item name="Travel_Agency" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Travel_Agency" type="462c0819:PsiDirectoryNode" />
+              <item name="Admin" type="462c0819:PsiDirectoryNode" />
+              <item name="AdminPanels" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="Travel_Agency" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="Users" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+>>>>>>> Mgh
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="Travel_Agency" type="b2602c69:ProjectViewProjectNode" />
               <item name="Travel_Agency" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Travel_Agency" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Travel_Agency" type="462c0819:PsiDirectoryNode" />
-              <item name="Admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Travel_Agency" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Travel_Agency" type="462c0819:PsiDirectoryNode" />
-              <item name="Admin" type="462c0819:PsiDirectoryNode" />
-              <item name="AdminPanels" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Travel_Agency" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Travel_Agency" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="BankAccounts" type="462c0819:PsiDirectoryNode" />
+=======
+>>>>>>> Mgh
             </path>
             <path>
               <item name="Travel_Agency" type="b2602c69:ProjectViewProjectNode" />
               <item name="Travel_Agency" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="Cities" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="Users" type="462c0819:PsiDirectoryNode" />
+>>>>>>> Mgh
             </path>
           </expand>
           <select />
@@ -193,6 +308,14 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="CPPToolchains" />
+<<<<<<< HEAD
+=======
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Users/usrs" />
+    </key>
+>>>>>>> Mgh
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -230,16 +353,22 @@
       <workItem from="1546023770113" duration="8741000" />
       <workItem from="1546110831731" duration="4633000" />
       <workItem from="1546120785226" duration="50000" />
+<<<<<<< HEAD
       <workItem from="1546151859510" duration="8142000" />
       <workItem from="1546181579988" duration="20989000" />
       <workItem from="1546204591014" duration="478000" />
       <workItem from="1546205104793" duration="594000" />
       <workItem from="1546240715300" duration="10167000" />
       <workItem from="1546254404753" duration="7479000" />
+=======
+      <workItem from="1546252476904" duration="5298000" />
+      <workItem from="1546263343444" duration="1955000" />
+>>>>>>> Mgh
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="64307000" />
   </component>
   <component name="ToolWindowManager">
@@ -247,12 +376,25 @@
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19865772" />
+=======
+    <option name="totallyTimeSpent" value="23772000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="55" y="25" width="1311" height="743" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1889328" />
+>>>>>>> Mgh
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Run" order="2" weight="0.17705382" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+=======
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32736155" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39739415" />
+>>>>>>> Mgh
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -260,8 +402,13 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.328084" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="CMake" order="11" weight="0.17705382" />
       <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.32719547" />
+=======
+      <window_info anchor="bottom" id="CMake" order="11" visible="true" weight="0.17589577" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32736155" />
+>>>>>>> Mgh
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -273,6 +420,18 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../Project/accounts.txt" />
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/Drivers/drivers.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+=======
+    <entry file="file://$PROJECT_DIR$/Drivers/drivers.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+>>>>>>> Mgh
+    </entry>
     <entry file="file://$PROJECT_DIR$/Drivers/drivers.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -280,9 +439,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Users/users.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Users/users.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -291,6 +448,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/admin.txt" />
+=======
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/admin.txt" />
+    <entry file="file://$PROJECT_DIR$/main.h" />
+>>>>>>> Mgh
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -300,6 +461,7 @@
     </entry>
     <entry file="file://C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/ntgdi.h">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="761">
           <caret line="170" column="13" lean-forward="true" selection-start-line="170" selection-start-column="13" selection-end-line="170" selection-end-column="13" />
         </state>
@@ -365,6 +527,64 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Drivers/drivers.cpp">
+=======
+        <state relative-caret-position="136">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/adminlogged.h" />
+    <entry file="file://C:/Program Files/mingw-w64/x86_64-8.1.0-win32-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/ntgdi.h" />
+    <entry file="file://$PROJECT_DIR$/Admin/adminlogged.cpp" />
+    <entry file="file://$PROJECT_DIR$/Admin/admin.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BankAccounts/account_func.cpp" />
+    <entry file="file://$PROJECT_DIR$/BankAccounts/account_func.h" />
+    <entry file="file:///usr/include/stdio.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Users/tickets.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Users/tickets.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cities/cities.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="299" column="14" selection-start-line="299" selection-start-column="14" selection-end-line="299" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BankAccounts/bankaccounts.cpp" />
+    <entry file="file://$PROJECT_DIR$/Users/usrs/alireza.usr" />
+    <entry file="file://$PROJECT_DIR$/Users/usrs/reza.usr" />
+    <entry file="file://$PROJECT_DIR$/Cities/cities.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="33" column="19" lean-forward="true" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#39#238#0" />
+            <element signature="e#239#589#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Users/usrs/default.dat">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Users/usrs/ali.usr">
+>>>>>>> Mgh
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Admin/AdminPanels/trips.cpp">
@@ -444,15 +664,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="85">
           <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
           <folding>
             <element signature="e#213#940#0" />
             <element signature="e#942#1319#0" />
+=======
+        <state relative-caret-position="60">
+          <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+>>>>>>> Mgh
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Admin/admin.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="181">
@@ -513,6 +741,31 @@
             <element signature="e#3274#3596#0" />
             <element signature="e#3662#4360#0" />
           </folding>
+=======
+    <entry file="file://$PROJECT_DIR$/Users/users.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1335">
+          <caret line="89" column="76" selection-start-line="89" selection-start-column="76" selection-end-line="89" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Users/users.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/someThingNecessary.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-26" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/someThingNecessary.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+>>>>>>> Mgh
         </state>
       </provider>
     </entry>

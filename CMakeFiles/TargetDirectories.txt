@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 E:/Project/Travel_Agency/CMakeFiles/rebuild_cache.dir
 E:/Project/Travel_Agency/CMakeFiles/Travel_Agency.dir
 E:/Project/Travel_Agency/CMakeFiles/edit_cache.dir
+=======
+/home/mgh/Desktop/Travel_Agency/CMakeFiles/rebuild_cache.dir
+/home/mgh/Desktop/Travel_Agency/CMakeFiles/Travel_Agency.dir
+/home/mgh/Desktop/Travel_Agency/CMakeFiles/edit_cache.dir
+>>>>>>> Mgh
