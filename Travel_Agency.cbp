@@ -84,43 +84,70 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/mgh/Desktop/Travel_Agency/Admin/AdminPanels/drivers.cpp">
+			<Option target="Travel_Agency"/>
+		</Unit>
+		<Unit filename="/home/mgh/Desktop/Travel_Agency/Admin/AdminPanels/drivers.h">
+			<Option target="Travel_Agency"/>
+		</Unit>
+		<Unit filename="/home/mgh/Desktop/Travel_Agency/Admin/AdminPanels/offers.cpp">
+			<Option target="Travel_Agency"/>
+		</Unit>
+		<Unit filename="/home/mgh/Desktop/Travel_Agency/Admin/AdminPanels/offers.h">
+			<Option target="Travel_Agency"/>
+		</Unit>
+		<Unit filename="/home/mgh/Desktop/Travel_Agency/Admin/AdminPanels/setting.cpp">
+			<Option target="Travel_Agency"/>
+		</Unit>
+		<Unit filename="/home/mgh/Desktop/Travel_Agency/Admin/AdminPanels/setting.h">
+			<Option target="Travel_Agency"/>
+		</Unit>
+		<Unit filename="/home/mgh/Desktop/Travel_Agency/Admin/AdminPanels/tickets.cpp">
+			<Option target="Travel_Agency"/>
+		</Unit>
+		<Unit filename="/home/mgh/Desktop/Travel_Agency/Admin/AdminPanels/tickets.h">
+			<Option target="Travel_Agency"/>
+		</Unit>
+		<Unit filename="/home/mgh/Desktop/Travel_Agency/Admin/AdminPanels/transaction.cpp">
+			<Option target="Travel_Agency"/>
+		</Unit>
+		<Unit filename="/home/mgh/Desktop/Travel_Agency/Admin/AdminPanels/transaction.h">
+			<Option target="Travel_Agency"/>
+		</Unit>
+		<Unit filename="/home/mgh/Desktop/Travel_Agency/Admin/AdminPanels/trips.cpp">
+			<Option target="Travel_Agency"/>
+		</Unit>
+		<Unit filename="/home/mgh/Desktop/Travel_Agency/Admin/AdminPanels/trips.h">
+			<Option target="Travel_Agency"/>
+		</Unit>
+		<Unit filename="/home/mgh/Desktop/Travel_Agency/Admin/AdminPanels/users.cpp">
+			<Option target="Travel_Agency"/>
+		</Unit>
+		<Unit filename="/home/mgh/Desktop/Travel_Agency/Admin/AdminPanels/users.h">
+			<Option target="Travel_Agency"/>
+		</Unit>
 		<Unit filename="/home/mgh/Desktop/Travel_Agency/Admin/admin.cpp">
 			<Option target="Travel_Agency"/>
 		</Unit>
 		<Unit filename="/home/mgh/Desktop/Travel_Agency/Admin/admin.h">
 			<Option target="Travel_Agency"/>
 		</Unit>
-		<Unit filename="/home/mgh/Desktop/Travel_Agency/BankAccounts/bankaccounts.cpp">
+		<Unit filename="/home/mgh/Desktop/Travel_Agency/Admin/adminlogged.cpp">
 			<Option target="Travel_Agency"/>
 		</Unit>
-		<Unit filename="/home/mgh/Desktop/Travel_Agency/BankAccounts/bankaccounts.h">
+		<Unit filename="/home/mgh/Desktop/Travel_Agency/Admin/adminlogged.h">
 			<Option target="Travel_Agency"/>
 		</Unit>
-		<Unit filename="/home/mgh/Desktop/Travel_Agency/Cities/cities.cpp">
+		<Unit filename="/home/mgh/Desktop/Travel_Agency/BankAccounts/account_func.cpp">
 			<Option target="Travel_Agency"/>
 		</Unit>
-		<Unit filename="/home/mgh/Desktop/Travel_Agency/Cities/cities.h">
-			<Option target="Travel_Agency"/>
-		</Unit>
-		<Unit filename="/home/mgh/Desktop/Travel_Agency/Date/date.h">
-			<Option target="Travel_Agency"/>
-		</Unit>
-		<Unit filename="/home/mgh/Desktop/Travel_Agency/Discounts/discount.cpp">
-			<Option target="Travel_Agency"/>
-		</Unit>
-		<Unit filename="/home/mgh/Desktop/Travel_Agency/Discounts/discount.h">
+		<Unit filename="/home/mgh/Desktop/Travel_Agency/BankAccounts/account_func.h">
 			<Option target="Travel_Agency"/>
 		</Unit>
 		<Unit filename="/home/mgh/Desktop/Travel_Agency/Drivers/drivers.cpp">
 			<Option target="Travel_Agency"/>
 		</Unit>
 		<Unit filename="/home/mgh/Desktop/Travel_Agency/Drivers/drivers.h">
-			<Option target="Travel_Agency"/>
-		</Unit>
-		<Unit filename="/home/mgh/Desktop/Travel_Agency/Users/tickets.cpp">
-			<Option target="Travel_Agency"/>
-		</Unit>
-		<Unit filename="/home/mgh/Desktop/Travel_Agency/Users/tickets.h">
 			<Option target="Travel_Agency"/>
 		</Unit>
 		<Unit filename="/home/mgh/Desktop/Travel_Agency/Users/users.cpp">
@@ -130,6 +157,15 @@
 			<Option target="Travel_Agency"/>
 		</Unit>
 		<Unit filename="/home/mgh/Desktop/Travel_Agency/main.cpp">
+			<Option target="Travel_Agency"/>
+		</Unit>
+		<Unit filename="/home/mgh/Desktop/Travel_Agency/main.h">
+			<Option target="Travel_Agency"/>
+		</Unit>
+		<Unit filename="/home/mgh/Desktop/Travel_Agency/someThingNecessary.cpp">
+			<Option target="Travel_Agency"/>
+		</Unit>
+		<Unit filename="/home/mgh/Desktop/Travel_Agency/someThingNecessary.h">
 			<Option target="Travel_Agency"/>
 		</Unit>
 		<Unit filename="/home/mgh/Desktop/Travel_Agency/CMakeLists.txt">
