@@ -1,37 +1,28 @@
 #include "users.h"
 #include <stdio.h>
 #include <cstdlib>
-string create_file_addr(string user_name,string file_type){
-    char file_addr[20]="Users/";
-    int j;
-    for(j=0;j<9 &&user_name[j]!='\0';j++){
-        file_addr[j+6]=user_name[j];
-    }
-    for(int k=0;k<5;k++){
-        file_addr[j+6+k]=file_type[k];
-    }
-    return file_addr;
-}
-void save_users_file(vector<User> users){
-    FILE* fp_d=fopen("Users/default.dat","wb");
-    for(long int i=0;i<users.size();i++) {
-        string file_addr=create_file_addr(users[i].user_name,".dat");
-        FILE* fp_u=fopen(file_addr.c_str(),"wb");
-        fwrite(&(users[i]),sizeof(User),1,fp_u);
-        fclose(fp_u);
-        fwrite(&(users[i].user_name),sizeof(char),9,fp_d);
-    }
+#include <string>
+void save_def_file(User _user){
+    FILE* fp_d=fopen("Users/usrs/default.dat","ab");
+    fwrite(&(_user.user_name),sizeof(char),9,fp_d);
     fclose(fp_d);
+}
+void save_user_file(User _user){
+    string file_addr="Users/usrs/"+(string)_user.user_name+".usr";
+    FILE* fp_u=fopen(file_addr.c_str(),"wb");
+    fwrite(&_user,sizeof(User),1,fp_u);
+    fclose(fp_u);
+
 }
 vector<User> get_users(){
     vector<User> users;
-    FILE* fp_d=fopen("Users/default.dat","rb");
+    FILE* fp_d=fopen("Users/usrs/default.dat","rb");
     if(fp_d!=NULL){
-        while (!feof(fp_d)){
+        while (true){
             char user_name[9]={};
             fread(&user_name,sizeof(char),9,fp_d);
-            if(user_name[0]=='\0')break;
-            string file_addr=create_file_addr(user_name,".dat");
+            if(feof(fp_d))break;
+            string file_addr="Users/usrs/"+(string)user_name+".usr";
             User temp={};
             FILE* fp_u=fopen(file_addr.c_str(),"rb");
             fread(&temp, sizeof(User),1,fp_u);
@@ -55,8 +46,8 @@ long int find_user(vector<User> users,User _user){
 void add_user(User _user){
     vector<User> users=get_users();
     if(find_user(users,_user)==-1) {
-        users.push_back(_user);
-        save_users_file(users);
+        save_user_file(_user);
+        save_def_file(_user);
     }
 
 }
@@ -93,7 +84,7 @@ void edit_user_profile(User _user){
         for (int i = 0; i < 12; i++) {
             users[point].phone_number[i] = _user.phone_number[i];
         }
-        save_users_file(users);
+        save_user_file(users[point]);
     }
 }
 //--------------------------------------------------------------------------

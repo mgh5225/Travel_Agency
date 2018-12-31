@@ -6,53 +6,57 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Mgh/Desktop/Travel_Agency/BankAccounts/bankaccounts.cpp
+/home/mgh/Desktop/Travel_Agency/BankAccounts/bankaccounts.cpp
 bankaccounts.h
-C:/Users/Mgh/Desktop/Travel_Agency/BankAccounts/bankaccounts.h
+/home/mgh/Desktop/Travel_Agency/BankAccounts/bankaccounts.h
 stdio.h
 -
 
-C:/Users/Mgh/Desktop/Travel_Agency/BankAccounts/bankaccounts.h
+/home/mgh/Desktop/Travel_Agency/BankAccounts/bankaccounts.h
 vector
 -
 ../Users/users.h
-C:/Users/Mgh/Desktop/Travel_Agency/Users/users.h
+/home/mgh/Desktop/Travel_Agency/Users/users.h
 
-C:/Users/Mgh/Desktop/Travel_Agency/Cities/cities.h
+/home/mgh/Desktop/Travel_Agency/Cities/cities.h
 vector
 -
 
-C:/Users/Mgh/Desktop/Travel_Agency/Users/tickets.cpp
+/home/mgh/Desktop/Travel_Agency/Users/tickets.cpp
 tickets.h
-C:/Users/Mgh/Desktop/Travel_Agency/Users/tickets.h
+/home/mgh/Desktop/Travel_Agency/Users/tickets.h
 users.h
-C:/Users/Mgh/Desktop/Travel_Agency/Users/users.h
+/home/mgh/Desktop/Travel_Agency/Users/users.h
+stdio.h
+-
 
-C:/Users/Mgh/Desktop/Travel_Agency/Users/tickets.h
+/home/mgh/Desktop/Travel_Agency/Users/tickets.h
 vector
 -
 users.h
-C:/Users/Mgh/Desktop/Travel_Agency/Users/users.h
+/home/mgh/Desktop/Travel_Agency/Users/users.h
 
-C:/Users/Mgh/Desktop/Travel_Agency/Users/users.cpp
+/home/mgh/Desktop/Travel_Agency/Users/users.cpp
 users.h
-C:/Users/Mgh/Desktop/Travel_Agency/Users/users.h
+/home/mgh/Desktop/Travel_Agency/Users/users.h
 stdio.h
 -
 cstdlib
 -
+string
+-
 
-C:/Users/Mgh/Desktop/Travel_Agency/Users/users.h
+/home/mgh/Desktop/Travel_Agency/Users/users.h
 vector
 -
 
-C:/Users/Mgh/Desktop/Travel_Agency/main.cpp
+/home/mgh/Desktop/Travel_Agency/main.cpp
 iostream
 -
 Cities/cities.h
-C:/Users/Mgh/Desktop/Travel_Agency/Cities/cities.h
+/home/mgh/Desktop/Travel_Agency/Cities/cities.h
 BankAccounts/bankaccounts.h
-C:/Users/Mgh/Desktop/Travel_Agency/BankAccounts/bankaccounts.h
+/home/mgh/Desktop/Travel_Agency/BankAccounts/bankaccounts.h
 Users/users.h
-C:/Users/Mgh/Desktop/Travel_Agency/Users/users.h
+/home/mgh/Desktop/Travel_Agency/Users/users.h
 

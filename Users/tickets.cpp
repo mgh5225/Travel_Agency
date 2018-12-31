@@ -1,5 +1,6 @@
 #include "tickets.h"
 #include "users.h"
+#include <stdio.h>
 void save_tickets_file(vector<Ticket> tickets){
     FILE* fp=fopen("Users/b_tickets.txt","wb");
     for(long int i=0;i<tickets.size();i++)

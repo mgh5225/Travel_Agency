@@ -4,16 +4,16 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Mgh/Desktop/Travel_Agency/Admin/admin.cpp" "C:/Users/Mgh/Desktop/Travel_Agency/CMakeFiles/Travel_Agency.dir/Admin/admin.cpp.obj"
-  "C:/Users/Mgh/Desktop/Travel_Agency/BankAccounts/bankaccounts.cpp" "C:/Users/Mgh/Desktop/Travel_Agency/CMakeFiles/Travel_Agency.dir/BankAccounts/bankaccounts.cpp.obj"
-  "C:/Users/Mgh/Desktop/Travel_Agency/Cities/cities.cpp" "C:/Users/Mgh/Desktop/Travel_Agency/CMakeFiles/Travel_Agency.dir/Cities/cities.cpp.obj"
-  "C:/Users/Mgh/Desktop/Travel_Agency/Discounts/discount.cpp" "C:/Users/Mgh/Desktop/Travel_Agency/CMakeFiles/Travel_Agency.dir/Discounts/discount.cpp.obj"
-  "C:/Users/Mgh/Desktop/Travel_Agency/Drivers/drivers.cpp" "C:/Users/Mgh/Desktop/Travel_Agency/CMakeFiles/Travel_Agency.dir/Drivers/drivers.cpp.obj"
-  "C:/Users/Mgh/Desktop/Travel_Agency/Users/tickets.cpp" "C:/Users/Mgh/Desktop/Travel_Agency/CMakeFiles/Travel_Agency.dir/Users/tickets.cpp.obj"
-  "C:/Users/Mgh/Desktop/Travel_Agency/Users/users.cpp" "C:/Users/Mgh/Desktop/Travel_Agency/CMakeFiles/Travel_Agency.dir/Users/users.cpp.obj"
-  "C:/Users/Mgh/Desktop/Travel_Agency/main.cpp" "C:/Users/Mgh/Desktop/Travel_Agency/CMakeFiles/Travel_Agency.dir/main.cpp.obj"
+  "/home/mgh/Desktop/Travel_Agency/Admin/admin.cpp" "/home/mgh/Desktop/Travel_Agency/CMakeFiles/Travel_Agency.dir/Admin/admin.cpp.o"
+  "/home/mgh/Desktop/Travel_Agency/BankAccounts/bankaccounts.cpp" "/home/mgh/Desktop/Travel_Agency/CMakeFiles/Travel_Agency.dir/BankAccounts/bankaccounts.cpp.o"
+  "/home/mgh/Desktop/Travel_Agency/Cities/cities.cpp" "/home/mgh/Desktop/Travel_Agency/CMakeFiles/Travel_Agency.dir/Cities/cities.cpp.o"
+  "/home/mgh/Desktop/Travel_Agency/Discounts/discount.cpp" "/home/mgh/Desktop/Travel_Agency/CMakeFiles/Travel_Agency.dir/Discounts/discount.cpp.o"
+  "/home/mgh/Desktop/Travel_Agency/Drivers/drivers.cpp" "/home/mgh/Desktop/Travel_Agency/CMakeFiles/Travel_Agency.dir/Drivers/drivers.cpp.o"
+  "/home/mgh/Desktop/Travel_Agency/Users/tickets.cpp" "/home/mgh/Desktop/Travel_Agency/CMakeFiles/Travel_Agency.dir/Users/tickets.cpp.o"
+  "/home/mgh/Desktop/Travel_Agency/Users/users.cpp" "/home/mgh/Desktop/Travel_Agency/CMakeFiles/Travel_Agency.dir/Users/users.cpp.o"
+  "/home/mgh/Desktop/Travel_Agency/main.cpp" "/home/mgh/Desktop/Travel_Agency/CMakeFiles/Travel_Agency.dir/main.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "MSVC")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

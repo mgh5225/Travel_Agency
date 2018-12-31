@@ -25,10 +25,10 @@ vector<City> get_cities(){
     vector<City> cities;
     FILE* fp=fopen("Cities/b_cities.txt","rb");
     if(fp!=NULL){
-        while (!feof(fp)){
+        while (1){
             City temp={};
             fread(&temp,sizeof(City),1,fp);
-            if(temp.id==0)break;
+            if(feof(fp))break;
             cities.push_back(temp);
         }
         fclose(fp);

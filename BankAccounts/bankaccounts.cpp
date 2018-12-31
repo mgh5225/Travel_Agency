@@ -10,10 +10,10 @@ vector<Account> get_accounts(){
     vector<Account> accounts;
     FILE* fp=fopen("BankAccounts/b_accounts.txt","rb");
     if(fp!=NULL){
-        while (!feof(fp)){
+        while (1){
             Account temp={};
             fread(&temp,sizeof(Account),1,fp);
-            if(temp.id[0]=='\0')break;
+            if(feof(fp))break;
             accounts.push_back(temp);
         }
         fclose(fp);
@@ -26,10 +26,10 @@ void xchange_accounts(){
     if(fp==NULL){
         return;
     }
-    while (!feof(fp)){
+    while (1){
         Account temp={};
         fscanf(fp,"%s\t%s\t%d",temp.id,temp.pass,&temp.cash);
-        if(temp.id[0]=='\0')break;
+        if(feof(fp))break;
         accounts.push_back(temp);
     }
     fclose(fp);
