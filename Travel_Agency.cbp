@@ -158,6 +158,12 @@
 		<Unit filename="E:/Project/Travel_Agency/main.h">
 			<Option target="Travel_Agency"/>
 		</Unit>
+		<Unit filename="E:/Project/Travel_Agency/someThingNecessary.cpp">
+			<Option target="Travel_Agency"/>
+		</Unit>
+		<Unit filename="E:/Project/Travel_Agency/someThingNecessary.h">
+			<Option target="Travel_Agency"/>
+		</Unit>
 		<Unit filename="E:/Project/Travel_Agency/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

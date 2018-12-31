@@ -27,7 +27,7 @@ SUFFIXES =
 $(VERBOSE).SILENT:
 
 
-# A target that is always out of date.
+# A target that is always out of myDate.
 cmake_force:
 
 .PHONY : cmake_force
@@ -473,6 +473,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles\Travel_Agency.dir\build.make CMakeFiles/Travel_Agency.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+someThingNecessary.obj: someThingNecessary.cpp.obj
+
+.PHONY : someThingNecessary.obj
+
+# target to build an object file
+someThingNecessary.cpp.obj:
+	$(MAKE) -f CMakeFiles\Travel_Agency.dir\build.make CMakeFiles/Travel_Agency.dir/someThingNecessary.cpp.obj
+.PHONY : someThingNecessary.cpp.obj
+
+someThingNecessary.i: someThingNecessary.cpp.i
+
+.PHONY : someThingNecessary.i
+
+# target to preprocess a source file
+someThingNecessary.cpp.i:
+	$(MAKE) -f CMakeFiles\Travel_Agency.dir\build.make CMakeFiles/Travel_Agency.dir/someThingNecessary.cpp.i
+.PHONY : someThingNecessary.cpp.i
+
+someThingNecessary.s: someThingNecessary.cpp.s
+
+.PHONY : someThingNecessary.s
+
+# target to generate assembly for a file
+someThingNecessary.cpp.s:
+	$(MAKE) -f CMakeFiles\Travel_Agency.dir\build.make CMakeFiles/Travel_Agency.dir/someThingNecessary.cpp.s
+.PHONY : someThingNecessary.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -521,6 +548,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... someThingNecessary.obj
+	@echo ... someThingNecessary.i
+	@echo ... someThingNecessary.s
 .PHONY : help
 
 

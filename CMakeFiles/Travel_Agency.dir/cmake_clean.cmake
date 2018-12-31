@@ -12,6 +12,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/offers.cpp.obj"
   "CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/transaction.cpp.obj"
   "CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/trips.cpp.obj"
+  "CMakeFiles/Travel_Agency.dir/someThingNecessary.cpp.obj"
   "Travel_Agency.pdb"
   "Travel_Agency.exe"
   "Travel_Agency.exe.manifest"

@@ -6,8 +6,4 @@
 #define TRAVEL_AGENCY_MAIN_H
 
 int main();
-
-
-
-void clrscr();
 #endif //TRAVEL_AGENCY_MAIN_H

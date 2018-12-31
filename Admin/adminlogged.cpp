@@ -12,6 +12,7 @@
 //necessary project files:
 #include "../main.h"
 #include "../BankAccounts/account_func.h"
+#include "../someThingNecessary.h"
 //Panels:
 #include "AdminPanels/setting.h"
 #include "AdminPanels/users.h"
@@ -90,7 +91,7 @@ void adminLogged(){
         else if(entered==6){
             cout<<"Going to the Account transaction ...";
             Sleep(1000);
-
+            transaction();
             break;
         }
         else if(entered==7){

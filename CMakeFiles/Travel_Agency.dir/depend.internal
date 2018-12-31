@@ -5,36 +5,46 @@ CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/drivers.cpp.obj
  E:/Project/Travel_Agency/Admin/AdminPanels/drivers.cpp
  E:/Project/Travel_Agency/Admin/AdminPanels/drivers.h
  E:/Project/Travel_Agency/main.h
+ E:/Project/Travel_Agency/someThingNecessary.h
 CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/offers.cpp.obj
  E:/Project/Travel_Agency/Admin/AdminPanels/offers.cpp
  E:/Project/Travel_Agency/Admin/AdminPanels/offers.h
  E:/Project/Travel_Agency/main.h
+ E:/Project/Travel_Agency/someThingNecessary.h
 CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/setting.cpp.obj
  E:/Project/Travel_Agency/Admin/AdminPanels/setting.cpp
  E:/Project/Travel_Agency/Admin/AdminPanels/setting.h
+ E:/Project/Travel_Agency/BankAccounts/account_func.h
  E:/Project/Travel_Agency/main.h
+ E:/Project/Travel_Agency/someThingNecessary.h
 CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/tickets.cpp.obj
  E:/Project/Travel_Agency/Admin/AdminPanels/tickets.cpp
  E:/Project/Travel_Agency/Admin/AdminPanels/tickets.h
  E:/Project/Travel_Agency/main.h
+ E:/Project/Travel_Agency/someThingNecessary.h
 CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/transaction.cpp.obj
  E:/Project/Travel_Agency/Admin/AdminPanels/transaction.cpp
  E:/Project/Travel_Agency/Admin/AdminPanels/transaction.h
+ E:/Project/Travel_Agency/BankAccounts/account_func.h
  E:/Project/Travel_Agency/main.h
+ E:/Project/Travel_Agency/someThingNecessary.h
 CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/trips.cpp.obj
  E:/Project/Travel_Agency/Admin/AdminPanels/trips.cpp
  E:/Project/Travel_Agency/Admin/AdminPanels/trips.h
  E:/Project/Travel_Agency/main.h
+ E:/Project/Travel_Agency/someThingNecessary.h
 CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/users.cpp.obj
  E:/Project/Travel_Agency/Admin/AdminPanels/users.cpp
  E:/Project/Travel_Agency/Admin/AdminPanels/users.h
  E:/Project/Travel_Agency/main.h
+ E:/Project/Travel_Agency/someThingNecessary.h
 CMakeFiles/Travel_Agency.dir/Admin/admin.cpp.obj
  E:/Project/Travel_Agency/Admin/admin.cpp
  E:/Project/Travel_Agency/Admin/admin.h
  E:/Project/Travel_Agency/Admin/adminlogged.h
  E:/Project/Travel_Agency/BankAccounts/account_func.h
  E:/Project/Travel_Agency/main.h
+ E:/Project/Travel_Agency/someThingNecessary.h
 CMakeFiles/Travel_Agency.dir/Admin/adminlogged.cpp.obj
  E:/Project/Travel_Agency/Admin/AdminPanels/drivers.h
  E:/Project/Travel_Agency/Admin/AdminPanels/offers.h
@@ -47,9 +57,11 @@ CMakeFiles/Travel_Agency.dir/Admin/adminlogged.cpp.obj
  E:/Project/Travel_Agency/Admin/adminlogged.h
  E:/Project/Travel_Agency/BankAccounts/account_func.h
  E:/Project/Travel_Agency/main.h
+ E:/Project/Travel_Agency/someThingNecessary.h
 CMakeFiles/Travel_Agency.dir/BankAccounts/account_func.cpp.obj
  E:/Project/Travel_Agency/BankAccounts/account_func.cpp
  E:/Project/Travel_Agency/BankAccounts/account_func.h
+ E:/Project/Travel_Agency/someThingNecessary.h
 CMakeFiles/Travel_Agency.dir/Drivers/drivers.cpp.obj
  E:/Project/Travel_Agency/Drivers/drivers.cpp
  E:/Project/Travel_Agency/Drivers/drivers.h
@@ -58,4 +70,9 @@ CMakeFiles/Travel_Agency.dir/Users/users.cpp.obj
  E:/Project/Travel_Agency/Users/users.h
 CMakeFiles/Travel_Agency.dir/main.cpp.obj
  E:/Project/Travel_Agency/Admin/admin.h
+ E:/Project/Travel_Agency/BankAccounts/account_func.h
  E:/Project/Travel_Agency/main.cpp
+ E:/Project/Travel_Agency/someThingNecessary.h
+CMakeFiles/Travel_Agency.dir/someThingNecessary.cpp.obj
+ E:/Project/Travel_Agency/someThingNecessary.cpp
+ E:/Project/Travel_Agency/someThingNecessary.h

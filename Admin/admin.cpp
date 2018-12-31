@@ -12,6 +12,7 @@
 #include "../main.h"
 #include "adminlogged.h"
 #include "../BankAccounts/account_func.h"
+#include "../someThingNecessary.h"
 
 
 using namespace std;
