@@ -6,12 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/mgh/Desktop/Travel_Agency/BankAccounts/bankaccounts.cpp
-bankaccounts.h
-/home/mgh/Desktop/Travel_Agency/BankAccounts/bankaccounts.h
-stdio.h
--
-
 /home/mgh/Desktop/Travel_Agency/BankAccounts/bankaccounts.h
 vector
 -
@@ -20,30 +14,6 @@ vector
 
 /home/mgh/Desktop/Travel_Agency/Cities/cities.h
 vector
--
-
-/home/mgh/Desktop/Travel_Agency/Users/tickets.cpp
-tickets.h
-/home/mgh/Desktop/Travel_Agency/Users/tickets.h
-users.h
-/home/mgh/Desktop/Travel_Agency/Users/users.h
-stdio.h
--
-
-/home/mgh/Desktop/Travel_Agency/Users/tickets.h
-vector
--
-users.h
-/home/mgh/Desktop/Travel_Agency/Users/users.h
-
-/home/mgh/Desktop/Travel_Agency/Users/users.cpp
-users.h
-/home/mgh/Desktop/Travel_Agency/Users/users.h
-stdio.h
--
-cstdlib
--
-string
 -
 
 /home/mgh/Desktop/Travel_Agency/Users/users.h
