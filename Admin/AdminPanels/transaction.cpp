@@ -14,45 +14,68 @@
 #include "../../main.h"
 #include "../../someThingNecessary.h"
 #include "../../BankAccounts/account_func.h"
+#include "../admin.h"
+#include "../adminlogged.h"
 
 using namespace std;
 
 void transaction(){
     clrscr();
-    vector<trans> vtr1;
-    trans temp;
-    temp.trackingNumber=1;
-    temp.cost=500;
-    temp.dest=200001;
-    temp.acc.ID=200000;
-    temp.acc.remaind=8000;
-    temp.acc.password=1318;
-    temp.d.year=132;
-    temp.d.month=1;
-    temp.d.day=3;
-    temp.d.hour=3;
-    temp.d.min=5;
-    temp.d.sec=6;
-    memcpy(temp.exp,"fuck this",50);
-    vtr1.push_back(temp);
-    updateTrans(vtr1);
-    cout<<"************* Account transaction Panel ********************"<<endl;
-    vector<trans> vtr = getAllTrans(200000);
-    cout<<vtr.size()<<endl;
-    for(int i=0;i<vtr.size();i++){
-        cout<<vtr[i].trackingNumber<<"|";
-        cout<<vtr[i].dest<<"|";
-        cout<<vtr[i].cost<<"|";
-        cout<<vtr[i].d.year<<"|";
-        cout<<vtr[i].d.month<<"|";
-        cout<<vtr[i].d.day<<"|";
-        cout<<vtr[i].d.hour<<"|";
-        cout<<vtr[i].d.min<<"|";
-        cout<<vtr[i].d.sec<<"|";
-        cout<<vtr[i].exp;
-        cout<<endl;
+    admin ad=adminInfo();
+    int password;
+    cout<<"************* Account transaction Panel ********************"<<endl<<endl;
+    cout<<"Your account ID is :   "<<ad.accID<<endl;
+    cout<<"Please Enter the account password to access detail :   ";
+    cin>>password;
+    if(remainder(ad.accID,password)==-1){
+        while (true){
+            cout<<"Wrong password. Try again :  ";
+            cin>>password;
+            if(remainder(ad.accID,password)>=0) break;
+        }
     }
-
-    int x;
-    cin>>x;
+    clrscr();
+    cout<<"************* Account transaction Panel ********************"<<endl<<endl;
+    cout<<"Your account ID is :   "<<ad.accID<<endl;
+    cout<<"The Transaction are shown as below format:"<<endl;
+    cout<<"Tracking Number | dest accID | Cost | Year | Month | Day | Hour | Minute | Second | Explanation"<<endl;
+    Sleep(2000);
+    cout<<endl;
+    vector<trans> vtr = getAllTrans(ad.accID);
+    if(vtr.size()==0){
+        cout<<"No Transaction done yet."<<endl;
+    }
+    else {
+        for (int i = 0; i < vtr.size(); i++) {
+            cout << vtr[i].trackingNumber << " | ";
+            cout << vtr[i].dest << " | ";
+            cout << vtr[i].cost << " | ";
+            cout << vtr[i].d.year << " | ";
+            cout << vtr[i].d.month << " | ";
+            cout << vtr[i].d.day << " | ";
+            cout << vtr[i].d.hour << " | ";
+            cout << vtr[i].d.min << " | ";
+            cout << vtr[i].d.sec << " | ";
+            cout << vtr[i].exp;
+            cout << endl;
+        }
+    }
+    cout<<endl;
+    cout<<"-----------------------------------"<<endl;
+    cout<<endl;
+    cout<<"The Account charge is :  "<<remainder(ad.accID,password)<<endl;
+    cout<<endl;
+    cout<<"************************************"<<endl;
+    cout<<endl;
+    cout<<"enter 0 to return to admin page"<<endl;
+    while(true){
+        int x;
+        cin>>x;
+        if(x==0){
+            cout<<"Return to admin page ...";
+            Sleep(1000);
+            adminLogged();
+            break;
+        }
+    }
 }

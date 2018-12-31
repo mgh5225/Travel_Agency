@@ -24,6 +24,8 @@ CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/tickets.cpp.obj: someThingNecessa
 
 CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/transaction.cpp.obj: Admin/AdminPanels/transaction.cpp
 CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/transaction.cpp.obj: Admin/AdminPanels/transaction.h
+CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/transaction.cpp.obj: Admin/admin.h
+CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/transaction.cpp.obj: Admin/adminlogged.h
 CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/transaction.cpp.obj: BankAccounts/account_func.h
 CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/transaction.cpp.obj: main.h
 CMakeFiles/Travel_Agency.dir/Admin/AdminPanels/transaction.cpp.obj: someThingNecessary.h

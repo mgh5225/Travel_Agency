@@ -17,8 +17,9 @@ void toBinaryAcc(){
         char a_temp[20];
         char p_temp[20];
         char r_temp[20];
-        while(!feof(f)){
+        while(true){
             fscanf(f,"%s\t%s\t%s",a_temp,p_temp,r_temp);
+            if(feof(f)) break;
             temp.ID=atoi(a_temp);
             temp.password=atoi(p_temp);
             temp.remaind=atoi(r_temp);

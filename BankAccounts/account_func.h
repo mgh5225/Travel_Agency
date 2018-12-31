@@ -19,6 +19,7 @@ typedef struct account{
     int remaind;
 }account;
 
+vector<account> allAccounts();
 
 int getTrack(bool b);
 

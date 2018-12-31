@@ -42,8 +42,9 @@ vector<account> allAccounts() {
     FILE *f = fopen("BankAccounts/accounts.dat", "rb");
     vector<account> acc;
     account temp;
-    while (!(feof(f))) {
+    while (true) {
         fread(&(temp), sizeof(account), 1, f);
+        if(feof(f)) break;
         acc.push_back(temp);
     }
     return acc;
@@ -121,14 +122,14 @@ vector<trans> getAllTrans(int accID){
     address="BankAccounts/Transaction/"+address+".dat";
     FILE * f = fopen(address.c_str(),"rb");
     if(f==NULL){
-        fclose(f);
+        return transes;
     }
-    else{
-        while(!feof(f)){
+        while(true){
             fread(&(temp), sizeof(trans),1,f);
+            if(feof(f)) break;
             transes.push_back(temp);
+
         }
-    }
     fclose(f);
     return transes;
 }
@@ -145,7 +146,7 @@ void updateTrans(vector<trans> v){
     fclose(f);
 }
 
-//--------------------Add Trans------------------------------
+//--------------------Add Trans------------------------------_/
 /*
  * 1 when succeed
  * -1 when no such account
@@ -172,7 +173,7 @@ int addTrans(int accID,int cost,int dest,int tracking,char exp[50]){
     return -2;
 }
 
-//--------------------move money---------------------------------
+//--------------------move money---------------------------------_/
 int moveMoney(int originID,int originPass,int destID,int cost,char exp[50]){
     int x=reduceMoney(originID,originPass,cost);
     if(x>0){
