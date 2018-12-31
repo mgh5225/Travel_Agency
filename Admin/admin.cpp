@@ -12,13 +12,14 @@
 #include "../main.h"
 #include "adminlogged.h"
 #include "../BankAccounts/account_func.h"
+#include "../someThingNecessary.h"
 
 
 using namespace std;
 
 void SignUp(){
     cout<<"Admin is not registered. You should register one time."<<endl;
-    FILE *f=fopen("Admin/admin.txt","w");
+    FILE *f=fopen("Admin/admin.encrypted","wb");
     string username;
     string password;
     int accID;
@@ -50,27 +51,41 @@ void SignUp(){
             cout<<"\aSorry, No such account ID exist. try again:\n";
         }
     }
-    fprintf(f,"%s\t%s\t%d",username.c_str(),password.c_str(),accID);
+    admin ad;
+    ad.accID=accID;
+    memcpy(ad.userName,username.c_str(),20);
+    memcpy(ad.password,password.c_str(),20);
+    fwrite(&ad, sizeof(admin),1,f);
     cout<<"\nYou have registered successfully.";
     cout<<"\n Backing to the main page ...";
     fclose(f);
-    Sleep(3000);
+    Sleep(2000);
     clrscr();
     main();
 
 }
 
+
+admin adminInfo(){
+    FILE * f=fopen("Admin/admin.encrypted","rb");
+    admin ad;
+    fread(&ad, sizeof(admin),1,f);
+    fclose(f);
+    return ad;
+}
+
+
 int Admin(){
     clrscr();
-    FILE * f=fopen("Admin/admin.txt","r");
+    FILE * f=fopen("Admin/admin.encrypted","rb");
     if(f==NULL){
         fclose(f);
         SignUp();
     }
     else{
-        char u[1000],s[1000];
-        fscanf(f,"%s\t%s",u,s);
-        string username(u),password(s);
+        admin ad;
+        fread(&ad, sizeof(admin),1,f);
+        string username(ad.userName),password(ad.password);
         while(true){
             cout<<".:   Login   :."<<endl;
             string u_username,u_password;
@@ -91,7 +106,6 @@ int Admin(){
             }
         }
     }
-
     }
 
 
