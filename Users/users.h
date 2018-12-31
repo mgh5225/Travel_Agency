@@ -12,9 +12,9 @@ typedef struct user{
     char reference[21]={};
 }User;
 //------------------------------------
-void save_users_file(vector<User>);
-vector<User> get_users();
-long int find_user(vector<User>,User);
+//void save_users_file(vector<User>);
+//vector<User> get_users();
+//long int find_user(vector<User>,User);
 void add_user(User);
 User user_login(char[9],char[9]);
 void edit_user_profile(User);

@@ -25,6 +25,7 @@ CMakeFiles\Travel_Agency.dir\Users\users.cpp.obj: Users\users.cpp
 CMakeFiles\Travel_Agency.dir\Users\users.cpp.obj: Users\users.h
 
 CMakeFiles\Travel_Agency.dir\main.cpp.obj: BankAccounts\bankaccounts.h
+CMakeFiles\Travel_Agency.dir\main.cpp.obj: Cities\cities.h
 CMakeFiles\Travel_Agency.dir\main.cpp.obj: Users\users.h
 CMakeFiles\Travel_Agency.dir\main.cpp.obj: main.cpp
 
