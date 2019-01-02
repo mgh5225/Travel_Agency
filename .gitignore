@@ -6,3 +6,7 @@ Makefile
 Travel_Agency.cbp
 Travel_Agency
 CMakeFiles/
+Admin/
+BankAccounts/
+Cities/
+Drivers/
