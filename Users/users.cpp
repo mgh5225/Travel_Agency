@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <string>
 void save_def_file(User _user){
-    FILE* fp_d=fopen("Users/usrs/default.dat","ab");
+    FILE* fp_d=fopen("Users/usrs/default.def","ab");
     fwrite(&(_user.user_name),sizeof(char),9,fp_d);
     fclose(fp_d);
 }
@@ -15,7 +15,7 @@ void save_user_file(User _user){
 }
 vector<User> get_users(){
     vector<User> users;
-    FILE* fp_d=fopen("Users/usrs/default.dat","rb");
+    FILE* fp_d=fopen("Users/usrs/default.def","rb");
     if(fp_d!=NULL){
         while (true){
             char user_name[9]={};
