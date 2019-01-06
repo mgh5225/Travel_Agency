@@ -2,8 +2,92 @@
 #include "users.h"
 #include "tickets.h"
 #include <iostream>
+#include <stdlib.h>
+#include <unistd.h>
 using namespace std;
-void login_page(){
+bool state= true;
+void clrscr(){
+    sleep(1);
+    cout << "\033[2J\033[1;1H";
+}
+User edit_user_profile_panel(User _user){
+    User new_user=_user;
+    while (1) {
+        clrscr();
+        cout << "Your Information Is : " << endl;
+        cout << "Name : " << new_user.fname << " " <<new_user.lname << endl;
+        cout << "Bank Account : " << new_user.bank_account << endl;
+        cout << "Phone Number : " << new_user.phone_number << endl;
+        cout<< "Which One Do You Want To Edit it? \nPlease Enter Number Between 1-4 And -1 For Cancel Editing Your Information : "<< endl;
+        cout << "[1] Change My Name." << endl;
+        cout << "[2] Change My Bank Account." << endl;
+        cout << "[3] Change My Phone Number." << endl;
+        cout << "[4] Change My Password." << endl;
+        cout << "[-1] Cancel." << endl;
+        int n;
+        cin >> n;
+        switch (n) {
+            case 1:
+                clrscr();
+                cout<<"Enter New First Name : ";
+                cin>>new_user.fname;
+                cout<<"Enter New Last Name : ";
+                cin>>new_user.lname;
+                break;
+            case 2:
+                clrscr();
+                cout<<"Enter New Bank Account Number : ";
+                cin>>new_user.bank_account;
+                break;
+            case 3:
+                clrscr();
+                cout<<"Enter New Phone Number : ";
+                cin>>new_user.phone_number;
+                break;
+            case 4:
+                clrscr();
+                cout<<"Enter New Password : ";
+                cin>>new_user.user_pass;
+                break;
+            case -1:
+            default:
+                return new_user;
+        }
+    }
+
+}
+void user_panel(User _user){
+    state=true;
+    while (state) {
+        clrscr();
+        cout << "*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*##User Panel##*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*" << endl;
+        cout<<"Hello "<<_user.fname<<" "<<_user.lname<<"."<<endl;
+        cout<<endl;
+        cout << "[1] Buy New Ticket." << endl;
+        cout << "[2] Show My Tickets." << endl;
+        cout << "[3] Edit Your Profile." << endl;
+        cout << "[4] Logout." << endl;
+        int n;
+        cout << "[Enter Number(1-4)] ";
+        cin >> n;
+        switch (n) {
+            case 1:
+                break;
+            case 2:
+
+                break;
+            case 3:
+                _user=edit_user_profile_panel(_user);
+                edit_user_profile(_user);
+                break;
+            case 4:;
+            default:
+                return;
+        }
+    }
+}
+User user_login_panel(){
+    clrscr();
     char user_name[9]={};
     char user_pass[9]={};
     cout<<"Please Enter Your User Name : ";
@@ -12,20 +96,32 @@ void login_page(){
     cin>>user_pass;
     User _user=user_login(user_name,user_pass);
     while(_user.user_name[0]=='\0'){
-        cout<<"Something Went Wrong Please Try Again"<<endl;
+        clrscr();
+        cout<<"Something Went Wrong Please Try Again."<<endl;
+        cout<<"If Not Register Now Please Create A New User By Enter 2 Else -1 : ";
+        int n;
+        cin>>n;
+        if(n==2){
+            state=true;
+            return User{};
+        }
         cout<<"Please Enter Your User Name : ";
         cin>>user_name;
         cout<<"Please Enter Your Password (Max 8 characters) : ";
         cin>>user_pass;
         _user=user_login(user_name,user_pass);
     }
-    cout<<"Hello "<<_user.fname<<" "<<_user.lname<<endl;
+    clrscr();
+    state= false;
+    return _user;
 }
-void register_page(){
+void user_register_panel(){
+    clrscr();
     User new_user={};
     cout<<"Please Enter Your User Name (Max 8 characters): ";
     cin>>new_user.user_name;
     while (find_user_in_file(new_user.user_name)!=-1){
+        clrscr();
         cout<<"User "<<new_user.user_name<<" Exist Please Enter Another User Name : ";
         cin>>new_user.user_name;
     }
@@ -43,25 +139,71 @@ void register_page(){
     cout<<"If You Have Reference Please Enter His/Her User Name For Discount Or Enter -1 : ";
     cin>>new_user.reference;
     add_user(new_user);
-    cout<<"Now Go To Login Page"<<endl;
-    login_page();
+    clrscr();
+    cout<<"Now Go To Login Page."<<endl;
+    clrscr();
+    user_login_panel();
 
 }
-void user_intro(){
-    cout<<"*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*##User Panel##*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*"<<endl;
-    cout<<"[1] Login Into Your Account."<<endl;
-    cout<<"[2] Not A User Register Now!"<<endl;
-    cout<<"[3] Join As A Guest."<<endl;
-    cout<<"[4] Back To Previous Panel."<<endl;
-    int n;
-    cout<<"[Enter Number(1-4)] ";
-    cin>>n;
-    switch (n){
-        case 1:login_page();break;
-        case 2:register_page();break;
-        case 3:break;
-        case 4:;
-        default:return;
+User guest_panel(){
+    clrscr();
+    User guest_user={};
+    cout<<"Please Enter Your User Name (Max 8 characters): ";
+    cin>>guest_user.user_name;
+    while (find_user_in_file(guest_user.user_name)!=-1){
+        clrscr();
+        cout<<"User "<<guest_user.user_name<<" Exist Please Enter Another User Name : ";
+        cin>>guest_user.user_name;
     }
-    
+    clrscr();
+    cout<<"Hello "<<guest_user.user_name<<" !"<<endl;
+    cout<<"Please Enter Your First Name : ";
+    cin>>guest_user.fname;
+    cout<<"Please Enter Your Last Name : ";
+    cin>>guest_user.lname;
+    cout<<"Please Enter Your Bank Account Number : ";
+    cin>>guest_user.bank_account;
+    cout<<"Please Enter Your Phone Number : ";
+    cin>>guest_user.phone_number;
+    clrscr();
+    cout<<"User Create Success Your Information is : "<<endl;
+    cout<<"User Name : "<<guest_user.user_name<<endl;
+    cout<<"Bank Account : "<<guest_user.bank_account<<endl;
+    cout<<"Full  Name : "<<guest_user.fname<<" "<<guest_user.lname<<endl;
+    cout<<"Phone Number : "<<guest_user.phone_number<<endl;
+    state=false;
+    return guest_user;
 }
+void user_intro_panel(){
+    User _user={};
+    while (state) {
+        clrscr();
+        cout << "*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*##Welcome To Travel Agency##*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*" << endl;
+        cout << "[1] Login Into Your Account." << endl;
+        cout << "[2] Not A User Register Now!" << endl;
+        cout << "[3] Join As A Guest." << endl;
+        cout << "[4] Back To Previous Panel." << endl;
+        int n;
+        cout << "[Enter Number(1-4)] ";
+        cin >> n;
+        switch (n) {
+            case 1:
+                _user= user_login_panel();
+                break;
+            case 2:
+                user_register_panel();
+                break;
+            case 3:
+                _user=guest_panel();
+                break;
+            case 4:;
+            default:
+                return;
+        }
+        if(_user.user_name[0]!='\0')
+        user_panel(_user);
+
+    }
+
+}
+//----------------------------------------------------------------------------------------
