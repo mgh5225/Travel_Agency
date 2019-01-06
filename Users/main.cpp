@@ -2,7 +2,6 @@
 #include "users.h"
 #include "tickets.h"
 #include <iostream>
-#include <stdlib.h>
 #include <unistd.h>
 using namespace std;
 bool intro_state= true;
@@ -11,7 +10,8 @@ void clrscr(){
     sleep(1);
     cout << "\033[2J\033[1;1H";
 }
-void edit_user_profile_panel(User _user){
+//----------------------------------------------------------------------------------------
+User edit_user_profile_panel(User _user,bool isUser){
     User new_user=_user;
     while (1) {
         clrscr();
@@ -26,10 +26,14 @@ void edit_user_profile_panel(User _user){
         cout << "[1] Change My Name." << endl;
         cout << "[2] Change My Bank Account." << endl;
         cout << "[3] Change My Phone Number." << endl;
-        cout << "[4] Change My Password." << endl;
-        cout << "[-1] Cancel." << endl;
+        if(isUser)
+            cout << "[4] Change My Password." << endl;
+        cout << "[-1] Exit." << endl;
         cout<<"-----------------------------------------------------------------"<<endl;
-        cout<<"Please Enter Number Between 1-4 Or -1 For Cancel Editing Your Information : ";
+        if(isUser)
+            cout<<"Please Enter Number Between 1-4 Or -1 For Exit From This Panel : ";
+        else
+            cout<<"Please Enter Number Between 1-3 Or -1 For Exit From This Panel : ";
         int n;
         cin >> n;
         clrscr();
@@ -56,30 +60,53 @@ void edit_user_profile_panel(User _user){
             cout << "Enter New Phone Number : ";
             cin >> temp_p;
             for(int i=0;i<12;i++) {
-                new_user.bank_account[i] = temp_p[i];
+                new_user.phone_number[i] = temp_p[i];
             }
-        }else if(n==4){
+        }else if(n==4 && isUser){
             char temp_p[9]={};
             cout<<"Enter New Password : ";
             cin>>temp_p;
             for(int i=0;i<9;i++) {
-                new_user.bank_account[i] = temp_p[i];
+                new_user.user_pass[i] = temp_p[i];
             }
         }else{
-            return;
-        }
-        cout<<"-----------------------------------------------------------------"<<endl;
-        cout<<"Do You Want To Save Your Changes? [Y/N] : ";
-        char b;
-        cin>>b;
-        if(b=='y' || b=='Y'){
-            edit_user_profile(new_user);
-            user_state= false;
+            cout<<"-----------------------------------------------------------------"<<endl;
+            cout<<"Do You Want To Save Your Changes [Y/N] : ";
+            char b;
+            cin>>b;
+            if((b=='y' || b=='Y')) {
+                if(isUser)
+                    edit_user_profile(new_user);
+                return new_user;
+            }else
+                return _user;
         }
     }
-
 }
-void user_panel(User _user){
+void show_ticket_panel(User _user){
+    clrscr();
+    vector<Ticket> tickets=get_user_tickets(_user);
+    cout<<"You Reserved "<<tickets.size()<<" Ticket(s)."<<endl;
+    for(int i=0;i<tickets.size();i++){
+        cout<<"----------------------------------------------------------------"<<endl;
+        cout<<"[id] "<<tickets[i].id<<"."<<endl;
+        cout<<"----------------------------------------------------------------"<<endl;
+        cout<<"From : \t";
+        cout<<"To : "<<endl;
+        cout<<"----------------------------------------------------------------"<<endl;
+        cout<<"Start At : "<<endl;
+        cout<<"----------------------------------------------------------------"<<endl;
+        cout<<"Cost : "<<tickets[i].cost<<endl;
+        cout<<"----------------------------------------------------------------"<<endl;
+    }
+    cout<<"\nPlease Enter Any Key To Exit This Panel";
+    while(true){
+        char n;
+        n=getchar();
+        if(n!='\n')break;
+    }
+}
+void user_panel(User _user,bool isUser){
     user_state= true;
     intro_state= true;
     while (user_state) {
@@ -98,10 +125,10 @@ void user_panel(User _user){
             case 1:
                 break;
             case 2:
-
+                show_ticket_panel(_user);
                 break;
             case 3:
-                edit_user_profile_panel(_user);
+                _user=edit_user_profile_panel(_user,isUser);
                 break;
             case 4:;
             default:
@@ -109,7 +136,8 @@ void user_panel(User _user){
         }
     }
 }
-User user_login_panel(){
+//----------------------------------------------------------------------------------------
+void user_login_panel(){
     clrscr();
     char user_name[9]={};
     char user_pass[9]={};
@@ -126,7 +154,7 @@ User user_login_panel(){
         cin>>n;
         if(n==2){
             intro_state=true;
-            return User{};
+            return;
         }
         cout<<"Please Enter Your User Name : ";
         cin>>user_name;
@@ -136,8 +164,11 @@ User user_login_panel(){
     }
     clrscr();
     intro_state= false;
-    return _user;
+    if(_user.user_name[0]!='\0')
+        user_panel(_user,true);
+
 }
+//----------------------------------------------------------------------------------------
 void user_register_panel(){
     clrscr();
     User new_user={};
@@ -168,7 +199,7 @@ void user_register_panel(){
     user_login_panel();
 
 }
-User guest_panel(){
+void guest_register_panel(){
     clrscr();
     User guest_user={};
     cout<<"Please Enter Your User Name (Max 8 characters): ";
@@ -189,14 +220,11 @@ User guest_panel(){
     cout<<"Please Enter Your Phone Number : ";
     cin>>guest_user.phone_number;
     clrscr();
-    cout<<"User Create Success Your Information is : "<<endl;
-    cout<<"User Name : "<<guest_user.user_name<<endl;
-    cout<<"Bank Account : "<<guest_user.bank_account<<endl;
-    cout<<"Full  Name : "<<guest_user.fname<<" "<<guest_user.lname<<endl;
-    cout<<"Phone Number : "<<guest_user.phone_number<<endl;
     intro_state=false;
-    return guest_user;
+    if(guest_user.user_name[0]!='\0')
+        user_panel(guest_user,false);
 }
+//----------------------------------------------------------------------------------------
 void user_intro_panel(){
     intro_state=true;
     User _user={};
@@ -212,20 +240,19 @@ void user_intro_panel(){
         cin >> n;
         switch (n) {
             case 1:
-                _user= user_login_panel();
+                user_login_panel();
                 break;
             case 2:
                 user_register_panel();
                 break;
             case 3:
-                _user=guest_panel();
+                guest_register_panel();
                 break;
             case 4:;
             default:
                 return;
         }
-        if(_user.user_name[0]!='\0')
-        user_panel(_user);
+
 
     }
 
