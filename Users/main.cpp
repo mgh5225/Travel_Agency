@@ -5,60 +5,84 @@
 #include <stdlib.h>
 #include <unistd.h>
 using namespace std;
-bool state= true;
+bool intro_state= true;
+bool user_state= true;
 void clrscr(){
     sleep(1);
     cout << "\033[2J\033[1;1H";
 }
-User edit_user_profile_panel(User _user){
+void edit_user_profile_panel(User _user){
     User new_user=_user;
     while (1) {
         clrscr();
         cout << "Your Information Is : " << endl;
+        cout<<"----------------------------------------------------------------"<<endl;
         cout << "Name : " << new_user.fname << " " <<new_user.lname << endl;
         cout << "Bank Account : " << new_user.bank_account << endl;
         cout << "Phone Number : " << new_user.phone_number << endl;
-        cout<< "Which One Do You Want To Edit it? \nPlease Enter Number Between 1-4 And -1 For Cancel Editing Your Information : "<< endl;
+        cout<<"----------------------------------------------------------------"<<endl;
+        cout<< "Which One Do You Want To Edit it? "<<endl;
+        cout<<"----------------------------------------------------------------"<<endl;
         cout << "[1] Change My Name." << endl;
         cout << "[2] Change My Bank Account." << endl;
         cout << "[3] Change My Phone Number." << endl;
         cout << "[4] Change My Password." << endl;
         cout << "[-1] Cancel." << endl;
+        cout<<"-----------------------------------------------------------------"<<endl;
+        cout<<"Please Enter Number Between 1-4 Or -1 For Cancel Editing Your Information : ";
         int n;
         cin >> n;
-        switch (n) {
-            case 1:
-                clrscr();
-                cout<<"Enter New First Name : ";
-                cin>>new_user.fname;
-                cout<<"Enter New Last Name : ";
-                cin>>new_user.lname;
-                break;
-            case 2:
-                clrscr();
-                cout<<"Enter New Bank Account Number : ";
-                cin>>new_user.bank_account;
-                break;
-            case 3:
-                clrscr();
-                cout<<"Enter New Phone Number : ";
-                cin>>new_user.phone_number;
-                break;
-            case 4:
-                clrscr();
-                cout<<"Enter New Password : ";
-                cin>>new_user.user_pass;
-                break;
-            case -1:
-            default:
-                return new_user;
+        clrscr();
+        if(n==1) {
+            char temp_f[21] = {};
+            char temp_l[21] = {};
+            cout << "Enter New First Name : ";
+            cin >> temp_f;
+            cout << "Enter New Last Name : ";
+            cin >> temp_l;
+            for(int i=0;i<21;i++) {
+                new_user.fname[i] = temp_f[i];
+                new_user.lname[i] = temp_l[i];
+            }
+        }else if(n== 2) {
+            char temp_b[11]={};
+            cout << "Enter New Bank Account Number : ";
+            cin >> temp_b;
+            for(int i=0;i<11;i++) {
+                new_user.bank_account[i] = temp_b[i];
+            }
+        }else if(n==3) {
+            char temp_p[12]={};
+            cout << "Enter New Phone Number : ";
+            cin >> temp_p;
+            for(int i=0;i<12;i++) {
+                new_user.bank_account[i] = temp_p[i];
+            }
+        }else if(n==4){
+            char temp_p[9]={};
+            cout<<"Enter New Password : ";
+            cin>>temp_p;
+            for(int i=0;i<9;i++) {
+                new_user.bank_account[i] = temp_p[i];
+            }
+        }else{
+            return;
+        }
+        cout<<"-----------------------------------------------------------------"<<endl;
+        cout<<"Do You Want To Save Your Changes? [Y/N] : ";
+        char b;
+        cin>>b;
+        if(b=='y' || b=='Y'){
+            edit_user_profile(new_user);
+            user_state= false;
         }
     }
 
 }
 void user_panel(User _user){
-    state=true;
-    while (state) {
+    user_state= true;
+    intro_state= true;
+    while (user_state) {
         clrscr();
         cout << "*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*##User Panel##*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*" << endl;
         cout<<"Hello "<<_user.fname<<" "<<_user.lname<<"."<<endl;
@@ -77,8 +101,7 @@ void user_panel(User _user){
 
                 break;
             case 3:
-                _user=edit_user_profile_panel(_user);
-                edit_user_profile(_user);
+                edit_user_profile_panel(_user);
                 break;
             case 4:;
             default:
@@ -102,7 +125,7 @@ User user_login_panel(){
         int n;
         cin>>n;
         if(n==2){
-            state=true;
+            intro_state=true;
             return User{};
         }
         cout<<"Please Enter Your User Name : ";
@@ -112,7 +135,7 @@ User user_login_panel(){
         _user=user_login(user_name,user_pass);
     }
     clrscr();
-    state= false;
+    intro_state= false;
     return _user;
 }
 void user_register_panel(){
@@ -171,12 +194,13 @@ User guest_panel(){
     cout<<"Bank Account : "<<guest_user.bank_account<<endl;
     cout<<"Full  Name : "<<guest_user.fname<<" "<<guest_user.lname<<endl;
     cout<<"Phone Number : "<<guest_user.phone_number<<endl;
-    state=false;
+    intro_state=false;
     return guest_user;
 }
 void user_intro_panel(){
+    intro_state=true;
     User _user={};
-    while (state) {
+    while (intro_state) {
         clrscr();
         cout << "*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*##Welcome To Travel Agency##*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*" << endl;
         cout << "[1] Login Into Your Account." << endl;
