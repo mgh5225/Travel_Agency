@@ -3,6 +3,7 @@
 #include "tickets.h"
 #include <iostream>
 #include <unistd.h>
+#include <stdlib.h>
 using namespace std;
 bool user_state= true;
 void clrscr(){
@@ -10,6 +11,19 @@ void clrscr(){
     cout << "\033[2J\033[1;1H";
 }
 //----------------------------------------------------------------------------------------
+void create_rand_id(char id[9]){
+    long int n=1;
+    int rnd;
+    while(n==1){
+        rnd=rand()%90000000+10000000;
+        string rnd_s=to_string(rnd);
+        for(int i=0;i<9;i++){
+            id[i]=rnd_s[i];
+        }
+        n=find_ticket_in_file(id);
+    }
+
+}
 User edit_user_profile_panel(User _user,bool isUser){
     User new_user=_user;
     bool is_edited=false;
@@ -115,6 +129,31 @@ void show_ticket_panel(User _user){
         b=true;
     }
 }
+void buy_ticket_panel(User _user){
+    clrscr();
+    Ticket new_ticket={};
+    cout<<"Choose One Of The Vehicle: "<<endl;
+    cout<<"----------------------------------------------------------------"<<endl;
+    cout<<"[1] Bus."<<endl;
+    cout<<"[2] Train."<<endl;
+    cout<<"[3] Airplane."<<endl;
+    cout<<"----------------------------------------------------------------"<<endl;
+    cout<<"Please Enter Your Vehicle :";
+    int n;
+    cin>>n;
+    cout<<"----------------------------------------------------------------"<<endl;
+    //swich case to set driver mode to 1-2-3
+    cout<<"please Enter Origin City For Your Journey : ";
+    int origin_city;
+    cin>>origin_city;
+    cout<<"please Enter Destination City For Your Journey : ";
+    int destination_city;
+    cin>>destination_city;
+    //show available journey and cost to add it.
+    new_ticket.customer=_user;
+    create_rand_id(new_ticket.id);
+    add_ticket(new_ticket);
+}
 void user_panel(User _user,bool isUser){
     user_state= true;
     while (user_state) {
@@ -131,6 +170,7 @@ void user_panel(User _user,bool isUser){
         cin >> n;
         switch (n) {
             case 1:
+                buy_ticket_panel(_user);
                 break;
             case 2:
                 show_ticket_panel(_user);
