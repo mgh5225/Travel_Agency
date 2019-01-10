@@ -4,17 +4,16 @@
 #include <iostream>
 #include <unistd.h>
 #include <stdlib.h>
+#include <time.h>
 using namespace std;
 bool user_state= true;
-void clrscr(){
-    sleep(1);
-    cout << "\033[2J\033[1;1H";
-}
+
 //----------------------------------------------------------------------------------------
 void create_rand_id(char id[9]){
     long int n=1;
     int rnd;
     while(n==1){
+        srand(time(0));
         rnd=rand()%90000000+10000000;
         string rnd_s=to_string(rnd);
         for(int i=0;i<9;i++){
@@ -108,18 +107,17 @@ User edit_user_profile_panel(User _user,bool isUser){
 void show_ticket_panel(User _user){
     clrscr();
     vector<Ticket> tickets=get_user_tickets(_user);
-    cout<<"You Reserved "<<tickets.size()<<" Ticket(s)."<<endl;
+    cout<<"You Reserved "<<tickets.size()<<" Ticket(s)."<<endl<<endl;
     for(int i=0;i<tickets.size();i++){
-        cout<<"----------------------------------------------------------------"<<endl;
-        cout<<"[id] "<<tickets[i].id<<"."<<endl;
+        cout<<"["<<i+1<<"]"<<endl;
+        cout<<"################################################################"<<endl;
+        cout<<"[id] "<<tickets[i].id<<endl;
         cout<<"----------------------------------------------------------------"<<endl;
         cout<<"From : \t";
         cout<<"To : "<<endl;
-        cout<<"----------------------------------------------------------------"<<endl;
-        cout<<"Start At : "<<endl;
-        cout<<"----------------------------------------------------------------"<<endl;
+        cout<<"Start Date : "<<endl;
         cout<<"Cost : "<<tickets[i].cost<<endl;
-        cout<<"----------------------------------------------------------------"<<endl;
+        cout<<"################################################################"<<endl<<endl;
     }
     cout<<"\nPlease Press Enter To Exit This Panel. ";
     bool b=false;
