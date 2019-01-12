@@ -8,11 +8,7 @@
 void clrscr();
 
 //Date structure:
-<<<<<<< HEAD
-typedef struct myDate{
-=======
 typedef struct mydate{
->>>>>>> Mgh
     int year;
     int month;
     int day;
