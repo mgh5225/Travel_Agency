@@ -2,7 +2,6 @@
 #include "users.h"
 #include "tickets.h"
 #include <iostream>
-#include <unistd.h>
 #include <stdlib.h>
 #include <time.h>
 using namespace std;
@@ -108,7 +107,7 @@ void show_ticket_panel(User _user){
     clrscr();
     vector<Ticket> tickets=get_user_tickets(_user);
     cout<<"You Reserved "<<tickets.size()<<" Ticket(s)."<<endl<<endl;
-    for(int i=0;i<tickets.size();i++){
+    for(long int i=0;i<tickets.size();i++){
         cout<<"["<<i+1<<"]"<<endl;
         cout<<"################################################################"<<endl;
         cout<<"[id] "<<tickets[i].id<<endl;
