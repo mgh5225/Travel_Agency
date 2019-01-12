@@ -12,6 +12,6 @@ typedef struct user{
 typedef struct ticket{
     char id[9]={};
     int cost=0;
-    User customer={};
+    char customer[9]={};
 }Ticket;
 #endif

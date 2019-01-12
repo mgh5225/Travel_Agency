@@ -148,7 +148,6 @@ void buy_ticket_panel(User _user){
     int destination_city;
     cin>>destination_city;
     //show available journey and cost to add it.
-    new_ticket.customer=_user;
     create_rand_id(new_ticket.id);
     add_ticket(new_ticket);
 }

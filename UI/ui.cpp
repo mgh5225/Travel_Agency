@@ -26,6 +26,7 @@ void move_between_items(int items[],int l){
         }
         gotoXY(items[0], items[i]);
     }
+    sleep(1);
 }
 void create_raw_menu(int height,int width){
     clrscr();

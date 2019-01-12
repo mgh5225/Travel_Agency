@@ -1,6 +1,4 @@
 #include "users.h"
-#include <stdio.h>
-#include <string>
 void save_def_file(User _user){
     FILE* fp_d=fopen("Users/usrs/default.def","ab");
     fwrite(&(_user.user_name),sizeof(char),9,fp_d);
@@ -88,5 +86,20 @@ void edit_user_profile(User _user){
     if(find_user_in_file(_user.user_name)!=-1) {
         save_user_file(_user);
     }
+}
+int remove_user(User _user){
+    if(find_user_in_file(_user.user_name)!=-1) {
+        vector<User> users=get_users();
+        string file_addr="Users/usrs/"+(string)_user.user_name+".usr";
+        long int point=find_user_in_users(_user);
+        users.erase(users.begin()+point);
+        remove("Users/usrs/default.def");
+        remove(file_addr.c_str());
+        for(int i=0;i<users.size();i++){
+            save_def_file(users[i]);
+        }
+        return 1;
+    }
+    return -1;
 }
 //--------------------------------------------------------------------------

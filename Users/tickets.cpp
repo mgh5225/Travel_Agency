@@ -1,6 +1,4 @@
 #include "tickets.h"
-#include <stdio.h>
-#include <string>
 void save_def_file(Ticket _ticket){
     FILE* fp_d=fopen("Users/tics/default.def","ab");
     fwrite(&(_ticket.id),sizeof(char),9,fp_d);
@@ -31,6 +29,16 @@ vector<Ticket> get_tickets(){
     }
     return tickets;
 }
+Ticket get_ticket(char id[9]){
+    string file_addr="Users/tics/"+(string)id+".tic";
+    FILE* fp_t=fopen(file_addr.c_str(),"rb");
+    Ticket temp={};
+    if(fp_t!=NULL) {
+        fread(&temp, sizeof(Ticket),1,fp_t);
+        fclose(fp_t);
+    }
+    return temp;
+}
 vector<Ticket> get_user_tickets(User _user){
     vector<Ticket> tickets;
     FILE* fp_d=fopen("Users/tics/default.def","rb");
@@ -45,7 +53,7 @@ vector<Ticket> get_user_tickets(User _user){
             fread(&temp, sizeof(Ticket),1,fp_t);
             fclose(fp_t);
             int i;
-            for(i=0;i<9 && temp.customer.user_name[i]==_user.user_name[i];i++);
+            for(i=0;i<9 && temp.customer[i]==_user.user_name[i];i++);
             if(i==9) tickets.push_back(temp);
         }
         fclose(fp_d);
