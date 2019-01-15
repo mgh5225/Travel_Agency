@@ -5,7 +5,9 @@ void save_def_file(User _user){
     fclose(fp_d);
 }
 void save_user_file(User _user){
-    string file_addr="Users/usrs/"+(string)_user.user_name+".usr";
+    string folder_addr="Users/usrs/"+(string)_user.user_name;
+    mkdir(folder_addr.c_str());
+    string file_addr=folder_addr+"/profile"+".usr";
     FILE* fp_u=fopen(file_addr.c_str(),"wb");
     fwrite(&_user,sizeof(User),1,fp_u);
     fclose(fp_u);
@@ -19,7 +21,7 @@ vector<User> get_users(){
             char user_name[9]={};
             fread(&user_name,sizeof(char),9,fp_d);
             if(feof(fp_d))break;
-            string file_addr="Users/usrs/"+(string)user_name+".usr";
+            string file_addr="Users/usrs/"+(string)user_name+"/profile"+".usr";
             User temp={};
             FILE* fp_u=fopen(file_addr.c_str(),"rb");
             fread(&temp, sizeof(User),1,fp_u);
@@ -31,7 +33,7 @@ vector<User> get_users(){
     return users;
 }
 User get_user(char user_name[9]){
-    string file_addr="Users/usrs/"+(string)user_name+".usr";
+    string file_addr="Users/usrs/"+(string)user_name+"/profile"+".usr";
     FILE* fp_u=fopen(file_addr.c_str(),"rb");
     User temp={};
     if(fp_u!=NULL) {
@@ -52,7 +54,7 @@ long int find_user_in_users(User _user){
     return -1;
 }
 long int find_user_in_file(char user_name[9]){
-    string file_addr="Users/usrs/"+(string)user_name+".usr";
+    string file_addr="Users/usrs/"+(string)user_name+"/profile"+".usr";
     FILE* fp_u=fopen(file_addr.c_str(),"rb");
     if(fp_u==NULL) return -1;
     fclose(fp_u);
@@ -90,11 +92,13 @@ void edit_user_profile(User _user){
 int remove_user(User _user){
     if(find_user_in_file(_user.user_name)!=-1) {
         vector<User> users=get_users();
-        string file_addr="Users/usrs/"+(string)_user.user_name+".usr";
+        string folder_addr="Users/usrs/"+(string)_user.user_name;
+        string file_addr=folder_addr+"/profile"+".usr";
         long int point=find_user_in_users(_user);
         users.erase(users.begin()+point);
         remove("Users/usrs/default.def");
         remove(file_addr.c_str());
+        rmdir(folder_addr.c_str());
         for(int i=0;i<users.size();i++){
             save_def_file(users[i]);
         }

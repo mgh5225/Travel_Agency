@@ -10,10 +10,10 @@ void gotoXY(int x ,int y){
     HANDLE output = GetStdHandle(STD_OUTPUT_HANDLE);
     SetConsoleCursorPosition(output, pos);
 }
-void move_between_items(int items[][2],int l){
+int move_between_items(int items[][2],int l){
     int n=0;
+    int i = 0;
     while (n!=13) {
-        static int i = 0;
         n =_getch();
         if (n == 's') {
             i += 1;
@@ -25,6 +25,7 @@ void move_between_items(int items[][2],int l){
         }
         gotoXY(items[i][0], items[i][1]);
     }
+    return i;
 }
 void create_raw_menu(int height,int width){
     clrscr();
@@ -51,7 +52,7 @@ void add_text_to_raw_menu(string text,int startX,int startY){
 void clear_panel(int height,int width){
     for(int i=1;i<=height;i++){
         for(int j=1;j<=width;j++){
-            _sleep(10);
+            _sleep(1);
             gotoXY(j,i);
             printf(" ");
         }
@@ -75,5 +76,24 @@ void create_user_intro_panel(){
     gotoXY(1,h+1);
 }
 void create_user_login_panel(){
-
+    int items[3][2]={{15,3,},{5,9}};
+    int h=11;
+    int w=33;
+    create_raw_menu(h,w);
+    add_text_to_raw_menu("Username : ",4,3);
+    add_text_to_raw_menu("Password : ",4,5);
+    for(int i=2;i<w;i++){
+        add_text_to_raw_menu("-",i,7);
+    }
+    add_text_to_raw_menu("[#] Back To Previous Panel.",4,9);
+    gotoXY(15,3);
+    int i=0;
+    i=move_between_items(items,2);
+    if(i==0) {
+        char name[9] = {};
+        scanf("%s", name);
+        gotoXY(15, 5);
+        char pass[9] = {};
+        scanf("%s", pass);
+    }
 }

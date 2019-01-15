@@ -1,5 +1,10 @@
 #ifndef TRAVEL_AGENCY_DEFINE_H
 #define TRAVEL_AGENCY_DEFINE_H
+#include <vector>
+#include <stdio.h>
+#include <string>
+#include <direct.h>
+using namespace std;
 typedef struct user{
     char user_name[9]={};
     char user_pass[9]={};
@@ -12,6 +17,5 @@ typedef struct user{
 typedef struct ticket{
     char id[9]={};
     int cost=0;
-    char customer[9]={};
 }Ticket;
 #endif
