@@ -27,19 +27,20 @@ int move_between_items(int items[][2],int l){
     }
     return i;
 }
-void create_raw_menu(int height,int width){
-    clrscr();
+void create_raw_menu(int height,int width,int startX ,int startY,bool clear_screen){
+    if(clear_screen)clrscr();
     for(int i=1;i<=height;i++){
-        gotoXY(1,i);
+        gotoXY(startX,i+startY-1);
         printf("*");
-        gotoXY(width,i);
+        gotoXY(width+startX-1,i+startY-1);
         printf("*");
         _sleep(10);
+
     }
     for(int i=1;i<=width;i++){
-        gotoXY(i,1);
+        gotoXY(i+startX-1,startY);
         printf("*");
-        gotoXY(i,height);
+        gotoXY(i+startX-1,height+startY-1);
         printf("*");
         _sleep(10);
     }
