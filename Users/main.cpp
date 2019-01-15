@@ -1,14 +1,8 @@
 #include "main.h"
 #include "users.h"
 #include "tickets.h"
-#include <iostream>
-#include <stdlib.h>
-#include <time.h>
-using namespace std;
-bool user_state= true;
-
 //----------------------------------------------------------------------------------------
-void create_rand_id(char id[9]){
+/*void create_rand_id(char id[9]){
     long int n=1;
     int rnd;
     while(n==1){
@@ -294,4 +288,60 @@ void user_intro_panel(){
     }
 
 }
-//----------------------------------------------------------------------------------------
+//----------------------------------------------------------------------------------------*/
+void create_user_intro_panel(){
+    while(1) {
+        int items[4][2] = {{5, 3},{5, 4},{5, 5},{5, 9}};
+        int h = 11;
+        int w = 33;
+        create_raw_menu(h, w);
+        add_text_to_raw_menu("[1] Login Into Your Account.", 4, 3);
+        add_text_to_raw_menu("[2] Create New Account.", 4, 4);
+        add_text_to_raw_menu("[3] Join As A Guest.", 4, 5);
+        for (int i = 2; i < w; i++) {
+            add_text_to_raw_menu("-", i, 7);
+        }
+        add_text_to_raw_menu("[4] Back To Previous Panel.", 4, 9);
+        gotoXY(5, 3);
+        int i = move_between_items(items, 4);
+        switch (i) {
+            case 0:
+                create_user_login_panel();
+                break;
+            case 1:
+                break;
+            case 2:
+                break;
+            case 3:
+                return;
+        }
+        gotoXY(1, h + 1);
+    }
+}
+void create_user_login_panel(){
+    int items[3][2]={{15,3,},{5,9}};
+    int h=11;
+    int w=52;
+    create_raw_menu(h,w);
+    add_text_to_raw_menu("If You Want To Add Your Username Press Enter. : ",4,2);
+    add_text_to_raw_menu("Username : ",4,3);
+    add_text_to_raw_menu("Password : ",4,5);
+    for(int i=2;i<w;i++){
+        add_text_to_raw_menu("-",i,7);
+    }
+    add_text_to_raw_menu("[#] Back To Previous Panel.",4,9);
+    gotoXY(15,3);
+    int i=0;
+    i=move_between_items(items,2);
+    if(i==0) {
+        char name[9] = {};
+        scanf("%s", name);
+        gotoXY(15, 5);
+        char pass[9] = {};
+        scanf("%s", pass);
+
+    }
+    else if(i==1){
+        return;
+    }
+}
