@@ -94,10 +94,17 @@ long int find_ticket_in_file(char id[9]){
     fclose(fp_t);
     return 1;
 }
-int add_ticket(User _user, Ticket _ticket){
+int add_ticket(Ticket _ticket){
     if(find_ticket_in_file(_ticket.id)==-1) {
         save_ticket_file(_ticket);
         save_def_file(_ticket);
+        return 1;
+    }
+    return -1;
+}
+int add_ticket(Ticket _ticket,User _user){
+    if(find_ticket_in_file(_ticket.id)==-1) {
+        add_ticket(_ticket);
         save_ticks_def_file(_user,_ticket);
         return 1;
     }
@@ -120,7 +127,6 @@ int remove_ticket(Ticket _ticket){
 }
 int remove_ticket(Ticket _ticket,User _user){
     if(find_ticket_in_file(_ticket.id)!=-1) {
-        remove_ticket(_ticket);
         string file_addr="Users/usrs/"+(string)_user.user_name+"/ticks.def";
         vector<Ticket> tickets=get_user_tickets(_user);
         long int point=find_ticket_in_tickets(_ticket,_user);
@@ -129,6 +135,7 @@ int remove_ticket(Ticket _ticket,User _user){
         for(int i=0;i<tickets.size();i++){
             save_ticks_def_file(_user,tickets[i]);
         }
+        remove_ticket(_ticket);
         return 1;
     }
     return -1;

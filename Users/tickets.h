@@ -8,6 +8,7 @@ long int find_ticket_in_tickets(Ticket,User);//point or -1
 long int find_ticket_in_tickets(Ticket);//point or -1
 long int find_ticket_in_file(char[9]);//1 or -1
 int add_ticket(Ticket);//1 or -1
+int add_ticket(Ticket,User);//1 or -1
 int remove_ticket(Ticket,User);//1 or -1
 int remove_ticket(Ticket);//1 or -1
 #endif
