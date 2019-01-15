@@ -18,4 +18,5 @@ typedef struct ticket{
     char id[9]={};
     int cost=0;
 }Ticket;
+
 #endif

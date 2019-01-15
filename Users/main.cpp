@@ -319,29 +319,32 @@ void create_user_intro_panel(){
     }
 }
 void create_user_login_panel(){
-    int items[3][2]={{15,3,},{5,9}};
-    int h=11;
-    int w=52;
-    create_raw_menu(h,w);
-    add_text_to_raw_menu("If You Want To Add Your Username Press Enter. : ",4,2);
-    add_text_to_raw_menu("Username : ",4,3);
-    add_text_to_raw_menu("Password : ",4,5);
-    for(int i=2;i<w;i++){
-        add_text_to_raw_menu("-",i,7);
-    }
-    add_text_to_raw_menu("[#] Back To Previous Panel.",4,9);
-    gotoXY(15,3);
-    int i=0;
-    i=move_between_items(items,2);
-    if(i==0) {
-        char name[9] = {};
-        scanf("%s", name);
-        gotoXY(15, 5);
-        char pass[9] = {};
-        scanf("%s", pass);
-
-    }
-    else if(i==1){
-        return;
+    while (1) {
+        User loggedin_user={};
+        int items[3][2] = {{15, 4,},{5,  10}};
+        int h = 12;
+        int w = 52;
+        create_raw_menu(h, w);
+        add_text_to_raw_menu("If You Want To Add Your Username Press Enter.  ", 4, 2);
+        add_text_to_raw_menu("Username : ", 4, 4);
+        add_text_to_raw_menu("Password : ", 4, 6);
+        for (int i = 2; i < w; i++) {
+            add_text_to_raw_menu("-", i, 8);
+        }
+        add_text_to_raw_menu("[#] Back To Previous Panel.", 4, 10);
+        gotoXY(15, 4);
+        int i = 0;
+        i = move_between_items(items, 2);
+        if (i == 0) {
+            char name[9] = {};
+            scanf("%s", name);
+            gotoXY(15, 6);
+            char pass[9] = {};
+            scanf("%s", pass);
+            loggedin_user = user_login(name, pass);
+        } else if (i == 1) {
+            return;
+        }
+        if(loggedin_user.user_name[0]!='\0') break;
     }
 }
