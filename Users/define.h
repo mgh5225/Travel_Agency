@@ -4,6 +4,8 @@
 #include <stdio.h>
 #include <string>
 #include <direct.h>
+#include <windows.h>
+#include <conio.h>
 using namespace std;
 typedef struct user{
     char user_name[9]={};

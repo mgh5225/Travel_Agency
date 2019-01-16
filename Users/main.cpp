@@ -1,6 +1,35 @@
 #include "main.h"
-#include "users.h"
-#include "tickets.h"
+
+//----------------------------------------------------------------------------------------
+char*str_to_char(string str,int length){
+    char *ch=(char*)malloc(sizeof(char)*length);
+    for(int i=0;i<length;i++){
+        ch[i]='\0';
+    }
+    for(int i=0;i<str.length();i++){
+        ch[i]=str[i];
+    }
+    return ch;
+}
+User create_new_user(string user_name,string user_pass,string fname,string lname ,string bank_account,string phone_number,string reference){
+    User new_user={};
+    for(int i=0;i<9;i++){
+        new_user.user_name[i]=str_to_char(user_name,9)[i];
+        new_user.user_pass[i]=str_to_char(user_pass,9)[i];
+        new_user.reference[i]=str_to_char(reference,9)[i];
+    }
+    for(int i=0;i<21;i++){
+        new_user.fname[i]=str_to_char(fname,21)[i];
+        new_user.lname[i]=str_to_char(lname,21)[i];
+    }
+    for(int i=0;i<11;i++){
+        new_user.bank_account[i]=str_to_char(bank_account,11)[i];
+    }
+    for(int i=0;i<12;i++){
+        new_user.phone_number[i]=str_to_char(phone_number,12)[i];
+    }
+    return new_user;
+}
 //----------------------------------------------------------------------------------------
 void create_user_intro_panel(){
     create_raw_menu(7,76,1,1,true);
@@ -40,27 +69,24 @@ void create_user_intro_panel(){
 void create_user_login_panel(){
     User loggedin_user={};
     while (true) {
-        int items[2][2] = {{15, 4,},{5,  10}};
+        int items[2][2] = {{14, 4,},{5,  10}};
         int h = 12;
         int w = 56;
         create_raw_menu(h, w,1,1,true);
         add_text_to_raw_menu("If You Want To Add Your Username Press Enter.  ", 4, 2);
-        add_text_to_raw_menu("Username : ", 4, 4);
-        add_text_to_raw_menu("Password : ", 4, 6);
+        add_text_to_raw_menu("Username : ", 3, 4);
+        add_text_to_raw_menu("Password : ", 3, 6);
         for (int i = 2; i < w; i++) {
             add_text_to_raw_menu("-", i, 8);
         }
         add_text_to_raw_menu("[#] Back To Previous Panel.", 4, 10);
-        gotoXY(15, 4);
-        int i = 0;
-        i = move_between_items(items, 2);
+        gotoXY(14, 4);
+        int i = move_between_items(items, 2);
         if (i == 0) {
-            char name[9] = {};
-            scanf("%s", name);
-            gotoXY(15, 6);
-            char pass[9] = {};
-            scanf("%s", pass);
-            loggedin_user = user_login(name, pass);
+            string name = input(8);
+            gotoXY(14, 6);
+            string  pass = input(8);
+            loggedin_user = user_login(str_to_char(name,9),str_to_char(pass,9) );
         } else if (i == 1) {
             return;
         }
@@ -70,40 +96,8 @@ void create_user_login_panel(){
         gotoXY(1,15);
         _sleep(5000);
     }
-    create_raw_menu(3,46,1,1,true);
-    add_text_to_raw_menu("Hello "+(string)loggedin_user.fname+" "+(string)loggedin_user.lname+".",3,2);
-    gotoXY(1,4);
-    _sleep(1000);
-    create_user_panel();
+    create_user_panel(loggedin_user);
 }
-void create_user_panel(){
-    while(true) {
-        int items[4][2] = {{4, 6},{4, 7},{4, 8},{4, 12}};
-        int h = 11;
-        int w = 46;
-        create_raw_menu(h, w,1,4, false);
-        add_text_to_raw_menu("[1] Show My Tickets.", 3, 6);
-        add_text_to_raw_menu("[2] Buy New Ticket.", 3, 7);
-        add_text_to_raw_menu("[3] Setting.", 3, 8);
-        for (int i = 2; i < w; i++) {
-            add_text_to_raw_menu("-", i, 10);
-        }
-        add_text_to_raw_menu("[4] Log out.", 3, 12);
-        gotoXY(4,6);
-        int i = move_between_items(items, 4);
-        switch (i) {
-            case 0:
-                break;
-            case 1:
-                break;
-            case 2:
-                break;
-            case 3:
-                return;
-        }
-    }
-}
-//----------------------------------------------------------------------------------------
 void create_user_register_panel(){
     while(true) {
         int items[2][2]={{14,4},{5,21}};
@@ -125,22 +119,22 @@ void create_user_register_panel(){
         add_text_to_raw_menu("[#] Back To Previous Panel.", 4, 21);
         int n=move_between_items(items,2);
         if(n==1) break;
-        User new_user={};
         gotoXY(14, 4);
-        scanf("%s", new_user.user_name);
-        if (find_user_in_file(new_user.user_name) == -1) {
+        string user_name=input(8);
+        if (find_user_in_file(str_to_char(user_name,9)) == -1) {
             gotoXY(14, 6);
-            scanf("%s", new_user.user_pass);
+            string user_pass=input(8);
             gotoXY(16, 8);
-            scanf("%s", new_user.lname);
+            string fname=input(20);
             gotoXY(15, 10);
-            scanf("%s", new_user.fname);
+            string lname=input(20);
             gotoXY(18, 12);
-            scanf("%s", new_user.bank_account);
+            string bank_account=input(10);
             gotoXY(18, 14);
-            scanf("%s", new_user.phone_number);
+            string phone_number=input(11);
             gotoXY(35, 17);
-            scanf("%s", new_user.reference);
+            string reference=input(8);
+            User new_user=create_new_user(user_name,user_pass,fname,lname,bank_account,phone_number,reference);
             int n=add_user(new_user);
             if(n==1) break;
             else{
@@ -150,8 +144,86 @@ void create_user_register_panel(){
             }
         }
         create_raw_menu(3, 58, 1, 24, false);
-        add_text_to_raw_menu("User " + (string) new_user.user_name + " is Exists Please Enter Another Username.", 3, 25);
+        add_text_to_raw_menu("User " + user_name + " is Exists Please Enter Another Username.", 3, 25);
         gotoXY(1, 26);
         _sleep(5000);
+    }
+}
+//----------------------------------------------------------------------------------------
+void create_user_panel(User _user){
+    while(true) {
+        create_raw_menu(3,46,1,1,true);
+        add_text_to_raw_menu("Hello "+(string)_user.fname+" "+(string)_user.lname+".",3,2);
+        gotoXY(1,4);
+        _sleep(1000);
+        int items[4][2] = {{4, 6},{4, 7},{4, 8},{4, 12}};
+        int h = 11;
+        int w = 46;
+        create_raw_menu(h, w,1,4, false);
+        add_text_to_raw_menu("[1] Show My Tickets.", 3, 6);
+        add_text_to_raw_menu("[2] Buy New Ticket.", 3, 7);
+        add_text_to_raw_menu("[3] Setting.", 3, 8);
+        for (int i = 2; i < w; i++) {
+            add_text_to_raw_menu("-", i, 10);
+        }
+        add_text_to_raw_menu("[4] Log out.", 3, 12);
+        gotoXY(4,6);
+        int i = move_between_items(items, 4);
+        switch (i) {
+            case 0:
+                break;
+            case 1:
+                break;
+            case 2:
+                create_setting_panel(_user);
+                break;
+            case 3:
+                return;
+        }
+    }
+}
+void create_setting_panel(User _user){
+    while(true) {
+        int items[3][2] = {{4, 3},{4, 4},{4, 9}};
+        int h = 11;
+        int w = 32;
+        create_raw_menu(h, w,1,1,true);
+        add_text_to_raw_menu("[1] Edit My Account.", 3, 3);
+        add_text_to_raw_menu("[2] Delete My Account.", 3, 4);
+        for (int i = 2; i < w; i++) {
+            add_text_to_raw_menu("-", i, 7);
+        }
+        add_text_to_raw_menu("[#] Back To Previous Panel.", 3, 9);
+        gotoXY(4, 3);
+        int i = move_between_items(items, 3);
+        switch (i) {
+            case 0:
+                break;
+            case 1:
+                create_delete_panel(_user);
+                break;
+            case 2:
+                clrscr();
+                return;
+        }
+    }
+}
+//----------------------------------------------------------------------------------------
+void create_delete_panel(User _user){
+    int items[2][2] = {{4, 4},{4, 5}};
+    int h = 8;
+    int w = 39;
+    create_raw_menu(h, w,1,1, true);
+    add_text_to_raw_menu("Do You Want To Delete Your Account?", 3, 2);
+    add_text_to_raw_menu("[#] Yes.", 3, 4);
+    add_text_to_raw_menu("[#] No.", 3, 5);
+    gotoXY(4, 4);
+    int i = move_between_items(items, 2);
+    switch (i) {
+        case 0:
+            remove_user(_user);
+            break;
+        case 1:
+            break;
     }
 }

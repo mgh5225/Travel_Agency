@@ -50,13 +50,32 @@ void add_text_to_raw_menu(string text,int startX,int startY){
     gotoXY(startX,startY);
     printf("%s",text.c_str());
 }
-void clear_panel(int height,int width){
+void clear_panel(int height,int width,int startX,int startY){
     for(int i=1;i<=height;i++){
         for(int j=1;j<=width;j++){
             _sleep(1);
-            gotoXY(j,i);
+            gotoXY(j+startX-1,i+startY-1);
             printf(" ");
         }
     }
     clrscr();
+}
+string input(int max_char){
+    int i=0;
+    string output;
+    while(true){
+        char n=(char)_getch();
+        if(n==13 && output.length()>0) break;
+        if(i<max_char && ((n>='0' && n<='9') || (n>='a' && n<='z') || (n>='A' && n<='Z')) ){
+            i++;
+            output+=n;
+            printf("%c",n);
+        }
+        if(n=='\b' && i>0){
+            i--;
+            output.erase(output.end()-1);
+            printf("%c %c",n,n);
+        }
+    }
+    return output;
 }
