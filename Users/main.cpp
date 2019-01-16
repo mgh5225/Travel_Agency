@@ -1,5 +1,6 @@
 #include "main.h"
 bool goto_intro_panel=false;
+bool is_guset=false;
 //----------------------------------------------------------------------------------------
 char*str_to_char(string str,int length){
     char *ch=(char*)malloc(sizeof(char)*length);
@@ -60,6 +61,7 @@ void create_user_intro_panel(){
                 create_user_register_panel();
                 break;
             case 2:
+                create_guest_register_panel();
                 break;
             case 3:
                 return;
@@ -85,9 +87,9 @@ void create_user_login_panel(){
         gotoXY(14, 4);
         int i = move_between_items(items, 2);
         if (i == 0) {
-            string name = input(8);
+            string name = input(1,8,'\0',true,true,true);
             gotoXY(14, 6);
-            string  pass = input(8);
+            string  pass = input(1,8,'*',true,true,true);
             loggedin_user = user_login(str_to_char(name,9),str_to_char(pass,9) );
         } else if (i == 1) {
             return;
@@ -122,20 +124,20 @@ void create_user_register_panel(){
         int n=move_between_items(items,2);
         if(n==1) break;
         gotoXY(14, 4);
-        string user_name=input(8);
+        string user_name=input(1,8,'\0',true,true,true);
         if (find_user_in_file(str_to_char(user_name,9)) == -1) {
             gotoXY(14, 6);
-            string user_pass=input(8);
+            string user_pass=input(1,8,'*',true,true,true);
             gotoXY(16, 8);
-            string fname=input(20);
+            string fname=input(1,20,'\0',false,true,false);
             gotoXY(15, 10);
-            string lname=input(20);
+            string lname=input(1,20,'\0',false,true,false);
             gotoXY(18, 12);
-            string bank_account=input(10);
+            string bank_account=input(1,10,'\0',true,false,false);
             gotoXY(18, 14);
-            string phone_number=input(11);
+            string phone_number=input(11,11,'\0',true,false,false);
             gotoXY(35, 17);
-            string reference=input(8);
+            string reference=input(0,8,'\0',true,true,true);
             User new_user=create_new_user(user_name,user_pass,fname,lname,bank_account,phone_number,reference);
             int n=add_user(new_user);
             if(n==1) break;
@@ -150,6 +152,9 @@ void create_user_register_panel(){
         gotoXY(1, 26);
         _sleep(5000);
     }
+}
+void create_guest_register_panel(){
+    is_guset=true;
 }
 //----------------------------------------------------------------------------------------
 void create_user_panel(User _user){
@@ -234,11 +239,11 @@ void create_delete_panel(User _user){
     }
 }
 void create_edit_panel(User _user){
+    int items[2][2]={{4,2},{5,20}};
+    int h = 22;
+    int w = 58;
+    create_raw_menu(h, w, 1, 1, true);
     while(true) {
-        int items[2][2]={{4,2},{5,20}};
-        int h = 22;
-        int w = 58;
-        create_raw_menu(h, w, 1, 1, true);
         add_text_to_raw_menu("[#] Edit My Profile. ",3, 2);
         add_text_to_raw_menu("Username : "+(string)_user.user_name, 3, 4);
         add_text_to_raw_menu("Password : "+(string)_user.user_pass, 3, 6);
@@ -262,7 +267,7 @@ void create_edit_panel(User _user){
                 printf(" ");
             }
             gotoXY(14,6);
-            string user_pass=input(8);
+            string user_pass=input(1,8,'*',true,true,true);
             new_user=create_new_user(_user.user_name,user_pass,_user.fname,_user.lname,_user.bank_account,_user.phone_number,_user.reference);
             edit_user_profile(new_user);
         }
@@ -271,7 +276,7 @@ void create_edit_panel(User _user){
                 printf(" ");
             }
             gotoXY(16,8);
-            string fname=input(20);
+            string fname=input(1,20,'\0',false,true,false);
             new_user=create_new_user(_user.user_name,_user.user_pass,fname,_user.lname,_user.bank_account,_user.phone_number,_user.reference);
             edit_user_profile(new_user);
         }
@@ -280,7 +285,7 @@ void create_edit_panel(User _user){
                 printf(" ");
             }
             gotoXY(15,10);
-            string lname=input(20);
+            string lname=input(1,20,'\0',false,true,false);
             new_user=create_new_user(_user.user_name,_user.user_pass,_user.fname,lname,_user.bank_account,_user.phone_number,_user.reference);
             edit_user_profile(new_user);
         }
@@ -289,7 +294,7 @@ void create_edit_panel(User _user){
                 printf(" ");
             }
             gotoXY(18,12);
-            string bank_account=input(10);
+            string bank_account=input(1,10,'\0',true,false,false);
             new_user=create_new_user(_user.user_name,_user.user_pass,_user.fname,_user.lname,bank_account,_user.phone_number,_user.reference);
             edit_user_profile(new_user);
         }
@@ -298,7 +303,7 @@ void create_edit_panel(User _user){
                 printf(" ");
             }
             gotoXY(18,14);
-            string phone_number=input(11);
+            string phone_number=input(11,11,'\0',true,false,false);
             new_user=create_new_user(_user.user_name,_user.user_pass,_user.fname,_user.lname,_user.bank_account,phone_number,_user.reference);
             edit_user_profile(new_user);
         }
@@ -307,10 +312,11 @@ void create_edit_panel(User _user){
                 printf(" ");
             }
             gotoXY(24,16);
-            string reference=input(8);
+            string reference=input(0,8,'\0',true,true,true);
             new_user=create_new_user(_user.user_name,_user.user_pass,_user.fname,_user.lname,_user.bank_account,_user.phone_number,reference);
             edit_user_profile(new_user);
         }
         _user=new_user;
     }
 }
+//----------------------------------------------------------------------------------------

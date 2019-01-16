@@ -60,16 +60,22 @@ void clear_panel(int height,int width,int startX,int startY){
     }
     clrscr();
 }
-string input(int max_char){
+string input(int min_char,int max_char,char output_char,bool can_num,bool can_word,bool can_char){
     int i=0;
     string output;
     while(true){
         char n=(char)_getch();
-        if(n==13 && output.length()>0) break;
-        if(i<max_char && ((n>='0' && n<='9') || (n>='a' && n<='z') || (n>='A' && n<='Z')) ){
-            i++;
-            output+=n;
-            printf("%c",n);
+        bool is_num=(n>='0' && n<='9') && can_num;
+        bool is_word=((n>='a' && n<='z') || (n>='A' && n<='Z'))&&can_word;
+        bool is_char=n>32 && n!=127 && can_char;
+        if(n==13 && (output.length()>=min_char)) break;
+        if(i<max_char){
+            if(is_char || is_num || is_word) {
+                i++;
+                output += n;
+                if(output_char=='\0') printf("%c", n);
+                else printf("%c", output_char);
+            }
         }
         if(n=='\b' && i>0){
             i--;
