@@ -1,6 +1,6 @@
 #include "ui.h"
 #include <stdio.h>
-#include <windows.h>
+#include <Windows.h>
 #include <conio.h>
 void clrscr(){
     system("@cls");

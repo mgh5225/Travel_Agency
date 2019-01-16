@@ -254,6 +254,7 @@ void create_edit_panel(User _user){
         int n=move_between_items(items,2);
         if(n==1) break;
         goto_intro_panel=true;
+        User new_user={};
         int items2[6][2]={{14,6},{16,8},{15,10},{18,12},{18,14},{24,16}};
         int n2=move_between_items(items2,6);
         if(n2==0){
@@ -262,7 +263,7 @@ void create_edit_panel(User _user){
             }
             gotoXY(14,6);
             string user_pass=input(8);
-            User new_user=create_new_user(_user.user_name,user_pass,_user.fname,_user.lname,_user.bank_account,_user.phone_number,_user.reference);
+            new_user=create_new_user(_user.user_name,user_pass,_user.fname,_user.lname,_user.bank_account,_user.phone_number,_user.reference);
             edit_user_profile(new_user);
         }
         if(n2==1){
@@ -271,7 +272,7 @@ void create_edit_panel(User _user){
             }
             gotoXY(16,8);
             string fname=input(20);
-            User new_user=create_new_user(_user.user_name,_user.user_pass,fname,_user.lname,_user.bank_account,_user.phone_number,_user.reference);
+            new_user=create_new_user(_user.user_name,_user.user_pass,fname,_user.lname,_user.bank_account,_user.phone_number,_user.reference);
             edit_user_profile(new_user);
         }
         if(n2==2){
@@ -280,7 +281,7 @@ void create_edit_panel(User _user){
             }
             gotoXY(15,10);
             string lname=input(20);
-            User new_user=create_new_user(_user.user_name,_user.user_pass,_user.fname,lname,_user.bank_account,_user.phone_number,_user.reference);
+            new_user=create_new_user(_user.user_name,_user.user_pass,_user.fname,lname,_user.bank_account,_user.phone_number,_user.reference);
             edit_user_profile(new_user);
         }
         if(n2==3){
@@ -289,7 +290,7 @@ void create_edit_panel(User _user){
             }
             gotoXY(18,12);
             string bank_account=input(10);
-            User new_user=create_new_user(_user.user_name,_user.user_pass,_user.fname,_user.lname,bank_account,_user.phone_number,_user.reference);
+            new_user=create_new_user(_user.user_name,_user.user_pass,_user.fname,_user.lname,bank_account,_user.phone_number,_user.reference);
             edit_user_profile(new_user);
         }
         if(n2==4){
@@ -298,7 +299,7 @@ void create_edit_panel(User _user){
             }
             gotoXY(18,14);
             string phone_number=input(11);
-            User new_user=create_new_user(_user.user_name,_user.user_pass,_user.fname,_user.lname,_user.bank_account,phone_number,_user.reference);
+            new_user=create_new_user(_user.user_name,_user.user_pass,_user.fname,_user.lname,_user.bank_account,phone_number,_user.reference);
             edit_user_profile(new_user);
         }
         if(n2==5){
@@ -307,8 +308,9 @@ void create_edit_panel(User _user){
             }
             gotoXY(24,16);
             string reference=input(8);
-            User new_user=create_new_user(_user.user_name,_user.user_pass,_user.fname,_user.lname,_user.bank_account,_user.phone_number,reference);
+            new_user=create_new_user(_user.user_name,_user.user_pass,_user.fname,_user.lname,_user.bank_account,_user.phone_number,reference);
             edit_user_profile(new_user);
         }
+        _user=new_user;
     }
 }

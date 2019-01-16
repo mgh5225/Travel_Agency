@@ -1,6 +1,6 @@
 #ifndef TRAVEL_AGENCY_MAIN_H
 #define TRAVEL_AGENCY_MAIN_H
-#include "../UI/ui.h"
+#include "ui.h"
 #include "users.h"
 #include "tickets.h"
 void create_user_intro_panel();
